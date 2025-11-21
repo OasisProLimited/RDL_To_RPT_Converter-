@@ -8,6 +8,8 @@ namespace RptToXmlService.Converters
     /// ENGINE-ONLY Alert Extractor.
     /// CrystalDecisions.CrystalReports.Engine does NOT support Alerts.
     /// </summary>
+    /// 
+
     public class RptAlertExtractor
     {
         public List<RptAlertInfo> ExtractAlerts(ReportDocument rpt)

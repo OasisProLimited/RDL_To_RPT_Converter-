@@ -22,6 +22,7 @@ namespace RptToXmlService.Converters
     /// Therefore we populate ENGINE-SAFE RptChartInfo with
     /// default values so XML builder always has a stable schema.
     /// </summary>
+    /// 
     public class RptChartExtractor
     {
         private readonly ReportDocument _rpt;
