@@ -1,0 +1,2586 @@
+{
+  "ReportName": "CIncidentDetails 3 1 (2)",
+  "GeneratedDate": "2025-11-20 14:05:08",
+  "ExportSequence": 2,
+  "SummaryInfo": {
+    "Title": null,
+    "Author": null,
+    "Comments": null
+  },
+  "Database": [
+    {
+      "TableName": "INCIDENT_CASE_REP_A",
+      "Location": "INCIDENT_CASE_REP",
+      "Connection": {
+        "Server": "//pyse8ne-dev2-db.build.ifs.cloud:1521/alepdb",
+        "Database": "",
+        "UserId": "ifsapp",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    },
+    {
+      "TableName": "INCIDENT_CASE_A",
+      "Location": "INCIDENT_CASE",
+      "Connection": {
+        "Server": "//pyse8ne-dev2-db.build.ifs.cloud:1521/alepdb",
+        "Database": "",
+        "UserId": "ifsapp",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    }
+  ],
+  "Fields": [
+    {
+      "Name": "RESULT_KEY",
+      "NativeName": "{INCIDENT_CASE_REP_A.RESULT_KEY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROW_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PARENT_ROW_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.PARENT_ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROWVERSION",
+      "NativeName": "{INCIDENT_CASE_REP_A.ROWVERSION}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CASE_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CASE_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CASE_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CASE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSON_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.PERSON_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "EXTERNAL",
+      "NativeName": "{INCIDENT_CASE_REP_A.EXTERNAL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "NAME",
+      "NativeName": "{INCIDENT_CASE_REP_A.NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "EMP_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.EMP_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LOST_WORK_DAYS",
+      "NativeName": "{INCIDENT_CASE_REP_A.LOST_WORK_DAYS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RESTRICTED_WORK_DAYS",
+      "NativeName": "{INCIDENT_CASE_REP_A.RESTRICTED_WORK_DAYS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSONNEL_INCIDENT_TYPE",
+      "NativeName": "{INCIDENT_CASE_REP_A.PERSONNEL_INCIDENT_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSONNEL_INCIDENT",
+      "NativeName": "{INCIDENT_CASE_REP_A.PERSONNEL_INCIDENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INJURED_PART",
+      "NativeName": "{INCIDENT_CASE_REP_A.INJURED_PART}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SEVERITY_LEVEL",
+      "NativeName": "{INCIDENT_CASE_REP_A.SEVERITY_LEVEL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSONNEL_INCIDENT_NAME",
+      "NativeName": "{INCIDENT_CASE_REP_A.PERSONNEL_INCIDENT_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DAMAGE_TYPE",
+      "NativeName": "{INCIDENT_CASE_REP_A.DAMAGE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DESCRIPTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SITE",
+      "NativeName": "{INCIDENT_CASE_REP_A.SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FUNCTIONAL_OBJECT_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.FUNCTIONAL_OBJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SERIAL_OBJECT_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.SERIAL_OBJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DAMAGE_IMPACT",
+      "NativeName": "{INCIDENT_CASE_REP_A.DAMAGE_IMPACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CURRENCY_CODE",
+      "NativeName": "{INCIDENT_CASE_REP_A.CURRENCY_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ESTIMATED_DAMAGE_COST",
+      "NativeName": "{INCIDENT_CASE_REP_A.ESTIMATED_DAMAGE_COST}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ESTIMATED_DAYS_FOR_REPAIR",
+      "NativeName": "{INCIDENT_CASE_REP_A.ESTIMATED_DAYS_FOR_REPAIR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RELATED_CASE_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.RELATED_CASE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "REMARK",
+      "NativeName": "{INCIDENT_CASE_REP_A.REMARK}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ROLE",
+      "NativeName": "{INCIDENT_CASE_REP_A.ROLE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DETAIL_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.DETAIL_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "FINDINGS",
+      "NativeName": "{INCIDENT_CASE_REP_A.FINDINGS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LOCATION",
+      "NativeName": "{INCIDENT_CASE_REP_A.LOCATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.COMPANY_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CLASS",
+      "NativeName": "{INCIDENT_CASE_REP_A.CLASS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_DATE_TIME",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_DATE_TIME}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "RES_ORG",
+      "NativeName": "{INCIDENT_CASE_REP_A.RES_ORG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSON_IN_CHARGE",
+      "NativeName": "{INCIDENT_CASE_REP_A.PERSON_IN_CHARGE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DETAILED_DESCRIPTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.DETAILED_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_REF_NAME",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_REF_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PROJECT",
+      "NativeName": "{INCIDENT_CASE_REP_A.PROJECT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_TYPE",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_BY",
+      "NativeName": "{INCIDENT_CASE_REP_A.REPORTED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.REPORTED_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "SEVERITY",
+      "NativeName": "{INCIDENT_CASE_REP_A.SEVERITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "STATUS",
+      "NativeName": "{INCIDENT_CASE_REP_A.STATUS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE1",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE_ITEM1",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE_ITEM1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE2",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE_ITEM2",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE_ITEM2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE3",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE_ITEM3",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE_ITEM3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE4",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE_ITEM4",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE_ITEM4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE5",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CAUSE_ITEM5",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_CAUSE_ITEM5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RISK_POTENTIAL",
+      "NativeName": "{INCIDENT_CASE_REP_A.RISK_POTENTIAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSESSOR",
+      "NativeName": "{INCIDENT_CASE_REP_A.ASSESSOR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSESSMENT_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.ASSESSMENT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PROBABILITY",
+      "NativeName": "{INCIDENT_CASE_REP_A.PROBABILITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FREQUENCY",
+      "NativeName": "{INCIDENT_CASE_REP_A.FREQUENCY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_SEVERITY",
+      "NativeName": "{INCIDENT_CASE_REP_A.INCIDENT_SEVERITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RISK_PROBABILITY_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.RISK_PROBABILITY_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OCCURENCE_FREQUENCY_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.OCCURENCE_FREQUENCY_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MAXIMUM_SEVERITY_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.MAXIMUM_SEVERITY_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CORRECTIVE_ACTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.CORRECTIVE_ACTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREVENTIVE_ACTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.PREVENTIVE_ACTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_OF_HELP",
+      "NativeName": "{INCIDENT_CASE_REP_A.SOURCE_OF_HELP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SAFTY_ACTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.SAFTY_ACTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RES_PERSON",
+      "NativeName": "{INCIDENT_CASE_REP_A.RES_PERSON}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TARGET_COMPLETION",
+      "NativeName": "{INCIDENT_CASE_REP_A.TARGET_COMPLETION}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_COMPLETION",
+      "NativeName": "{INCIDENT_CASE_REP_A.ACTUAL_COMPLETION}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "REMARKS",
+      "NativeName": "{INCIDENT_CASE_REP_A.REMARKS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTION_PRIORITY",
+      "NativeName": "{INCIDENT_CASE_REP_A.ACTION_PRIORITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REVIEWER",
+      "NativeName": "{INCIDENT_CASE_REP_A.REVIEWER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REVIEWER_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.REVIEWER_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "QUESTION_NO",
+      "NativeName": "{INCIDENT_CASE_REP_A.QUESTION_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QUESTION",
+      "NativeName": "{INCIDENT_CASE_REP_A.QUESTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ANSWER",
+      "NativeName": "{INCIDENT_CASE_REP_A.ANSWER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ANSWER_DATE",
+      "NativeName": "{INCIDENT_CASE_REP_A.ANSWER_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "ITEM_ID",
+      "NativeName": "{INCIDENT_CASE_REP_A.ITEM_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_REFERENCE_NO",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_REFERENCE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_REFERENCE_NAME",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_REFERENCE_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DETAIL_DESCRIPTION",
+      "NativeName": "{INCIDENT_CASE_A.DETAIL_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_DATE",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOLVED_OBJECT",
+      "NativeName": "{INCIDENT_CASE_A.INVOLVED_OBJECT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ENVIRONMENT_CONDITION",
+      "NativeName": "{INCIDENT_CASE_A.ENVIRONMENT_CONDITION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PREMISE",
+      "NativeName": "{INCIDENT_CASE_A.COMPANY_PREMISE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_DATE",
+      "NativeName": "{INCIDENT_CASE_A.REPORTED_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "REMARK",
+      "NativeName": "{INCIDENT_CASE_A.REMARK}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_NO",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_TYPE",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_ID",
+      "NativeName": "{INCIDENT_CASE_A.COMPANY_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERSON_IN_CHARGE",
+      "NativeName": "{INCIDENT_CASE_A.PERSON_IN_CHARGE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_BY",
+      "NativeName": "{INCIDENT_CASE_A.REPORTED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PROJECT_ID",
+      "NativeName": "{INCIDENT_CASE_A.PROJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_ADDRESS_ID",
+      "NativeName": "{INCIDENT_CASE_A.COMPANY_ADDRESS_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CLASS_NO",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_CLASS_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INCIDENT_CLASS",
+      "NativeName": "{INCIDENT_CASE_A.INCIDENT_CLASS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COORDINATING_DEPT",
+      "NativeName": "{INCIDENT_CASE_A.COORDINATING_DEPT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RESPONSIBLE_DEPT",
+      "NativeName": "{INCIDENT_CASE_A.RESPONSIBLE_DEPT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPLETED_BY",
+      "NativeName": "{INCIDENT_CASE_A.COMPLETED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COORDINATOR",
+      "NativeName": "{INCIDENT_CASE_A.COORDINATOR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSOCIATED_CLAIM",
+      "NativeName": "{INCIDENT_CASE_A.ASSOCIATED_CLAIM}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSOCIATED_CLAIM_REF",
+      "NativeName": "{INCIDENT_CASE_A.ASSOCIATED_CLAIM_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SEVERITY_LEVEL_NO",
+      "NativeName": "{INCIDENT_CASE_A.SEVERITY_LEVEL_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "APPROVER_OR_REJECTER_ID",
+      "NativeName": "{INCIDENT_CASE_A.APPROVER_OR_REJECTER_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LOCATION_ID",
+      "NativeName": "{INCIDENT_CASE_A.LOCATION_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_LOCATION_ID",
+      "NativeName": "{INCIDENT_CASE_A.SUB_LOCATION_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "IMMEDIATE_ACTIONS",
+      "NativeName": "{INCIDENT_CASE_A.IMMEDIATE_ACTIONS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACT",
+      "NativeName": "{INCIDENT_CASE_A.CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJSTATE",
+      "NativeName": "{INCIDENT_CASE_A.OBJSTATE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJEVENTS",
+      "NativeName": "{INCIDENT_CASE_A.OBJEVENTS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "STATE",
+      "NativeName": "{INCIDENT_CASE_A.STATE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJKEY",
+      "NativeName": "{INCIDENT_CASE_A.OBJKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJVERSION",
+      "NativeName": "{INCIDENT_CASE_A.OBJVERSION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJID",
+      "NativeName": "{INCIDENT_CASE_A.OBJID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SEVERITY_LEVEL",
+      "NativeName": "{INCIDENT_CASE_A.SEVERITY_LEVEL}",
+      "DataType": "StringField",
+      "Length": 0
+    }
+  ],
+  "DataSetPreview": "<Dataset>Error: Missing parameter values.</Dataset>",
+  "Parameters": [
+    {
+      "Name": "IFS_RESULT_KEY",
+      "PromptText": "Enter IFS_RESULT_KEY:",
+      "ValueType": "NumberField",
+      "ParameterType": "ReportParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [],
+      "CurrentRanges": []
+    }
+  ],
+  "ReportFormulas": [
+    {
+      "Name": "RowNo",
+      "Text": "WhileReadingRecords;\r\nGlobal NumberVar i;\r\nif not(isnull({INCIDENT_CASE_REP_A.SAFTY_ACTION})) then\r\n(i := i + 1;\r\ni;\r\n)"
+    }
+  ],
+  "SqlExpressions": [
+    {
+      "Name": "Location_Add",
+      "Text": "ifsapp.Location_Info_API.Get_Address(\"INCIDENT_CASE_A\".\"LOCATION_ID\")"
+    },
+    {
+      "Name": "Owner",
+      "Text": "IFSAPP.Fnd_User_API.Get_Description(\"INCIDENT_CASE_A\".\"REPORTED_BY\")"
+    },
+    {
+      "Name": "dist_list",
+      "Text": "(select listAGG(person_name,', ') from IFSAPP.INCIDENT_DIS_LIST where incident_reference_no = \"INCIDENT_CASE_A\".\"INCIDENT_REFERENCE_NO\")"
+    }
+  ],
+  "RecordSelectionFormula": " (  {INCIDENT_CASE_REP_A.RESULT_KEY} = {?IFS_RESULT_KEY}  )  ",
+  "GroupSelectionFormula": "",
+  "GroupConditionFormulas": [],
+  "SortFormulas": [
+    {
+      "Field": "{INCIDENT_CASE_REP_A.REPORTED_DATE}",
+      "Direction": "AscendingOrder"
+    }
+  ],
+  "RunningTotalFormulas": [],
+  "SummaryFormulas": [],
+  "HighlightingFormats": [],
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 9615,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Text20",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 360,
+          "Left": 240,
+          "Width": 4440,
+          "Height": 840,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "   Incident Ref No |  {INCIDENT_CASE_REP_A.INCIDENT_CASE_ID}{INCIDENT_CASE_REP_A.INCIDENT_CASE_NO}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 16.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [A=255, R=0, G=204, B=153]",
+          "Formatting": {
+            "Top": 360,
+            "Left": 240,
+            "Width": 4440,
+            "Height": 840,
+            "Type": "TextObject",
+            "Text": "   Incident Ref No |  {INCIDENT_CASE_REP_A.INCIDENT_CASE_ID}{INCIDENT_CASE_REP_A.INCIDENT_CASE_NO}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 16.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [A=255, R=0, G=204, B=153]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [A=255, R=0, G=204, B=153]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Picture1",
+          "ObjectType": "PictureObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 360,
+          "Left": 7920,
+          "Width": 3331,
+          "Height": 870,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "PictureObject",
+          "Note": "GraphicLocation/GraphicType not available in ENGINE API.",
+          "Formatting": {
+            "Top": 360,
+            "Left": 7920,
+            "Width": 3331,
+            "Height": 870,
+            "Type": "PictureObject",
+            "GraphicLocation": "NotAvailableInEngineAPI",
+            "GraphicType": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text1",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 1560,
+          "Left": 240,
+          "Width": 1560,
+          "Height": 279,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Site Details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1560,
+            "Left": 240,
+            "Width": 1560,
+            "Height": 279,
+            "Type": "TextObject",
+            "Text": "Site Details",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line1",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 1941,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 1941,
+          "X2": 11160,
+          "Y2": 1941,
+          "Formatting": {
+            "Top": 1941,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text2",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 2280,
+          "Left": 360,
+          "Width": 1560,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Site ID & Name:",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2280,
+            "Left": 360,
+            "Width": 1560,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Site ID & Name:",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text3",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 3000,
+          "Left": 360,
+          "Width": 840,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Region:",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3000,
+            "Left": 360,
+            "Width": 840,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Region:",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text4",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 3720,
+          "Left": 360,
+          "Width": 1560,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Area:",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3720,
+            "Left": 360,
+            "Width": 1560,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Area:",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text5",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 4440,
+          "Left": 360,
+          "Width": 1560,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Telephone:",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4440,
+            "Left": 360,
+            "Width": 1560,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Telephone:",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text6",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 2160,
+          "Left": 6120,
+          "Width": 5040,
+          "Height": 495,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Practice Address:\n{%Location_Add}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 6120,
+            "Width": 5040,
+            "Height": 495,
+            "Type": "TextObject",
+            "Text": "Practice Address:\n{%Location_Add}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text7",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 4440,
+          "Left": 6240,
+          "Width": 1560,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Email:",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4440,
+            "Left": 6240,
+            "Width": 1560,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Email:",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box1",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 2160,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box2",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 2880,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 2880,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box3",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 3600,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 3600,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box4",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 4320,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4320,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box6",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 4320,
+          "Left": 6120,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4320,
+            "Left": 6120,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line2",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 5760,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 5760,
+          "X2": 11160,
+          "Y2": 5760,
+          "Formatting": {
+            "Top": 5760,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text8",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 5379,
+          "Left": 240,
+          "Width": 2040,
+          "Height": 279,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Incident Details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 5379,
+            "Left": 240,
+            "Width": 2040,
+            "Height": 279,
+            "Type": "TextObject",
+            "Text": "Incident Details",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text9",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 5280,
+          "Left": 3240,
+          "Width": 4920,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Reported Date / Time: {INCIDENT_CASE_A.REPORTED_DATE}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 5280,
+            "Left": 3240,
+            "Width": 4920,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Reported Date / Time: {INCIDENT_CASE_A.REPORTED_DATE}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text10",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 6120,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Incident Class: {INCIDENT_CASE_A.INCIDENT_CLASS}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 6120,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Incident Class: {INCIDENT_CASE_A.INCIDENT_CLASS}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text11",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 6840,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Owner: {%Owner}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 6840,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Owner: {%Owner}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text12",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 7560,
+          "Left": 240,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Incident Date / Time: {INCIDENT_CASE_A.INCIDENT_DATE}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 7560,
+            "Left": 240,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Incident Date / Time: {INCIDENT_CASE_A.INCIDENT_DATE}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text13",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 6120,
+          "Left": 6120,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Incident Type: {INCIDENT_CASE_A.INCIDENT_TYPE}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 6120,
+            "Left": 6120,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Incident Type: {INCIDENT_CASE_A.INCIDENT_TYPE}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text14",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 6840,
+          "Left": 6120,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": " Distribution List: {%dist_list}",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 6840,
+            "Left": 6120,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": " Distribution List: {%dist_list}",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line3",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 8760,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 8760,
+          "X2": 11160,
+          "Y2": 8760,
+          "Formatting": {
+            "Top": 8760,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text15",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 8379,
+          "Left": 240,
+          "Width": 3000,
+          "Height": 279,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Overview of incident\n",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 8379,
+            "Left": 240,
+            "Width": 3000,
+            "Height": 279,
+            "Type": "TextObject",
+            "Text": "Overview of incident\n",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line6",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 9000,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 9000,
+          "X2": 11160,
+          "Y2": 9000,
+          "Formatting": {
+            "Top": 9000,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line8",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 9000,
+          "Left": 240,
+          "Width": 0,
+          "Height": 780,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 9000,
+          "X2": 240,
+          "Y2": 9780,
+          "Formatting": {
+            "Top": 9000,
+            "Left": 240,
+            "Width": 0,
+            "Height": 780,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line9",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 9000,
+          "Left": 11160,
+          "Width": 0,
+          "Height": 780,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 11160,
+          "Y1": 9000,
+          "X2": 11160,
+          "Y2": 9780,
+          "Formatting": {
+            "Top": 9000,
+            "Left": 11160,
+            "Width": 0,
+            "Height": 780,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "DETAILDESCRIPTION1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 9120,
+          "Left": 405,
+          "Width": 12555,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "DETAIL_DESCRIPTION",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": true,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 9120,
+            "Left": 405,
+            "Width": 12555,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "DETAIL_DESCRIPTION",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": true,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": true,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ReportHeaderSection2",
+      "Kind": "ReportHeader",
+      "Height": 225,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Line7",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportHeaderSection2",
+          "Top": 120,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 120,
+          "X2": 11160,
+          "Y2": 120,
+          "Formatting": {
+            "Top": 120,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection1",
+      "Kind": "PageHeader",
+      "Height": 1171,
+      "Suppress": true,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Text23",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 195,
+          "Left": 180,
+          "Width": 4440,
+          "Height": 840,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "   Incident Ref No |  {INCIDENT_CASE_REP_A.INCIDENT_CASE_ID}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 16.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [A=255, R=0, G=204, B=153]",
+          "Formatting": {
+            "Top": 195,
+            "Left": 180,
+            "Width": 4440,
+            "Height": 840,
+            "Type": "TextObject",
+            "Text": "   Incident Ref No |  {INCIDENT_CASE_REP_A.INCIDENT_CASE_ID}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 16.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [A=255, R=0, G=204, B=153]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [A=255, R=0, G=204, B=153]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Picture2",
+          "ObjectType": "PictureObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 195,
+          "Left": 7800,
+          "Width": 3331,
+          "Height": 870,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "PictureObject",
+          "Note": "GraphicLocation/GraphicType not available in ENGINE API.",
+          "Formatting": {
+            "Top": 195,
+            "Left": 7800,
+            "Width": 3331,
+            "Height": 870,
+            "Type": "PictureObject",
+            "GraphicLocation": "NotAvailableInEngineAPI",
+            "GraphicType": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection2",
+      "Kind": "PageHeader",
+      "Height": 870,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Box14",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 480,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 910,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 480,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 910,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text18",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 600,
+          "Left": 315,
+          "Width": 1320,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Question No",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 600,
+            "Left": 315,
+            "Width": 1320,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Question No",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text16",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 600,
+          "Left": 1800,
+          "Width": 5295,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Question",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 600,
+            "Left": 1800,
+            "Width": 5295,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Question",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text19",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 600,
+          "Left": 7320,
+          "Width": 3720,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Answer",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 600,
+            "Left": 7320,
+            "Width": 3720,
+            "Height": 240,
+            "Type": "TextObject",
+            "Text": "Answer",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line4",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 360,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 360,
+          "X2": 11160,
+          "Y2": 360,
+          "Formatting": {
+            "Top": 360,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text17",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection2",
+          "Top": 0,
+          "Left": 240,
+          "Width": 3000,
+          "Height": 279,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Incident questions\n",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 0,
+            "Left": 240,
+            "Width": 3000,
+            "Height": 279,
+            "Type": "TextObject",
+            "Text": "Incident questions\n",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 520,
+      "Suppress": true,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Line5",
+          "ObjectType": "LineObject",
+          "SectionName": "DetailSection1",
+          "Top": 0,
+          "Left": 240,
+          "Width": 10920,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 240,
+          "Y1": 0,
+          "X2": 11160,
+          "Y2": 0,
+          "Formatting": {
+            "Top": 0,
+            "Left": 240,
+            "Width": 10920,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "SAFTYACTION1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 120,
+          "Left": 1800,
+          "Width": 5295,
+          "Height": 225,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "SAFTY_ACTION",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 1800,
+            "Width": 5295,
+            "Height": 225,
+            "Type": "FieldObject",
+            "FieldName": "SAFTY_ACTION",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": true,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "REMARKS1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 120,
+          "Left": 7320,
+          "Width": 3720,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "REMARKS",
+          "Font": {
+            "FontName": "Calibri",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 7320,
+            "Width": 3720,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "REMARKS",
+            "Font": {
+              "FontName": "Calibri",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "RowNo1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 120,
+          "Left": 360,
+          "Width": 1275,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "RowNo",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 360,
+            "Width": 1275,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "RowNo",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 220,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 663,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    }
+  ],
+  "Objects": [],
+  "Groups": [],
+  "Sorts": [
+    {
+      "SortIndex": 1,
+      "FieldName": "{INCIDENT_CASE_REP_A.REPORTED_DATE}",
+      "SortDirection": "AscendingOrder"
+    }
+  ],
+  "Formatting": {},
+  "Charts": [],
+  "CrossTabs": [],
+  "Alerts": [
+    {
+      "AlertName": "NotSupportedInEngineAPI",
+      "Enabled": false,
+      "Severity": "N/A",
+      "Message": "Crystal Reports Engine API does not expose alert information.",
+      "ConditionFormula": "",
+      "InvolvedFields": []
+    }
+  ]
+}

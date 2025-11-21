@@ -1,0 +1,3712 @@
+{
+  "ReportName": "CustomerInvoice (1)",
+  "GeneratedDate": "2025-11-20 14:52:44",
+  "ExportSequence": 2,
+  "SummaryInfo": {
+    "Title": null,
+    "Author": null,
+    "Comments": null
+  },
+  "Database": [
+    {
+      "TableName": "CUSTOMER_ORDER_IVC_REP",
+      "Location": "CUSTOMER_ORDER_IVC_REP",
+      "Connection": {
+        "Server": "pyse8ne-dev1-db.build.ifs.cloud:1521/alepdb",
+        "Database": "",
+        "UserId": "ifsapp",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    }
+  ],
+  "Fields": [
+    {
+      "Name": "RESULT_KEY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RESULT_KEY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROW_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PARENT_ROW_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PARENT_ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "HEADER_ROW_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.HEADER_ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DATE_ENTERED",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DATE_ENTERED}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_INVOICE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_INVOICE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_ID_STR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_ID_STR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "HEADER_STATUS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.HEADER_STATUS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "AUTHORIZE_NAME",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AUTHORIZE_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACT_DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONTRACT_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_REF_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_REF_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_2",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_3",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_4",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_5",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_6",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_6}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_7",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_7}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_8",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_8}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_9",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_9}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_10",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_10}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_ADDR_11",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_ADDR_11}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_2",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_3",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_4",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_5",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_6",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_6}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_7",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_7}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_8",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_8}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_9",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_9}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_10",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_10}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BILL_ADDR_11",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BILL_ADDR_11}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_VIA_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_VIA_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FORWARD_AGENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.FORWARD_AGENT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LABEL_NOTE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LABEL_NOTE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERY_TERMS_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DELIVERY_TERMS_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DEL_TERMS_LOCATION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DEL_TERMS_LOCATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DEBIT_INVOICE_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DEBIT_INVOICE_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WANTED_DELIVERY_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.WANTED_DELIVERY_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PAY_TERMS_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAY_TERMS_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DUE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DUE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "CURR_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CURR_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COPY_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COPY_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAGE_FOOTER_1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAGE_FOOTER_1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAGE_FOOTER_2",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAGE_FOOTER_2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAGE_FOOTER_3",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAGE_FOOTER_3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAGE_FOOTER_4",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAGE_FOOTER_4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRINT_CONFIG_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRINT_CONFIG_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RMA_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RMA_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_PO_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PO_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_FAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_FAX}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_EMAIL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_EMAIL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRINTER_FLAG",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRINTER_FLAG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FAX_FLAG",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.FAX_FLAG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "EMAIL_FLAG",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.EMAIL_FLAG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "USER_EMAIL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.USER_EMAIL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "USER_FILE_DIR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.USER_FILE_DIR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "NUMERATION_GROUP",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.NUMERATION_GROUP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_2",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_3",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_4",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_5",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ADDR_6",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ADDR_6}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ZIP_COUNTRY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ZIP_COUNTRY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_PHONE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_PHONE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SALESMAN",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SALESMAN}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REGION_DISTRICT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REGION_DISTRICT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_STATE_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_STATE_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DATE_CREATED",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DATE_CREATED}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "START_MONTH_YEAR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.START_MONTH_YEAR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AUTH_EXP_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AUTH_EXP_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "AUTHORIZATION_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AUTHORIZATION_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_TAX_ID_NUMBER",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_TAX_ID_NUMBER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_TAX_ID_NUMBER",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_TAX_ID_NUMBER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_TAX_LIABILITY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_TAX_LIABILITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "NUMERATION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.NUMERATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_REFERENCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_REFERENCE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OUR_ID_TAX_OFF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OUR_ID_TAX_OFF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_TAX_LIABILITY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_TAX_LIABILITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_NUMBER_NAME",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_NUMBER_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ADDITIONAL_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ADDITIONAL_DISCOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_COPY_LABEL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_COPY_LABEL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_REGISTER_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_REGISTER_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_REGISTER_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_REGISTER_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_LINE_POS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_LINE_POS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_ITEM_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_ITEM_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CATALOG_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CATALOG_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CATALOG_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CATALOG_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_PART_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_PART_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GTIN_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GTIN_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_INVOICED",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SALES_UNIT_MEAS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SALES_UNIT_MEAS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_PER_PRICE_UNIT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_TOTAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_QTY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_UNIT_MEAS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_UNIT_MEAS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_LINE_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_LINE_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CATALOG_NO_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CATALOG_NO_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BLOCK_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BLOCK_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DOCUMENT_PHRASE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DOCUMENT_PHRASE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_TOTAL_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SUB_TOTAL_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "FEE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.FEE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "NET_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.NET_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROUND_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ROUND_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TAX_CURR_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TAX_CURR_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GROSS_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GROSS_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "EUR_NET_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.EUR_NET_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "EUR_VAT_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.EUR_VAT_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "EUR_GROSS_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.EUR_GROSS_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_TYPE_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_TYPE_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGED_QTY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGED_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_UNIT_MEAS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_UNIT_MEAS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_PERCENT_BASIS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_PERCENT_BASIS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL_CHARGED_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL_CHARGED_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_TYPE_DOC_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_TYPE_DOC_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_ROW_DOC_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_ROW_DOC_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GROUP_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GROUP_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GROUP_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GROUP_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GROUP_SUM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GROUP_SUM}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "STAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.STAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL_PERCENTAGE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL_ON_LINE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL_ON_LINE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "STAGE_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.STAGE_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_PERCENTAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_SUM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_SUM}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "EUR_VAT_SUM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.EUR_VAT_SUM}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "REF_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REF_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WARRANTY_DOC_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.WARRANTY_DOC_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONFIG_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONFIG_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONFIG_SPEC_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONFIG_SPEC_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONDITION_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONDITION_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONDITION_CODE_DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONDITION_CODE_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONDITION_PRINT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONDITION_PRINT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_ORDER_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_ORDER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_LINE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_LINE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_REL_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORDER_REL_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DEBIT_INVOICE_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_DEBIT_INVOICE_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_CUSTOMER_PO_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_CUSTOMER_PO_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REAL_SHIP_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REAL_SHIP_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_CURR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAXABLE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAXABLE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DELIVERY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "NOTE_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.NOTE_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LOT_BATCH_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LOT_BATCH_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAYMENT_REFERENCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAYMENT_REFERENCE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_CODE_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_CODE_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_RATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_RATE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INSTALLMENT_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INSTALLMENT_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PAY_METHOD_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAY_METHOD_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INSTALLMENT_DUE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INSTALLMENT_DUE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "INSTALLMENT_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INSTALLMENT_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SUB_TOTAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_TOTAL_GROSS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SUB_TOTAL_GROSS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_TOT_WITH_CHARGES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SUB_TOT_WITH_CHARGES}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_CITY_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_CITY_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_CITY_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_CITY_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_ZIP_COUNTRY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_ZIP_COUNTRY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_STATE_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_STATE_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_VALUE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_VALUE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_UOM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_UOM}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_QTY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_FIRST",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_FIRST}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_LAST",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_LAST}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_PRICE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARACTERISTIC_PFLAG",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARACTERISTIC_PFLAG}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_SHIP_ADDR_1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_SHIP_ADDR_1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_SHIP_VIA_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_SHIP_VIA_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DEL_TERMS_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_DEL_TERMS_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DEL_TERMS_LOCATION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_DEL_TERMS_LOCATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_FORWARD_AGENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_FORWARD_AGENT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_VAT_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_VAT_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_VAT_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_VAT_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DISC_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_DISC_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_VAT_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_VAT_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL_UNIT_PRICE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL_UNIT_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_BASE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_BASE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_TEXTS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_TEXTS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TOTAL_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOTAL_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_VAT_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_VAT_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_VAT_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_VAT_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_LINE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_LINE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_INVOICE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_INVOICE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_PAYMENT_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_PAYMENT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_PAID_NET_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_PAID_NET_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_PAID_GROSS_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_PAID_GROSS_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_PAID_IN_ADVANCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_PAID_IN_ADVANCE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "AD_PAYMENT_MATCHED_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AD_PAYMENT_MATCHED_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_AD_PAY_MATCHED_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_AD_PAY_MATCHED_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OT_INVOICE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OT_INVOICE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OT_DUE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OT_DUE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "OT_NET_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OT_NET_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OT_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OT_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OT_GROSS_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OT_GROSS_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "REM_UNCONSUMED_ADVANCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REM_UNCONSUMED_ADVANCE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "REM_AMOUNT_TO_PAID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REM_AMOUNT_TO_PAID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTACT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CONTACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_ORDER_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_ORDER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_INCL_TAX}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_INCL_TAX_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRICE_INCL_TAX_TOTAL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_INCL_TAX}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHARGE_INCL_TAX_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CHARGE_INCL_TAX_TOTAL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRINT_PRICES_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRINT_PRICES_INCL_TAX}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "USE_PRICE_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.USE_PRICE_INCL_TAX}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_INVOICE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_INVOICE_TYPE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SEVERAL_VALUE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SEVERAL_VALUE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRINT_ADV_PAY_ON_CU_INV",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRINT_ADV_PAY_ON_CU_INV}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAYMENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAYMENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DEBIT_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DEBIT_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_PAYMENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_PAYMENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DEBIT_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_DEBIT_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SHIP_DATE_FIRST",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHIP_DATE_FIRST}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_VAT_SUM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_VAT_SUM}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "GROSS_AMOUNT_IN_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GROSS_AMOUNT_IN_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "VERBALLY_INVOICE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VERBALLY_INVOICE_AMOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_TAX_CURR_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_TAX_CURR_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REF_INVOICE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REF_INVOICE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DATE_OF_DUPLICATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DATE_OF_DUPLICATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DUPLICATE_OPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DUPLICATE_OPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REF_INVOICE_LINE_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REF_INVOICE_LINE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "CORRECTION_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CORRECTION_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CORR_TITLE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CORR_TITLE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PAYMENT_METHOD",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAYMENT_METHOD}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BANK_ACCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BANK_ACCOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PAYMENT_METHOD_LINE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PAYMENT_METHOD_LINE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BANK_ACCOUNT_LINE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BANK_ACCOUNT_LINE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_CURR_RATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_CURR_RATE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DEB_TAX_CURR_RATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DEB_TAX_CURR_RATE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR1",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR2",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR3",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR4",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR5",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR5}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR6",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR6}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_PAY_ADDR7",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_PAY_ADDR7}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_GROSS_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LINE_GROSS_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERIES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DELIVERIES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_CHARACTER",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_CHARACTER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SHOW_SUB_TOTAL_ITEMS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SHOW_SUB_TOTAL_ITEMS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_NET",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_NET}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_TAX_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_TAX_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DISCOUNT_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BANK_ACCOUNT_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BANK_ACCOUNT_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPAYMENT_EXIST",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PREPAYMENT_EXIST}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPAYMENT_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PREPAYMENT_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_NET_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_NET_CURR_AMOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_VAT_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_VAT_CURR_AMOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_GROSS_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_GROSS_CURR_AMOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPAY_INV_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PREPAY_INV_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPAY_INV_SERIES_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PREPAY_INV_SERIES_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPAY_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PREPAY_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERY_NOTE_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DELIVERY_NOTE_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PART_CATALOG_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PART_CATALOG_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVENTORY_PART_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVENTORY_PART_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RETURN_LINE_NOTES",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RETURN_LINE_NOTES}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORT_FOOT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.REPORT_FOOT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_FEE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_FEE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BIC_CODE_HEAD",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BIC_CODE_HEAD}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BIC_CODE_LINE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BIC_CODE_LINE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AIRWAY_BILL_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.AIRWAY_BILL_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GRP_SUM_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.GRP_SUM_INCL_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SUB_TOTAL_INCL_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SUB_TOTAL_INCL_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_FEE_BASE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_FEE_BASE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "NET_SALES_PRICE_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.NET_SALES_PRICE_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_NET_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_NET_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SERIAL_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SERIAL_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VAT_REDUCTION_AT_PAY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.VAT_REDUCTION_AT_PAY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_TRANSACTION_START_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RENTAL_TRANSACTION_START_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_TRANSACTION_END_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RENTAL_TRANSACTION_END_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "ON_RENTAL_QTY",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ON_RENTAL_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICED_DURATION_DAYS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICED_DURATION_DAYS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LATEST_SHIP_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.LATEST_SHIP_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "COUNTRY_OF_ORIGIN",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COUNTRY_OF_ORIGIN}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMS_STAT_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMS_STAT_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PACKAGE_ORDER_LINE_POS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PACKAGE_ORDER_LINE_POS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PACKAGE_LINE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PACKAGE_LINE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_MODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RENTAL_MODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "HEADER_INVOICE_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.HEADER_INVOICE_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_TEXT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_TEXT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_GROSS_AMOUNT_IN_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_GROSS_AMOUNT_IN_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_VAT_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_VAT_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TAX_FEE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TAX_FEE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TOTAL_UNIT_PRICE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TOTAL_UNIT_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TAX_BASE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TAX_BASE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TAX_TEXTS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TAX_TEXTS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TOTAL_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TOTAL_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_VAT_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_VAT_PERCENTAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_BASE_VAT_SUM",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_BASE_VAT_SUM}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_BASE_VAT_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_BASE_VAT_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_BASE_DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_BASE_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_BASE_VAT_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_BASE_VAT_PERCENTAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COR_TOT_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COR_TOT_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_ORDER_LINE_POS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RENTAL_ORDER_LINE_POS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_LINE_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.RENTAL_LINE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FREE_OF_CHARGE_TAX_BASIS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.FREE_OF_CHARGE_TAX_BASIS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY_BEARING_TAX_AMT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMPANY_BEARING_TAX_AMT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_PRE_INV_DEB_CORR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_PRE_INV_DEB_CORR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_PRE_INV_CRE_CORR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_PRE_INV_CRE_CORR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TOT_ADVANCE_RECEIVED",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TOT_ADVANCE_RECEIVED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_CONSUMED_ADVANCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_CONSUMED_ADVANCE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_UNCONSUMED_ADVANCE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.PRE_UNCONSUMED_ADVANCE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "HEADER_CORRECTION_REASON",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.HEADER_CORRECTION_REASON}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CORRECTION_REASON",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CORRECTION_REASON}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ADVANCE_CONSUMED_CURRENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ADVANCE_CONSUMED_CURRENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_BRANCH_ID",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_BRANCH_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_BRANCH_DESC",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_BRANCH_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_BRANCH",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUSTOMER_BRANCH}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMP_ASSOCIATION_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.COMP_ASSOCIATION_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_ASSOCIATION_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUST_ASSOCIATION_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_EXEMPT_CERT_NO",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_EXEMPT_CERT_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CERT_JURISDICTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CERT_JURISDICTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CIG_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CIG_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUP_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CUP_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MATCHED_TAX_DOC_BASE_ACC_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.MATCHED_TAX_DOC_BASE_ACC_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MATCHED_TAX_DOC_TAX_ACC_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.MATCHED_TAX_DOC_TAX_ACC_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_DOC_BASE_ACC_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_DOC_BASE_ACC_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_DOC_TAX_ACC_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_DOC_TAX_ACC_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MATCHED_TAX_DOC_BASE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.MATCHED_TAX_DOC_BASE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MATCHED_TAX_DOC_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.MATCHED_TAX_DOC_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_DOC_BASE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_DOC_BASE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_DOC_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_DOC_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ORIG_TAX_DOC_SERIES_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORIG_TAX_DOC_SERIES_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORIG_TAX_DOC_NUMBER_REF",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.ORIG_TAX_DOC_NUMBER_REF}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_DOC_DATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_DOC_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_PERCENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_PERCENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "IRN",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.IRN}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "QR_DATA",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.QR_DATA}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CGST_TAX_AMNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CGST_TAX_AMNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SGST_TAX_AMNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SGST_TAX_AMNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "IGST_TAX_AMNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.IGST_TAX_AMNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "UGST_TAX_AMNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.UGST_TAX_AMNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OTHER_TAX_AMNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OTHER_TAX_AMNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CGST_TAX_PCT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CGST_TAX_PCT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SGST_TAX_PCT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SGST_TAX_PCT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "IGST_TAX_PCT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.IGST_TAX_PCT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "UGST_TAX_PCT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.UGST_TAX_PCT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OTHER_TAX_PCT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OTHER_TAX_PCT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CGST_FEE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CGST_FEE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SGST_FEE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.SGST_FEE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "IGST_FEE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.IGST_FEE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UGST_FEE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.UGST_FEE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OTHER_FEE_TYPE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.OTHER_FEE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "HSN_SAC_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.HSN_SAC_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_SUB_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_SUB_TOTAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_NET_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_NET_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_VAT_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_VAT_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_GROSS_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_GROSS_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CURRENCY_RATE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.CURRENCY_RATE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_SALE_UNIT_PRICE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_SALE_UNIT_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_LINE_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_LINE_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_PRICE_TOTAL",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_PRICE_TOTAL}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_TOTAL_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_TOTAL_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_TOTAL_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_TOTAL_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_TAX_BASE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_TAX_BASE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_TAX_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_TAX_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_GROSS_AMOUNT_IN",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_GROSS_AMOUNT_IN}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TAX_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.TAX_PERCENTAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_TAX_FEE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_TAX_FEE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_GROSS_CURR_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_GROSS_CURR_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_ROUND_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_ROUND_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_INVOICE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_INVOICE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_VERBALLY_INVOICE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_VERBALLY_INVOICE_AMOUNT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_GROSS_AMOUNT_IN_CURR",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_GROSS_AMOUNT_IN_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TAX_CODE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TAX_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_DESCRIPTION",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TAX_FEE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TAX_FEE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TOTAL_UNIT_PRICE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TOTAL_UNIT_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TAX_BASE_AMOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TAX_BASE_AMOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TAX_TEXTS",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TAX_TEXTS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TOTAL_DISCOUNT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TOTAL_DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_COR_TAX_PERCENTAGE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_COR_TAX_PERCENTAGE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_PAYMENT",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_PAYMENT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "BASE_DEBIT_TAX",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.BASE_DEBIT_TAX}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INVOICE_TAX_ID_NUMBER",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.INVOICE_TAX_ID_NUMBER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERY_TAX_ID_NUMBER",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DELIVERY_TAX_ID_NUMBER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DIGITAL_SIGNATURE",
+      "NativeName": "{CUSTOMER_ORDER_IVC_REP.DIGITAL_SIGNATURE}",
+      "DataType": "StringField",
+      "Length": 0
+    }
+  ],
+  "DataSetPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<CrystalReport xmlns=\"urn:crystal-reports:schemas:report-detail\"  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd\">\r\n<ReportHeader>\r\n<Section SectionNumber=\"0\">\r\n<Text Name=\"Text1\"><TextValue>Invoice</TextValue>\r\n</Text>\r\n<Picture Name=\"Picture3\" GraphicType=\"OLE\">\r\n</Picture>\r\n</Section>\r\n</ReportHeader>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue>1</FormattedValue><Value>1</Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue>100.00</FormattedValue><Value>100.00</Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue>1.00</FormattedValue><Value>1.00</Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue>BACP18BC03A10P</FormattedValue><Value>BACP18BC03A10P</Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue>SPLIT PIN</FormattedValue><Value>SPLIT PIN</Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"LINENO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.LINE_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"PRICEPERPRICEUNIT1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.PRICE_PER_PRICE_UNIT}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"QTYINVOICED1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.QTY_INVOICED}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTNO1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_NO}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"CUSTOMERPARTDESC1\" FieldName=\"{CUSTOMER_ORDER_IVC_REP.CUSTOMER_PART_DESC}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n</Section>\r\n<Section SectionNumber=\"1\">\r\n</Section>\r\n</Details>\r\n<ReportFooter>\r\n<Section SectionNumber=\"0\">\r\n</Section>\r\n</ReportFooter>\r\n</CrystalReport>\r\n",
+  "Parameters": [
+    {
+      "Name": "IFS_RESULT_KEY",
+      "PromptText": "Enter IFS_RESULT_KEY:",
+      "ValueType": "NumberField",
+      "ParameterType": "ReportParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [
+        790.0
+      ],
+      "CurrentRanges": []
+    }
+  ],
+  "ReportFormulas": [],
+  "SqlExpressions": [],
+  "RecordSelectionFormula": " (  {CUSTOMER_ORDER_IVC_REP.RESULT_KEY} = {?IFS_RESULT_KEY}  )  ",
+  "GroupSelectionFormula": "",
+  "GroupConditionFormulas": [],
+  "SortFormulas": [],
+  "RunningTotalFormulas": [],
+  "SummaryFormulas": [],
+  "HighlightingFormats": [],
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 2509,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Text1",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 120,
+          "Left": 960,
+          "Width": 2040,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Invoice",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 960,
+            "Width": 2040,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Invoice",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Picture3",
+          "ObjectType": "PictureObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 120,
+          "Left": 3660,
+          "Width": 3240,
+          "Height": 2389,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "PictureObject",
+          "Note": "GraphicLocation/GraphicType not available in ENGINE API.",
+          "Formatting": {
+            "Top": 120,
+            "Left": 3660,
+            "Width": 3240,
+            "Height": 2389,
+            "Type": "PictureObject",
+            "GraphicLocation": "NotAvailableInEngineAPI",
+            "GraphicType": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection1",
+      "Kind": "PageHeader",
+      "Height": 2783,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "ADINVOICENO1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 840,
+          "Left": 360,
+          "Width": 2554,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "AD_INVOICE_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 840,
+            "Left": 360,
+            "Width": 2554,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "AD_INVOICE_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CONTRACT1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1320,
+          "Left": 2640,
+          "Width": 2554,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CONTRACT",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1320,
+            "Left": 2640,
+            "Width": 2554,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "CONTRACT",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CURRCODE1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 720,
+          "Left": 3120,
+          "Width": 2554,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CURR_CODE",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 720,
+            "Left": 3120,
+            "Width": 2554,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "CURR_CODE",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "INVOICEID1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 840,
+          "Left": 8640,
+          "Width": 2280,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "INVOICE_ID",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 840,
+            "Left": 8640,
+            "Width": 2280,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "INVOICE_ID",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "INVOICENO1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1320,
+          "Left": 5760,
+          "Width": 2554,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "INVOICE_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1320,
+            "Left": 5760,
+            "Width": 2554,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "INVOICE_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text7",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1680,
+          "Left": 120,
+          "Width": 10800,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "invoice lines :-\n",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1680,
+            "Left": 120,
+            "Width": 10800,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "invoice lines :-\n",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text9",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 120,
+          "Left": 360,
+          "Width": 8160,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Invoice Header",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 12.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 360,
+            "Width": 8160,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Invoice Header",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 12.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "IFSRESULTKEY1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1320,
+          "Left": 8443,
+          "Width": 1920,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "IFS_RESULT_KEY",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1320,
+            "Left": 8443,
+            "Width": 1920,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "IFS_RESULT_KEY",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text10",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1320,
+          "Left": 360,
+          "Width": 2160,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Contract :",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1320,
+            "Left": 360,
+            "Width": 2160,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Contract :",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text11",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 840,
+          "Left": 5880,
+          "Width": 2400,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Invoice No",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 840,
+            "Left": 5880,
+            "Width": 2400,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Invoice No",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text12",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 240,
+          "Left": 8880,
+          "Width": 2280,
+          "Height": 360,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Invoice ID",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 240,
+            "Left": 8880,
+            "Width": 2280,
+            "Height": 360,
+            "Type": "TextObject",
+            "Text": "Invoice ID",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text18",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2160,
+          "Left": 0,
+          "Width": 2554,
+          "Height": 581,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "LINE_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": true
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 0,
+            "Width": 2554,
+            "Height": 581,
+            "Type": "TextObject",
+            "Text": "LINE_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": true,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text19",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2160,
+          "Left": 9840,
+          "Width": 1582,
+          "Height": 461,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "PRICE_PER_PRICE_UNIT",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": true
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 9840,
+            "Width": 1582,
+            "Height": 461,
+            "Type": "TextObject",
+            "Text": "PRICE_PER_PRICE_UNIT",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": true,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text20",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2160,
+          "Left": 7680,
+          "Width": 1843,
+          "Height": 461,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "QTY_INVOICED",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": true
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 7680,
+            "Width": 1843,
+            "Height": 461,
+            "Type": "TextObject",
+            "Text": "QTY_INVOICED",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": true,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text21",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2160,
+          "Left": 2640,
+          "Width": 2554,
+          "Height": 611,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "CUSTOMER_PART_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": true
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 2640,
+            "Width": 2554,
+            "Height": 611,
+            "Type": "TextObject",
+            "Text": "CUSTOMER_PART_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": true,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text22",
+          "ObjectType": "FieldHeadingObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2160,
+          "Left": 5280,
+          "Width": 2280,
+          "Height": 611,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "CUSTOMER_PART_DESC",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": true
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2160,
+            "Left": 5280,
+            "Width": 2280,
+            "Height": 611,
+            "Type": "TextObject",
+            "Text": "CUSTOMER_PART_DESC",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": true,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection2",
+      "Kind": "Detail",
+      "Height": 2100,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "LINENO1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection2",
+          "Top": 120,
+          "Left": 0,
+          "Width": 2554,
+          "Height": 1560,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "LINE_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 0,
+            "Width": 2554,
+            "Height": 1560,
+            "Type": "FieldObject",
+            "FieldName": "LINE_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "PRICEPERPRICEUNIT1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection2",
+          "Top": 240,
+          "Left": 10080,
+          "Width": 1200,
+          "Height": 1560,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "PRICE_PER_PRICE_UNIT",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 240,
+            "Left": 10080,
+            "Width": 1200,
+            "Height": 1560,
+            "Type": "FieldObject",
+            "FieldName": "PRICE_PER_PRICE_UNIT",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "QTYINVOICED1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection2",
+          "Top": 120,
+          "Left": 7800,
+          "Width": 1483,
+          "Height": 1560,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "QTY_INVOICED",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 7800,
+            "Width": 1483,
+            "Height": 1560,
+            "Type": "FieldObject",
+            "FieldName": "QTY_INVOICED",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CUSTOMERPARTNO1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection2",
+          "Top": 120,
+          "Left": 2640,
+          "Width": 2554,
+          "Height": 1560,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CUSTOMER_PART_NO",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 2640,
+            "Width": 2554,
+            "Height": 1560,
+            "Type": "FieldObject",
+            "FieldName": "CUSTOMER_PART_NO",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CUSTOMERPARTDESC1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection2",
+          "Top": 120,
+          "Left": 5280,
+          "Width": 2280,
+          "Height": 1680,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CUSTOMER_PART_DESC",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 5280,
+            "Width": 2280,
+            "Height": 1680,
+            "Type": "FieldObject",
+            "FieldName": "CUSTOMER_PART_DESC",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 592,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 600,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 600,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    }
+  ],
+  "Objects": [],
+  "Groups": [],
+  "Sorts": [],
+  "Formatting": {},
+  "Charts": [],
+  "CrossTabs": [],
+  "Alerts": [
+    {
+      "AlertName": "NotSupportedInEngineAPI",
+      "Enabled": false,
+      "Severity": "N/A",
+      "Message": "Crystal Reports Engine API does not expose alert information.",
+      "ConditionFormula": "",
+      "InvolvedFields": []
+    }
+  ]
+}

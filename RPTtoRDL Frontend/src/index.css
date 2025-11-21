@@ -1,0 +1,32 @@
+/* src/index.css – global reset + OasisPro-style base */
+
+:root {
+  --oa-purple: #7c3aed;       /* main purple */
+  --oa-purple-dark: #5b21b6;  /* darker hover purple */
+  --oa-purple-soft: #ede9fe;  /* light background band */
+  --oa-text-main: #111827;
+  --oa-text-muted: #6b7280;
+  --oa-border-subtle: #e5e7eb;
+  --oa-bg-page: #f9fafb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: var(--oa-bg-page);
+  color: var(--oa-text-main);
+}

@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CrystalReport>
+  <ReportMetadata>
+    <ReportName>Dunning</ReportName>
+    <GeneratedDate>2025-11-21 15:42:40</GeneratedDate>
+    <ExportSequence>3</ExportSequence>
+  </ReportMetadata>
+  <SummaryInfo>
+    <Title>Boyum Dunning Master</Title>
+    <Author>Boyum IT A/S</Author>
+    <Comments>NB: Boyum IT A/S does not perform any support on modification of this layout.</Comments>
+  </SummaryInfo>
+  <Database>
+    <Table>
+      <TableName>CompanyInfo</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>SBODemoDK</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>DunningData</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>SBODemoDK</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+  </Database>
+  <AllFields>
+    <Field>
+      <Name>Name</Name>
+      <NativeName>{CompanyInfo.Name}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressFull</Name>
+      <NativeName>{CompanyInfo.AddressFull}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressStreet</Name>
+      <NativeName>{CompanyInfo.AddressStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressBlock</Name>
+      <NativeName>{CompanyInfo.AddressBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCity</Name>
+      <NativeName>{CompanyInfo.AddressCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressZipCode</Name>
+      <NativeName>{CompanyInfo.AddressZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCounty</Name>
+      <NativeName>{CompanyInfo.AddressCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressState</Name>
+      <NativeName>{CompanyInfo.AddressState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCountry</Name>
+      <NativeName>{CompanyInfo.AddressCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCountryName</Name>
+      <NativeName>{CompanyInfo.AddressCountryName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone1</Name>
+      <NativeName>{CompanyInfo.Phone1}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone2</Name>
+      <NativeName>{CompanyInfo.Phone2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Fax</Name>
+      <NativeName>{CompanyInfo.Fax}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Email</Name>
+      <NativeName>{CompanyInfo.Email}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Manager</Name>
+      <NativeName>{CompanyInfo.Manager}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LocalCurrency</Name>
+      <NativeName>{CompanyInfo.LocalCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SystemCurrency</Name>
+      <NativeName>{CompanyInfo.SystemCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId</Name>
+      <NativeName>{CompanyInfo.FederalTaxId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId2</Name>
+      <NativeName>{CompanyInfo.FederalTaxId2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId3</Name>
+      <NativeName>{CompanyInfo.FederalTaxId3}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AdditionalId</Name>
+      <NativeName>{CompanyInfo.AdditionalId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxOffice</Name>
+      <NativeName>{CompanyInfo.TaxOffice}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormType</Name>
+      <NativeName>{CompanyInfo.PayInFormType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormGroupNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormGroupNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Website</Name>
+      <NativeName>{CompanyInfo.Website}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrintHeader</Name>
+      <NativeName>{CompanyInfo.PrintHeader}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathXml</Name>
+      <NativeName>{CompanyInfo.PathXml}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExcel</Name>
+      <NativeName>{CompanyInfo.PathExcel}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathWord</Name>
+      <NativeName>{CompanyInfo.PathWord}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathBitmap</Name>
+      <NativeName>{CompanyInfo.PathBitmap}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathAttach</Name>
+      <NativeName>{CompanyInfo.PathAttach}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExtension</Name>
+      <NativeName>{CompanyInfo.PathExtension}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCountry</Name>
+      <NativeName>{CompanyInfo.BankCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCode</Name>
+      <NativeName>{CompanyInfo.BankCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankName</Name>
+      <NativeName>{CompanyInfo.BankName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankSwift</Name>
+      <NativeName>{CompanyInfo.BankSwift}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankIban</Name>
+      <NativeName>{CompanyInfo.BankIban}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankStreet</Name>
+      <NativeName>{CompanyInfo.BankStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBlock</Name>
+      <NativeName>{CompanyInfo.BankBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCity</Name>
+      <NativeName>{CompanyInfo.BankCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCounty</Name>
+      <NativeName>{CompanyInfo.BankCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankState</Name>
+      <NativeName>{CompanyInfo.BankState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankZipCode</Name>
+      <NativeName>{CompanyInfo.BankZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankAccount</Name>
+      <NativeName>{CompanyInfo.BankAccount}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBranch</Name>
+      <NativeName>{CompanyInfo.BankBranch}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>HolidayCode</Name>
+      <NativeName>{CompanyInfo.HolidayCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>MultiLanguageSupport</Name>
+      <NativeName>{CompanyInfo.MultiLanguageSupport}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Logo</Name>
+      <NativeName>{CompanyInfo.Logo}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LocalCurrency</Name>
+      <NativeName>{DunningData.LocalCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BpCurrency</Name>
+      <NativeName>{DunningData.BpCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CreateDate</Name>
+      <NativeName>{DunningData.CreateDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DunAddr</Name>
+      <NativeName>{DunningData.DunAddr}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardCode</Name>
+      <NativeName>{DunningData.CardCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocNum</Name>
+      <NativeName>{DunningData.DocNum}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DueDate</Name>
+      <NativeName>{DunningData.DueDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocType</Name>
+      <NativeName>{DunningData.DocType}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LetterLvl</Name>
+      <NativeName>{DunningData.LetterLvl}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>OpenCurr</Name>
+      <NativeName>{DunningData.OpenCurr}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>OpenSum</Name>
+      <NativeName>{DunningData.OpenSum}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>OpenSumFC</Name>
+      <NativeName>{DunningData.OpenSumFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalFee</Name>
+      <NativeName>{DunningData.TotalFee}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FeeCurr</Name>
+      <NativeName>{DunningData.FeeCurr}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardName</Name>
+      <NativeName>{DunningData.CardName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LangCode</Name>
+      <NativeName>{DunningData.LangCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>User</Name>
+      <NativeName>{DunningData.User}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>UserPhone</Name>
+      <NativeName>{DunningData.UserPhone}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>UserMail</Name>
+      <NativeName>{DunningData.UserMail}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>UserBranch</Name>
+      <NativeName>{DunningData.UserBranch}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>UserDepartment</Name>
+      <NativeName>{DunningData.UserDepartment}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>IntrstAmntLc</Name>
+      <NativeName>{DunningData.IntrstAmntLc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>IntrstAmntFc</Name>
+      <NativeName>{DunningData.IntrstAmntFc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalFeeLc</Name>
+      <NativeName>{DunningData.TotalFeeLc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalFeeFc</Name>
+      <NativeName>{DunningData.TotalFeeFc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocDate</Name>
+      <NativeName>{DunningData.DocDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocTotal</Name>
+      <NativeName>{DunningData.DocTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocTotalFC</Name>
+      <NativeName>{DunningData.DocTotalFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+  </AllFields>
+  <DataSetPreview>&lt;Dataset&gt;Error: Missing parameter values.&lt;/Dataset&gt;</DataSetPreview>
+  <Parameters>
+    <Parameter>
+      <Name>$[BOY_DUNNING_CARDCODE]</Name>
+      <PromptText>Dunning CardCode</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_DUNNING_LETTERNUM]</Name>
+      <PromptText>Dunning LetterNum</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_DUNNING_WIZARDID]</Name>
+      <PromptText>Dunning Wizard Id</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+  </Parameters>
+  <ReportFormulas>
+    <Formula>
+      <Name>Title</Name>
+      <Text>switch(
+    {DunningData.LetterLvl} = '0', 
+        switch(
+                {@X_Language} = 'DK', 'Kontoudtog',
+                {@X_Language} = 'NO', 'Kontoutskrift',
+                {@X_Language} = 'DE', 'Kontostand',
+                {@X_Language} = 'NL', 'Rekeningoverzicht',
+                {@X_Language} = 'FR', 'Relevé de compte',
+                True, 'Statement of Account' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '1', 
+        switch(
+                {@X_Language} = 'DK', '1. betalingspåmindelse',
+                {@X_Language} = 'NO', '1. betalingspåminnelse',
+                {@X_Language} = 'DE', 'Erste Zahlungserinnerung',
+                {@X_Language} = 'NL', '1e betalingsherinnering',
+                {@X_Language} = 'FR', 'Premier rappel de paiement',
+                True, '1st Late Notice' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '2', 
+        switch(
+                {@X_Language} = 'DK', '2. betalingspåmindelse',
+                {@X_Language} = 'NO', '2. betalingspåminnelse',
+                {@X_Language} = 'DE', 'Zweite Zahlungserinnerung',
+                {@X_Language} = 'NL', '2e betalingsherinnering',
+                {@X_Language} = 'FR', 'Deuxième rappel de paiement',
+                True, '2nd Late Notice' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '3', 
+        switch(
+                {@X_Language} = 'DK', '3. betalingspåmindelse',
+                {@X_Language} = 'NO', '3. betalingspåminnelse',
+                {@X_Language} = 'DE', 'Dritte Zahlungserinnerung',
+                {@X_Language} = 'NL', '3e betalingsherinnering',
+                {@X_Language} = 'FR', 'Troisième rappel de paiement',
+                True, '3rd Late Notice' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '4', 
+        switch(
+                {@X_Language} = 'DK', '4. Inkasso',                
+                {@X_Language} = 'NO', '4. Inkasso',
+                {@X_Language} = 'DE', 'Benachrichtigung Inkasso',
+                {@X_Language} = 'NL', 'Berichtgeving van incasso (Account op inactief gezet)',
+                {@X_Language} = 'FR', 'Notification de la collecte (Compte inactif)',
+                True, '4th Late Notice (Account Frozen)' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '5', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 5',
+                {@X_Language} = 'NO', 'Purretittel 5',
+                {@X_Language} = 'DE', 'Mahnung 5',
+                True, 'Dunning Title 5' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '6', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 6',
+                {@X_Language} = 'NO', 'Purretittel 6',
+                {@X_Language} = 'DE', 'Mahnung 6',
+                True, 'Dunning Title 6' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '7', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 7',
+                {@X_Language} = 'NO', 'Purretittel 7',
+                {@X_Language} = 'DE', 'Mahnung 7',
+                True, 'Dunning Title 7' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '8', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 8',
+                {@X_Language} = 'NO', 'Purretittel 8',
+                {@X_Language} = 'DE', 'Mahnung 8',
+                True, 'Dunning Title 8' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '9', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 9',
+                {@X_Language} = 'NO', 'Purretittel 9',
+                {@X_Language} = 'DE', 'Mahnung 9',
+                True, 'Dunning Title 9' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '10',
+        switch(
+                {@X_Language} = 'DK', 'Rykker titel 10',
+                {@X_Language} = 'NO', 'Purretittel 10',
+                {@X_Language} = 'DE', 'Mahnung 10',
+                True, 'Dunning Title 10' //Default English
+        )
+,
+    True, 'Unknown dunning level'
+
+)
+
+
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Language</Name>
+      <Text>switch(
+{DunningData.LangCode} = 1, 'HE', //Hebrew
+{DunningData.LangCode} = 3, 'EN', //English
+{DunningData.LangCode} = 5, 'PL', //Polish
+{DunningData.LangCode} = 8, 'GB', //Englis (UK)
+{DunningData.LangCode} = 9, 'DE', //German
+{DunningData.LangCode} = 11, 'DK', //Danish
+{DunningData.LangCode} = 12, 'NO', //Norwegian
+{DunningData.LangCode} = 13, 'IT', //Italian
+{DunningData.LangCode} = 14, 'HU', //Hungarian
+{DunningData.LangCode} = 16, 'NL', //Dutch
+{DunningData.LangCode} = 17, 'FI', //Finnish
+{DunningData.LangCode} = 18, 'GR', //Greek
+{DunningData.LangCode} = 19, 'PT', //Portuguese
+{DunningData.LangCode} = 20, 'SE', //Swedish
+{DunningData.LangCode} = 22, 'FR', //French
+{DunningData.LangCode} = 23, 'ES', //Spanish
+{DunningData.LangCode} = 24, 'RU', //Russian
+{DunningData.LangCode} = 25, 'CO', //Spanish (LA)
+{DunningData.LangCode} = 26, 'CZ', //Czech
+{DunningData.LangCode} = 27, 'SK', //Slovak
+True, 'EN' //Unknown (English)
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>PageXofY</Name>
+      <Text>ToText(PageNumber,'#') +' '+{@Title_Of}+' '+Totext(TotalPageCount,'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_BpCode</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kundenr............................................................',
+    {@X_Language} = 'NO', 'Kundenr............................................................',
+    {@X_Language} = 'DE', 'Kundennr............................................................',
+    {@X_Language} = 'ES', 'Número de cliente...........................................................',
+    {@X_Language} = 'FI', 'Asiakasnumero...........................................................',
+    {@X_Language} = 'NL', 'Klantnr............................................................',
+    {@X_Language} = 'FR', 'Numéro de client...........................................................',
+    True, 'Customer No............................................................' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_BpName</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kundenavn',
+    {@X_Language} = 'NO', 'Kundenavn',
+    {@X_Language} = 'DE', 'Kundenname',
+    {@X_Language} = 'ES', 'Nombre de cliente',
+    {@X_Language} = 'FI', 'Asiakkaan nimi',
+    {@X_Language} = 'NL', 'Klantnaam',
+    {@X_Language} = 'FR', 'Nom du client',
+    True, 'Customer name' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Address</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Adresse',
+    {@X_Language} = 'NO', 'Adresse',
+    {@X_Language} = 'DE', 'Adresse',
+    {@X_Language} = 'ES', 'Dirección',
+    {@X_Language} = 'FI', 'Osoite',
+    {@X_Language} = 'NL', 'Adres',
+    {@X_Language} = 'FR', 'Adresse',
+    True, 'Address' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DocDate</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bogføringsdato',
+    {@X_Language} = 'NO', 'Bokføringsdato',
+    {@X_Language} = 'DE', 'Buchungsdatum',
+    {@X_Language} = 'ES', 'Fecha contable',
+    {@X_Language} = 'FI', 'Tositepvm',
+    {@X_Language} = 'NL', 'Factuurdatum',
+    {@X_Language} = 'FR', 'Date du document',
+    True, 'Doc. date' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DueDate</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Forfaldsdato', 
+    {@X_Language} = 'NO', 'Forfallsdato',
+    {@X_Language} = 'DE', 'Fälligkeitsdatum',
+    {@X_Language} = 'ES', 'Fecha de vencimiento',
+    {@X_Language} = 'FI', 'Eräpäivä',
+    {@X_Language} = 'NL', 'Vervaldatum',
+    {@X_Language} = 'FR', 'Date d`échéance',
+    True, 'Due date'
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_LogoPath</Name>
+      <Text>{CompanyInfo.PathBitmap}+{CompanyInfo.Logo}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Total</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Samlet',
+    {@X_Language} = 'NO', 'Totalt',
+    {@X_Language} = 'DE', 'Gesamtsumme',
+    {@X_Language} = 'ES', 'Suma total',
+    {@X_Language} = 'FI', 'Tosite yhteensä',
+    {@X_Language} = 'NL', 'Totaal',
+    {@X_Language} = 'FR', 'Total des',
+    True, 'Total' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style1</Name>
+      <Text>{@CompanyInfo_Name}+
+chr(13)+chr(13)+
+{@CompanyInfo_Address_Full}+chr(13)
++chr(13)+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+chr(13)+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+chr(13)+
+{@Title_Email}+': '+{@CompanyInfo_Email}+chr(13)+
+{@Title_Web}+': '+{@CompanyInfo_Website}+chr(13)+
+chr(13)+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Name</Name>
+      <Text>{CompanyInfo.Name}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Full</Name>
+      <Text>{CompanyInfo.AddressFull}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone1</Name>
+      <Text>{CompanyInfo.Phone1}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone2</Name>
+      <Text>{CompanyInfo.Phone2}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Fax</Name>
+      <Text>{CompanyInfo.Fax}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Email</Name>
+      <Text>{CompanyInfo.Email}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Website</Name>
+      <Text>{CompanyInfo.Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_FederalTaxId</Name>
+      <Text>{CompanyInfo.FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style2</Name>
+      <Text>{@CompanyInfo_Name}+' - '+
+{@CompanyInfo_Address_Street}+' - '+
+{@CompanyInfo_Address_Country}+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+' - '+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+' - '+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+' - '+
+{@Title_Email}+': '+{@CompanyInfo_Email}+' - '+
+{@Title_Web}+': '+{@CompanyInfo_Website}+' - '+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Street</Name>
+      <Text>{CompanyInfo.AddressStreet}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Zipcode</Name>
+      <Text>{CompanyInfo.AddressZipCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_City</Name>
+      <Text>{CompanyInfo.AddressCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Country</Name>
+      <Text>{CompanyInfo.AddressCountry}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_County</Name>
+      <Text>{CompanyInfo.AddressCounty}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_State</Name>
+      <Text>{CompanyInfo.AddressState}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Block</Name>
+      <Text>{CompanyInfo.AddressBlock}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddress</Name>
+      <Text>{CompanyInfo.BankName}+chr(13)+
+{CompanyInfo.BankStreet}+chr(13)+
+{CompanyInfo.BankCountry}+'-'+{CompanyInfo.BankZipCode}+' '+{CompanyInfo.BankCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAddress</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bankadresse',
+    {@X_Language} = 'NO', 'Bankadresse',
+    {@X_Language} = 'DE', 'Bankanschrift',
+    {@X_Language} = 'ES', 'Dirección de banco',
+    {@X_Language} = 'FI', 'Pankin osoite',
+    {@X_Language} = 'NL', 'Bankadres',
+    {@X_Language} = 'FR', 'Adresse de la banque',
+    True, 'Bank-address' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccountAndBranch</Name>
+      <Text>{@Title_CompanyInfo_BankBranch}+': '+{CompanyInfo.BankBranch}+' - '+{@Title_CompanyInfo_BankAccount}+': '+{CompanyInfo.BankAccount}
+
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankSwift</Name>
+      <Text>{CompanyInfo.BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccount</Name>
+      <Text>{CompanyInfo.BankAccount}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankBranch</Name>
+      <Text>{CompanyInfo.BankBranch}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAccount</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontonr.',
+    {@X_Language} = 'NO', 'Kontonr.',
+    {@X_Language} = 'DE', 'Kontonummer',
+    {@X_Language} = 'ES', 'Número de cuenta',
+    {@X_Language} = 'FI', 'Tilinumero',
+    {@X_Language} = 'NL', 'Rekeningnr.',
+    {@X_Language} = 'FR', 'Numéro de compte',
+    True, 'Account' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankBranch</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Regnr.',
+    {@X_Language} = 'NO', 'Filial',
+    {@X_Language} = 'DE', 'Filiale',
+    {@X_Language} = 'ES', 'Sucursal',
+    {@X_Language} = 'FI', 'Konttori',
+    {@X_Language} = 'NL', 'Branche',
+    {@X_Language} = 'FR', 'Branche',
+    True, 'Branch' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankSwift</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'SWIFT',
+    {@X_Language} = 'NO', 'SWIFT',
+    {@X_Language} = 'DE', 'SWIFT',
+    {@X_Language} = 'ES', 'SWIFT',
+    {@X_Language} = 'FI', 'SWIFT',
+    {@X_Language} = 'NL', 'SWIFT',
+    {@X_Language} = 'FR', 'SWIFT',
+    True, 'SWIFT' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankIban</Name>
+      <Text>{CompanyInfo.BankIban}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankIban</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'IBAN',
+    {@X_Language} = 'NO', 'IBAN',
+    {@X_Language} = 'DE', 'IBAN',
+    {@X_Language} = 'ES', 'IBAN',
+    {@X_Language} = 'FI', 'IBAN',
+    {@X_Language} = 'NL', 'IBAN',
+    {@X_Language} = 'FR', 'IBAN',
+    True, 'IBAN' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Currency</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Valuta',
+    {@X_Language} = 'NO', 'Valuta',
+    {@X_Language} = 'DE', 'Währung',
+    {@X_Language} = 'ES', 'Moneda',
+    {@X_Language} = 'FI', 'Valuutta',
+    {@X_Language} = 'NL', 'Valuta',
+    {@X_Language} = 'FR', 'Devises',
+    True, 'Currency' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Address</Name>
+      <Text>{DunningData.CardName}
++chr(13)+
+{DunningData.DunAddr}</Text>
+    </Formula>
+    <Formula>
+      <Name>Date</Name>
+      <Text>{DunningData.CreateDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Date</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Dato...........................................................',
+    {@X_Language} = 'NO', 'Dato...........................................................',
+    {@X_Language} = 'DE', 'Datum...........................................................',
+    {@X_Language} = 'NL', 'Datum...........................................................',
+    {@X_Language} = 'FR', 'Date de...........................................................',
+    True, 'Date...........................................................' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>BpCode</Name>
+      <Text>{DunningData.CardCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Document_Number</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bilagsnr.',
+    {@X_Language} = 'NO', 'Bilagsnr.',
+    {@X_Language} = 'DE', 'Dokumentnummer',
+    {@X_Language} = 'NL', 'Documentnr.',
+    {@X_Language} = 'FR', 'Numéro de document.',
+    True, 'Doc. No.' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_ActualBalance</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Faktisk saldo',
+    {@X_Language} = 'NO', 'Faktisk saldo',
+    {@X_Language} = 'DE', 'Aktueller Saldo',
+    {@X_Language} = 'NL', 'Factuur bedrag',
+    {@X_Language} = 'FR', 'Solde réel',
+    True, 'Actual Balance' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_AmountDue</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Beløb forfaldent',
+    {@X_Language} = 'NO', 'Forfalt beløp',
+    {@X_Language} = 'DE', 'Zu zahlender Betrag',
+    {@X_Language} = 'NL', 'Openstaand bedrag',
+    {@X_Language} = 'FR', 'Montant dû',
+    True, 'Amount Due' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DocType</Name>
+      <Text>switch (
+    {DunningData.DocType} = -2, //OPENING BALANCE
+        switch(
+            {@X_Language} = 'DK', 'PS',
+            {@X_Language} = 'NO', 'OB',
+            True, 'OB' //Default English
+        ),
+    {DunningData.DocType} = 13, //INVOICE
+        switch(
+            {@X_Language} = 'DK', 'FA',
+            {@X_Language} = 'NO', 'FA', 
+            True, 'IN' //Default English
+        ),
+    {DunningData.DocType} = 14, //CREDIT NOTE 
+        switch(
+            {@X_Language} = 'DK', 'KN',
+            {@X_Language} = 'NO', 'KN',
+            True, 'CN' //Default English
+        ),
+    {DunningData.DocType} = 30, //JOURNAL ENTRY
+        switch(
+            {@X_Language} = 'DK', 'JK',
+            {@X_Language} = 'NO', 'JE',
+            True, 'JE' //Default English
+        ), 
+   {DunningData.DocType} = 24, //INCOMING PAYMENT
+        switch(
+            {@X_Language} = 'DK', 'IB',
+            {@X_Language} = 'NO', 'IB',
+            True, 'RC' //Default English
+        ),
+   {DunningData.DocType} = 203, //DOWN PAYMENT
+        switch(
+            {@X_Language} = 'DK', 'FB',
+            {@X_Language} = 'NO', 'FB',
+            True, 'DT' //Default English
+        ),
+    TRUE, ''
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocNum</Name>
+      <Text>{DunningData.DocNum}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocNumAndType</Name>
+      <Text>{@Title_Line_DocType}+' '+TOTEXT({@Line_DocNum},'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocDate</Name>
+      <Text>{DunningData.DocDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DueDate</Name>
+      <Text>{DunningData.DueDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocTotal</Name>
+      <Text>if({DunningData.DocTotalFC}&lt;&gt;0) then
+    {DunningData.DocTotalFC}
+else
+    {DunningData.DocTotal}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocCurrency</Name>
+      <Text>{DunningData.OpenCurr}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DocTotalWithCurrency</Name>
+      <Text>TOTEXT({@Line_DocTotal})+' '+{@Line_DocCurrency}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DueTotal</Name>
+      <Text>if({DunningData.OpenSumFC}&lt;&gt;0) then
+    {DunningData.OpenSumFC}
+else
+    {DunningData.OpenSum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DueTotalWithCurrency</Name>
+      <Text>TOTEXT({@Line_DueTotal})+' '+{@Line_DocCurrency}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PaymentDetails</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Betalingsdetaljer:',
+    {@X_Language} = 'NO', 'Betalingsdetaljer:',
+    {@X_Language} = 'DE', 'Zahlungsdetails',
+    {@X_Language} = 'ES', 'Detalles de pago',
+    {@X_Language} = 'FI', 'Maksutiedot',
+    {@X_Language} = 'NL', 'Betalingsgegevens',
+    {@X_Language} = 'FR', 'Les détails de paiement',
+    True, 'Payment Details:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>PaymentDetails</Name>
+      <Text>{@CompanyInfo_BankAddress}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Fee</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Rykkergebyr',
+    {@X_Language} = 'NO', 'Purregebyr',
+    {@X_Language} = 'DE', 'Mahngebühr',
+    {@X_Language} = 'NL', 'Verhoging',
+    {@X_Language} = 'FR', 'Augmenter',
+    True, 'Fee' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Intrests</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Renter',
+    {@X_Language} = 'NO', 'Renter',
+    {@X_Language} = 'DE', 'Zinsen',
+    {@X_Language} = 'NL', 'Rente',
+    {@X_Language} = 'FR', 'Intérêt',
+    True, 'Interests' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DueAmount</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Forfalden saldo',
+    {@X_Language} = 'NO', 'Forfalt saldo',
+    {@X_Language} = 'DE', 'Zu zahlender Betrag',
+    {@X_Language} = 'NL', 'Verschuldigde bedrag',
+    {@X_Language} = 'FR', 'Montant dû',
+    True, 'Due amount' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Text_Footer</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 
+    'Såfremt beløbet er indbetalt indenfor de seneste dage, bedes De se bort fra denne henvendelse.'+
+    chr(13)+chr(13)+
+    'Med venlig hilsen'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+,
+    {@X_Language} = 'NO', 
+    'Hvis beløpet er betalt innenfor de siste dager, bes De se bort fra denne henvendelsen.'+
+    chr(13)+chr(13)+
+    'Med vennlig hilsen'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+,
+    {@X_Language} = 'DE', 
+    'Wenn Sie den fälligen Betrag bereits auf unser Konto überwiesen haben, ignorieren Sie bitte dieses Schreiben.'+    chr(13)+chr(13)+
+    'Mit freundlichen Grüßen'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+
+,
+    {@X_Language} = 'NL', 
+    'Indien uw betaling deze briefwisseling heeft gekruisd, gelieve dit schrijven dan te negeren. Dit overzicht is automatisch verstuurd en daarom niet ondertekend.'+
+    chr(13)+chr(13)+
+    'Met vriendelijke groet,'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+
+,
+    {@X_Language} = 'FR', 
+    'Si votre paiement a déjà été envoyé, s`il vous plaît ignorer cet avis.'+
+    chr(13)+chr(13)+
+    'Cordialement'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+,
+    True, 
+    'If your remittance has already been sent, please disregard this notice.'+ 
+    chr(13)+chr(13)+
+    'Best Regards'+
+    chr(13)+
+    {DunningData.User}+
+    chr(13)+
+    {CompanyInfo.Name}
+)
+//Default English
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>PaymentDetails2</Name>
+      <Text>{@Title_CompanyInfo_BankBranch}+': '+{@CompanyInfo_BankBranch}+ ' - ' +{@Title_CompanyInfo_BankAccount}+': '+{@CompanyInfo_BankAccount}+chr(13)+
+{@Title_CompanyInfo_BankIban}+': '+{@CompanyInfo_BankIban}+ ' - '+ {@Title_CompanyInfo_BankSwift}+': '+{@CompanyInfo_BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Reminder</Name>
+      <Text>switch(
+    {DunningData.LetterLvl} = '0', 
+        switch(
+            {@X_Language} = 'DK', 
+            'Nedenstående liste er dine udestående fakturaer ved os.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi beder Dem gennemgå nedenstående for eventuelle uklarheder.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'NO', 
+            'Nedenstående liste er dine utestående fakturaer hos oss.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi ber Dem gå igjennom nedenstående for eventuelle uklarheter.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'DE', 
+            'Unten sehen Sie eine Zusammenfassung Ihres Kontos mit allen unbezahlten Rechnungen.&lt;br&gt;&lt;br&gt;Wir möchten Sie bitten, diese zu prüfen und Unstimmigkeiten mit uns zu klären. &lt;/b&gt;'
+        ,
+            {@X_Language} = 'NL', 
+            'Graag uw aandacht voor onderstaand rekeningoverzicht. Wij vragen u dit na te kijken en de facturen betaalbaar te stellen. Mocht u hier een vraag over hebben, vernemen we dit graag per ommegaande.&lt;br&gt;&lt;br&gt;Op datum' + totext(CurrentDate) +'is het volgende overzicht van toepassing:'
+        ,
+            {@X_Language} = 'FR', 
+            'Vous trouverez ci-dessous d`un relevé de votre compte détaillant toutes les factures impayées.&lt;br&gt;&lt;br&gt;S`il vous plaît examiner la déclaration de leur exactitude et signaler toute anomalie à notre département de comptabilité.'
+        ,
+            True, 
+            'Listed below is a statement of your account detailing all unpaid invoices.&lt;br&gt;&lt;br&gt;Please review the statement for accuracy and report any discrepancies to our Accounting Department.'
+         //Default English
+        )
+
+,
+    {DunningData.LetterLvl} = '1', 
+        switch(
+            {@X_Language} = 'DK', 
+            'Ved gennemgang af Deres konto fremgår det, at nedenstående saldo endnu ikke er indbetalt.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi beder Dem venligst indbetale beløbet inden for 10 dage fra dato.&lt;/b&gt;'
+        ,
+           {@X_Language} = 'NO', 
+            'Ved gjennomgang av Deres konto fremgår det, at nedenstående saldo enda ikke er betalt.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi ber Dem vennligst betale beløpet innen 10 dager fra dato.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'DE', 
+            'Laut unserer Aufzeichnungen ist der unten aufgezeichnete Saldo weiterhin unbezahlt.&lt;br&gt;&lt;br&gt;&lt;b&gt;Wir möchten Sie bitten, den fälligen Betrag schnellstmöglich auszugleichen.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'NL', 
+            'Graag uw aandacht voor onderstaand rekeningoverzicht. Wij vragen u dit na te kijken en de facturen betaalbaar te stellen. Mocht u hier een vraag over hebben, vernemen we dit graag per ommegaande.&lt;br&gt;&lt;br&gt;Op datum ' + totext(date({DunningData.CreateDate})) +' is het volgende overzicht van toepassing:'
+        ,
+            {@X_Language} = 'FR', 
+            'Nos dossiers indiquent les documents suivants sont actuellement passés date d`échéance.&lt;br&gt;&lt;br&gt;&lt;b&gt;S`il vous plaît examiner la déclaration et l`envoyer votre paiement dès que possible.&lt;/b&gt;'
+        ,
+            True, 
+            'Our records indicate the following documents are currently past due date.&lt;br&gt;&lt;br&gt;&lt;b&gt;Please review the statement and send your remittance as soon as possible.&lt;/b&gt;'
+         //Default English
+        )
+,
+    {DunningData.LetterLvl} = '2', 
+        switch(
+            {@X_Language} = 'DK', 
+            'Da vi trods tidligere henvendelse endnu ikke har modtaget det forfaldne beløb, &lt;b&gt;beder vi Dem indbetale beløbet inkl. rykkergebyr omgående, og senest inden 10 dage.&lt;/b&gt;'
+        ,
+           {@X_Language} = 'NO', 
+            'Da vi til tross for tidligere henvendelse enda ikke har mottatt det forfalte beløp, &lt;b&gt;ber vi Dem innbetale beløpet inkl. purregebyr omgående, og senest innen 10 dager.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'DE', 
+            'Vor kurzem haben wir Ihnen eine Nachricht bezüglich Ihrer unbezahlten Rechnungen geschickt. Bisher haben wir jedoch keine Zahlung von Ihnen erhalten.&lt;br&gt;&lt;br&gt;&lt;b&gt;Wir bitten Sie, den fälligen Betrag inkl. der Mahngebühr innerhalb von 10 Tagen zu überweisen.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'NL', 
+            'Onlangs stuurden we u een bericht over door u onbetaalde documenten. We hebben sindsdien nog geen betaling van u ontvangen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Wij verzoeken u het verschuldigde bedrag binnen 10 dagen na deze kennisgeving over te schrijven, anders zullen we geen andere keus hebben dan het bedrag te verhogen met een boete voor te laat betalen.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'FR', 
+            'Auparavant nous vous avons envoyé un avis de documents impayés. Depuis lors, nous n`avons pas reçu votre paiement.&lt;br&gt;&lt;br&gt;&lt;b&gt;S`il vous plaît envoyez votre paiement dès que possible, sinon, nous n`aurons pas d`autre choix que de facturer des frais de retard de paiement à votre compte.&lt;/b&gt;'
+        ,
+            True, 
+            'Previously we sent you a notice of unpaid documents. Since then we have not received your payment&lt;br&gt;&lt;br&gt;&lt;b&gt;Please send your remittance as soon as possible, otherwise we will have no option but to charge late payment fees to your account.&lt;/b&gt;'
+         //Default English
+        )
+,
+    {DunningData.LetterLvl} = '3', 
+        switch(
+            {@X_Language} = 'DK', 
+            'Vi må desværre konstatere, at De trods vores rykkerskrivelser endnu ikke har indbetalt vores tilgodehavende.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi skal derfor anmode Dem om at indbetale vores tilgodehavende inkl. renter og rykkergebyr omgående. Såfremt beløbet ikke betales inden 10 dage fra afsendelsen af denne skrivelse, vil fordringen blive overgivet til retslig inkasso, hvorved der påløber yderligere omkostninger, som skal betales af Dem.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'NO', 
+            'Vi må desverre konstatere, at De til tross for våre purringer enda ikke har innbetalt vårt tilgodehavende.&lt;br&gt;&lt;br&gt;&lt;b&gt;Vi skal derfor anmode Dem om å innbetale vårt tilgodehavende inkl. renter og purregebyr omgående. Såfremt beløpet ikke betales innen 10 dager fra avsendelsen av denne henvendelse, vil fordringen bli overført til rettslig inkasso, hvorved det påløper ytterligere omkostninger, som skal betales av Dem.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'DE', 
+            'Da Sie nicht auf unsere früheren Erinnerungen reagiert haben, bitten wir Sie den fälligen Betrag inkl. aller Mahngebühren umgehend zu überweisen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sollte die Zahlung nicht innerhalb von 10 Tagen bei uns eingangen sein, sehen wir uns gezwungen den Rechtsweg einzuleiten.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'NL', 
+            'Omdat u niet heeft gereageerd op één van onze vorige brieven, hebben we geen andere keuze dan een verhoging van het bedrag in rekening te brengen aan uw account.&lt;br&gt;&lt;br&gt;&lt;b&gt;Betaling van alle openstaande facturen en verhogingen dient plaats te vinden binnen 14 dagen na deze kennisgeving. Indien de betaling niet is ontvangen binnen de gestelde voorwaarden, hebben we geen andere keus dan juridische stappen te ondernemen.&lt;/b&gt;'
+        ,
+            {@X_Language} = 'FR', 
+            'Comme vous n`avez pas répondu à aucune de nos lettres précédentes, nous n`avons pas d`autre choix que de facturer des frais de retard de paiement à votre compte.&lt;br&gt;&lt;br&gt;&lt;b&gt;Le paiement pour toutes les factures impayées et des frais de retard est dû dans les 14 jours du présent avis. Si le paiement n`est pas reçu dans les conditions indiquées, nous n`aurons pas d`autre choix que de rechercher une action juridique.&lt;/b&gt;'
+        ,
+            True, 
+            'Since you have not responded to any of our previous letters, we have no choice but to charge late payment fees to your account.&lt;br&gt;&lt;br&gt;&lt;b&gt;Payment for all outstanding invoices and late fees is due within 14 days of this notice. If payment is not received within the terms outlined, we will have no choice but to seek legal action.&lt;/b&gt;'
+         //Default English
+        )
+,
+    {DunningData.LetterLvl} = '4', 
+        switch(
+                {@X_Language} = 'DK', 'Vi har trods gentagne rykkere stadig ikke modtaget deres betaling.&lt;br&gt;&lt;br&gt; Derfor ser vi os nødsaget til at spærre deres konto hos os og sagen vil blive overdraget til retslig inkasso.',
+                {@X_Language} = 'NO', 'Vi har til tross for gjentatte purringer stadig ikke mottatt deres betaling.&lt;br&gt;&lt;br&gt; Derfor ser vi oss nødt til at sperre deres konto hos oss og saken vil bli overført til rettslig inkasso.',
+                {@X_Language} = 'DE', 'Da Sie nicht auf unsere früheren Schreiben geantwortet haben, sehen wir keinen andere Weg als den Rechtsweg einzuleiten.&lt;br&gt;&lt;br&gt;Ihr Konto wurde gesperrt, bis dieses Problem behoben ist.',
+                {@X_Language} = 'NL', 'Omdat u niet hebt gereageerd op één van onze vorige brieven, zien wij geen andere keuze dan om juridische stappen te ondernemen.&lt;br&gt;&lt;br&gt;Uw account is op inactief gezet totdat dit probleem is opgelost.',
+                {@X_Language} = 'FR', 'Comme vous n`avez pas répondu à aucune de nos lettres précédentes, nous ne voyons pas d`autre choix que de demander des poursuites judiciaires.&lt;br&gt;&lt;br&gt;Votre compte a été gelé tant que cette question a été résolue.',
+                True, 'Since you have not responded to any of our previous letters, we see no other choice but to seek legal action.&lt;br&gt;&lt;br&gt;Your account have been fronzen until this issue have been resolved.' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '5', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 5',
+                {@X_Language} = 'NO', 'Purre header 5',
+                {@X_Language} = 'DE', 'Mahnung header 5',
+                True, 'Dunning Title 5' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '6', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 6',
+                {@X_Language} = 'NO', 'Purre header 6',
+                {@X_Language} = 'DE', 'Mahnung header 6',
+                True, 'Dunning Title 6' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '7', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 7',
+                {@X_Language} = 'NO', 'Purre header 7',
+                {@X_Language} = 'DE', 'Mahnung header 7',
+                True, 'Dunning Title 7' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '8', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 8',
+                {@X_Language} = 'NO', 'Purre header 8',
+                {@X_Language} = 'DE', 'Mahnung header 8',
+                True, 'Dunning Title 8' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '9', 
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 9',
+                {@X_Language} = 'NO', 'Purre header 9',
+                {@X_Language} = 'DE', 'Mahnung header 9',
+                True, 'Dunning Title 9' //Default English
+        )
+,
+    {DunningData.LetterLvl} = '10',
+        switch(
+                {@X_Language} = 'DK', 'Rykker header 10',
+                {@X_Language} = 'NO', 'Purre header 10',
+                {@X_Language} = 'DE', 'Mahnung header 10',
+                True, 'Dunning Title 10' //Default English
+        )
+,
+    True, 'Unknown dunning level'
+
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CurrencyFC</Name>
+      <Text>{DunningData.BpCurrency}</Text>
+    </Formula>
+    <Formula>
+      <Name>CurrencyFee</Name>
+      <Text>{DunningData.FeeCurr}</Text>
+    </Formula>
+    <Formula>
+      <Name>CurrencyLC</Name>
+      <Text>{DunningData.LocalCurrency}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_InterestsFC</Name>
+      <Text>{DunningData.IntrstAmntFc}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_InterestsLC</Name>
+      <Text>{DunningData.IntrstAmntLc}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalAmountFC</Name>
+      <Text>{@TotalDueAmountFC}+{@TotalInterestsFC}+{@TotalFeeFC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalAmountFCWithCurrency</Name>
+      <Text>TOTEXT({@TotalAmountFC})+' '+{@CurrencyFC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalAmountLC</Name>
+      <Text>{@TotalDueAmountLC}+{@TotalInterestsLC}+{@TotalFeeLC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalAmountLCWithCurrency</Name>
+      <Text>TOTEXT({@TotalAmountLC})+' '+{@CurrencyLC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalDueAmountFC</Name>
+      <Text>IF(SUM({DunningData.DocTotalFC}) = 0) THEN
+SUM({DunningData.OpenSum})
+ELSE
+SUM({DunningData.OpenSumFC})</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalDueAmountFCWithCurrency</Name>
+      <Text>TOTEXT({@TotalDueAmountFC})+' '+{@CurrencyFC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalDueAmountLC</Name>
+      <Text>SUM({DunningData.DocTotal})</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalDueAmountLCWithCurrency</Name>
+      <Text>TOTEXT({@TotalDueAmountLC})+' '+{@CurrencyLC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalFeeFC</Name>
+      <Text>{DunningData.TotalFeeFc}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalFeeFCWithCurrency</Name>
+      <Text>TOTEXT({@TotalFeeFC})+' '+{@CurrencyFC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalFeeLC</Name>
+      <Text>{DunningData.TotalFeeLc}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalFeeLCWithCurrency</Name>
+      <Text>TOTEXT({@TotalFeeLC})+' '+{@CurrencyLC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalInterestsFC</Name>
+      <Text>SUM({@Line_InterestsFC})</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalInterestsFCWithCurrency</Name>
+      <Text>TOTEXT({@TotalInterestsFC})+' '+{@CurrencyFC}</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalInterestsLC</Name>
+      <Text>SUM({@Line_InterestsLC})</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalInterestsLCWithCurrency</Name>
+      <Text>TOTEXT({@TotalInterestsLC})+' '+{@CurrencyLC}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Fax</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Fax',
+    {@X_Language} = 'NO', 'Fax',
+    {@X_Language} = 'DE', 'Fax',
+    {@X_Language} = 'ES', 'Fax',
+    {@X_Language} = 'FI', 'Fax',
+    {@X_Language} = 'NL', 'Fax',
+    {@X_Language} = 'FR', 'Télécopieur',
+    True, 'Fax' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Email</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Email',
+    {@X_Language} = 'NO', 'E-Post',
+    {@X_Language} = 'DE', 'E-Mail',
+    {@X_Language} = 'ES', 'Email',
+    {@X_Language} = 'FI', 'S-posti',
+    {@X_Language} = 'NL', 'Email',
+    {@X_Language} = 'FR', 'Email',
+    True, 'Email' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Phone</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Tlf',        
+    {@X_Language} = 'NO', 'Tlf',        
+    {@X_Language} = 'DE', 'Tel',       
+    {@X_Language} = 'ES', 'Tél',
+    {@X_Language} = 'FI', 'Puh',
+    {@X_Language} = 'NL', 'Tel',
+    {@X_Language} = 'FR', 'Tél',
+    True, 'Tel' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Page</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Side...........................................................',
+    {@X_Language} = 'NO', 'Side...........................................................',
+    {@X_Language} = 'DE', 'Seite...........................................................',
+    {@X_Language} = 'ES', 'Página...........................................................',
+    {@X_Language} = 'NL', 'Pagina...........................................................',
+    {@X_Language} = 'FR', 'Page...........................................................',
+    TRUE, 'Page...........................................................'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Of</Name>
+      <Text>switch(
+{@X_Language} = 'DK', 'af',
+{@X_Language} = 'NO', 'av',
+{@X_Language} = 'DE', 'von',
+{@X_Language} = 'ES', 'de',
+{@X_Language} = 'NL', 'van',
+{@X_Language} = 'FR', 'de',
+TRUE, 'of'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_FederalTaxId</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'EU-Moms nummer',
+    {@X_Language} = 'NO', 'Org.nr',
+    {@X_Language} = 'DE', 'EU Ust-ID',
+    {@X_Language} = 'ES', 'EU NIF',
+    {@X_Language} = 'FI', 'ALV-numero',
+    {@X_Language} = 'NL', 'BTW-nr',
+    {@X_Language} = 'FR', 'Numéro de TVA',
+    True, 'Federal Tax Id' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Web</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Web',
+    {@X_Language} = 'NO', 'Web',
+    {@X_Language} = 'DE', 'Webseite',
+    {@X_Language} = 'ES', 'Sitio Web',
+    {@X_Language} = 'FI', 'www',
+    {@X_Language} = 'NL', 'Website',
+    {@X_Language} = 'FR', 'Site web',
+    True, 'Web' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style3</Name>
+      <Text>{@CompanyInfo_Name}+'  -  '+
+{@CompanyInfo_Address_Street}+'  -  '+
+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+'  -  '+
+{@CompanyInfo_Address_Country}+'  -  '+'VAT: '+{@CompanyInfo_FederalTaxId}+chr(13)+
+'Tel: '+{@CompanyInfo_Phone1}+'    '+
+//'F: '+{@CompanyInfo_Fax}+'    '+
+'Mail: '+{@CompanyInfo_Email}+'    '+'Web: '+{@CompanyInfo_Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>Number</Name>
+      <Text>toText({Header.DocNum},'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Number</Name>
+      <Text>switch(
+{?ObjectId@} = 23,
+    switch(
+        {@X_Language} = 'DK', 'Tilbudsnr.',
+        {@X_Language} = 'NO', 'Tilbudsnr.',
+        {@X_Language} = 'DE', 'Angebotsnr.',
+        {@X_Language} = 'ES', 'Número de oferta',
+        {@X_Language} = 'FI', 'Tarjousnumero',
+        {@X_Language} = 'NL', 'Offertenr.',
+        {@X_Language} = 'FR', 'Numéro cotation',
+        True, 'Quotation No.' //Default English
+   ),
+
+{?ObjectId@} = 17,
+    switch(
+        {@X_Language} = 'DK', 'Ordrenr.',
+        {@X_Language} = 'NO', 'Ordrenr.',
+        {@X_Language} = 'DE', 'Auftragsnr.',
+        {@X_Language} = 'ES', 'Número de pedido',
+        {@X_Language} = 'FI', 'Tilausnumero',       
+        {@X_Language} = 'NL', 'Ordernr.',
+        {@X_Language} = 'FR', 'Numéro de commande',       
+        True, 'Order No.' //Default English
+   ),
+
+{?ObjectId@} = 15,
+    switch(
+        {@X_Language} = 'DK', 'Levering',
+        {@X_Language} = 'NO', 'Levering',
+        {@X_Language} = 'DE', 'Lieferung',
+        {@X_Language} = 'ES', 'Entrega',
+        {@X_Language} = 'FI', 'Toimitusnumero',       
+        {@X_Language} = 'NL', 'Leveringsnr.',
+        {@X_Language} = 'FR', 'Nombre de livraison',           
+        True, 'Delivery No.' //Default English
+   ),
+
+{?ObjectId@} = 16,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur nr.',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautusnumero',       
+        {@X_Language} = 'NL', 'Retournr.',
+        {@X_Language} = 'FR', 'Numéro de retour',     
+        True, 'Return No.' //Default English
+   ),
+
+{?ObjectId@} = 203,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetalingsnr.',
+        {@X_Language} = 'NO', 'Forskuddsbetalingsnr.',
+        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de pago anticipo',
+        {@X_Language} = 'FI', 'Ennakkolaskunumero',       
+        {@X_Language} = 'NL', 'Aanbetalingsnr.',
+        {@X_Language} = 'FR', 'Acompte',         
+        True, 'Down Payment No.' //Default English
+   ),
+
+{?ObjectId@} = 13,
+    switch(
+        {@X_Language} = 'DK', 'Fakturanr.',
+        {@X_Language} = 'NO', 'Fakturanr.',
+        {@X_Language} = 'DE', 'Rechnungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de factura',
+        {@X_Language} = 'FI', 'Laskunumero',       
+        {@X_Language} = 'NL', 'Factuurnr.',
+        {@X_Language} = 'FR', 'Numéro de facture',            
+        True, 'Invoice No.' //Default English
+   ),
+{?ObjectId@} = 14,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslaskunumero',       
+        {@X_Language} = 'NL', 'Credit nota.',
+        {@X_Language} = 'FR', 'Note de crédit',       
+        True, 'Credit Note No.' //Default English
+   ),
+
+{?ObjectId@} = 22,
+    switch(
+        {@X_Language} = 'DK', 'Indkøbsordre',
+        {@X_Language} = 'NO', 'Innkjøpsordre',
+        {@X_Language} = 'DE', 'Einkaufsauftrag',
+        {@X_Language} = 'ES', 'Pedido',
+        {@X_Language} = 'FI', 'Ostotilausnumero',       
+        {@X_Language} = 'NL', 'Inkoopordernr.',
+        {@X_Language} = 'FR', 'Bon de commande',         
+        True, 'Purchase Order No.' //Default English
+   ),
+
+{?ObjectId@} = 20,
+    switch(
+        {@X_Language} = 'DK', 'Varetilgang',
+        {@X_Language} = 'NO', 'Varemottak',
+        {@X_Language} = 'DE', 'Warenzugang',
+        {@X_Language} = 'ES', 'Entrada Mercancías',
+        {@X_Language} = 'FI', 'Tavaranvastaanottonumero',       
+        {@X_Language} = 'NL', 'Goederenontvangst.',
+        {@X_Language} = 'FR', 'Réception marchandises',         
+        True, 'Goods Receipt PO no.' //Default English
+   ),
+
+{?ObjectId@} = 21,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautusnumero',       
+        {@X_Language} = 'NL', 'Retournering.',
+        {@X_Language} = 'FR', 'Retour',      
+        True, 'Goods Return no.' //Default English
+   ),
+
+{?ObjectId@} = 204,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetalingsnr.',
+        {@X_Language} = 'NO', 'Forskuddsbetaling',
+        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de pago anticipo',
+        {@X_Language} = 'FI', 'Ennakkolaskunumero',       
+        {@X_Language} = 'NL', 'Aanbetalingsnr.',
+        {@X_Language} = 'FR', 'Acompte',          
+        True, 'Down Payment no.' //Default English
+   ),
+{?ObjectId@} = 18,
+    switch(
+        {@X_Language} = 'DK', 'Fakturanr.',
+        {@X_Language} = 'NO', 'Fakturanr.',
+        {@X_Language} = 'DE', 'Rechnungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de factura',
+        {@X_Language} = 'FI', 'Laskunumero',       
+        {@X_Language} = 'NL', 'Factuurnr.',
+        {@X_Language} = 'FR', 'Número de factura',           
+        True, 'Invoice No.' //Default English
+   ),
+
+{?ObjectId@} = 19,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslaskunumero',       
+        {@X_Language} = 'NL', 'Credit nota.',
+        {@X_Language} = 'FR', 'Note de crédit',        
+        True, 'Credit Note no.' //Default English
+   ),
+
+{?ObjectId@} = 540000006,
+    switch(
+        {@X_Language} = 'DK', 'Tilbudsnr.',
+        {@X_Language} = 'NO', 'Tilbudsnr.',
+        {@X_Language} = 'DE', 'Angebotsnr.',
+        {@X_Language} = 'ES', 'Número de oferta',
+        {@X_Language} = 'FI', 'Tarjousnumero',       
+        {@X_Language} = 'NL', 'Offertenr.',
+        {@X_Language} = 'FR', 'Numéro cotation',
+        True, 'Quotation No.' //Default English
+   ),
+
+TRUE, 'NOT SUPPORTED DOCUMENT TYPE'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CardCode</Name>
+      <Text>{BusinessPartner.CardCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CustomerNo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kunde nr............................................................',
+    {@X_Language} = 'NO', 'Kunde nr............................................................',
+    {@X_Language} = 'DE', 'Kundennummer...........................................................',
+    {@X_Language} = 'ES', 'Número de cuenta...........................................................',
+    {@X_Language} = 'FI', 'Asiakasnro...........................................................',
+    {@X_Language} = 'NL', 'Klantnr............................................................',
+    {@X_Language} = 'FR', 'Numéro de client...........................................................',
+    True, 'Customer No............................................................' //Default English
+)</Text>
+    </Formula>
+  </ReportFormulas>
+  <SqlExpressions />
+  <RecordSelectionFormula>
+  </RecordSelectionFormula>
+  <GroupSelectionFormula>
+  </GroupSelectionFormula>
+  <GroupConditionFormulas />
+  <SortFormulas />
+  <RunningTotalFormulas />
+  <SummaryFormulas />
+  <HighlightingFormats />
+  <Sections>
+    <Section>
+      <Name>ReportHeaderSection1</Name>
+      <Kind>ReportHeader</Kind>
+      <Height>0</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection4</Name>
+      <Kind>PageHeader</Kind>
+      <Height>5505</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection5</Name>
+      <Kind>PageHeader</Kind>
+      <Height>482</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection1</Name>
+      <Kind>Detail</Kind>
+      <Height>367</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection3</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>1333</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection1</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>1881</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>True</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageFooterSection1</Name>
+      <Kind>PageFooter</Kind>
+      <Height>587</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+  </Sections>
+  <Objects />
+  <Groups />
+  <Sorts />
+  <ReportFormatting />
+  <Charts />
+  <CrossTabs />
+  <Alerts>
+    <Alert>
+      <AlertName>NotSupportedInEngineAPI</AlertName>
+      <Enabled>False</Enabled>
+      <Severity>N/A</Severity>
+      <Message>Crystal Reports Engine API does not expose alert information.</Message>
+      <ConditionFormula>
+      </ConditionFormula>
+      <InvolvedFields />
+    </Alert>
+  </Alerts>
+</CrystalReport>

@@ -1,0 +1,881 @@
+{
+  "ReportName": "WorkTask (1)",
+  "ExportSequence": 1,
+  "GeneratedDate": "2025-11-19 19:45:57",
+  "SummaryInfo": {
+    "Title": null,
+    "Author": null,
+    "Comments": null
+  },
+  "Database": [
+    {
+      "Name": "JT_TASKS_REP",
+      "Location": "JT_TASKS_REP",
+      "Server": "MYD_CFG",
+      "DatabaseName": "",
+      "UserID": "IFSPRINT"
+    }
+  ],
+  "Parameters": [
+    {
+      "Name": "IFS_RESULT_KEY",
+      "PromptText": "Enter IFS_RESULT_KEY:",
+      "ValueType": "NumberField",
+      "AllowMultiple": false,
+      "HasDefaultValue": true
+    }
+  ],
+  "Formulas": [],
+  "SqlQueries": {
+    "RecordSelectionFormula": " (  {JT_TASKS_REP.RESULT_KEY} = {?IFS_RESULT_KEY}  )  "
+  },
+  "PageSetup": {
+    "PaperOrientation": "Portrait",
+    "PaperSize": "PaperA4",
+    "MarginLeft": 360,
+    "MarginRight": 360,
+    "MarginTop": 360,
+    "MarginBottom": 360
+  },
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 1731,
+      "Objects": [
+        {
+          "Name": "Picture2",
+          "Kind": "PictureObject",
+          "Top": 240,
+          "Left": 6240,
+          "Width": 4560,
+          "Height": 1200
+        },
+        {
+          "Name": "Box1",
+          "Kind": "BoxObject",
+          "Top": 120,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text1",
+          "Kind": "TextObject",
+          "Top": 240,
+          "Left": 300,
+          "Width": 2700,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "WORK TASK |",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          }
+        },
+        {
+          "Name": "Text2",
+          "Kind": "TextObject",
+          "Top": 1080,
+          "Left": 360,
+          "Width": 780,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "PO | ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          }
+        },
+        {
+          "Name": "Box7",
+          "Kind": "BoxObject",
+          "Top": 960,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "TASKSEQ2",
+          "Kind": "FieldObject",
+          "Top": 240,
+          "Left": 2880,
+          "Width": 2400,
+          "Height": 531,
+          "Type": "FieldObject",
+          "FieldName": "TASKSEQ2",
+          "CanGrow": false,
+          "Suppress": false,
+          "KeepTogether": true
+        },
+        {
+          "Name": "Box12",
+          "Kind": "BoxObject",
+          "Top": 960,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "ORDERNO1",
+          "Kind": "FieldObject",
+          "Top": 1080,
+          "Left": 1291,
+          "Width": 2280,
+          "Height": 480,
+          "Type": "FieldObject",
+          "FieldName": "ORDERNO1",
+          "CanGrow": false,
+          "Suppress": false,
+          "KeepTogether": true
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection1",
+      "Kind": "PageHeader",
+      "Height": 13272,
+      "Objects": [
+        {
+          "Name": "Text3",
+          "Kind": "TextObject",
+          "Top": 223,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 394,
+          "Type": "TextObject",
+          "Text": "Site Details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Line1",
+          "Kind": "LineObject",
+          "Top": 598,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 598,
+          "X2": 10680,
+          "Y2": 598
+        },
+        {
+          "Name": "Box2",
+          "Kind": "BoxObject",
+          "Top": 780,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box3",
+          "Kind": "BoxObject",
+          "Top": 1560,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box4",
+          "Kind": "BoxObject",
+          "Top": 2433,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box5",
+          "Kind": "BoxObject",
+          "Top": 780,
+          "Left": 5880,
+          "Width": 4823,
+          "Height": 2373,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text14",
+          "Kind": "TextObject",
+          "Top": 960,
+          "Left": 6120,
+          "Width": 1920,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Practice Address :",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Line2",
+          "Kind": "LineObject",
+          "Top": 3840,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 3840,
+          "X2": 10680,
+          "Y2": 3840
+        },
+        {
+          "Name": "Box6",
+          "Kind": "BoxObject",
+          "Top": 4033,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text17",
+          "Kind": "TextObject",
+          "Top": 3433,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "SLA",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box8",
+          "Kind": "BoxObject",
+          "Top": 4033,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box9",
+          "Kind": "BoxObject",
+          "Top": 4873,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box10",
+          "Kind": "BoxObject",
+          "Top": 4873,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text20",
+          "Kind": "TextObject",
+          "Top": 4920,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Date / Time Logged : {JT_TASKS_REP.CREATED_DATE}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text22",
+          "Kind": "TextObject",
+          "Top": 5040,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "SLA Response : {JT_TASKS_REP.SLA_LATEST_START}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box11",
+          "Kind": "BoxObject",
+          "Top": 5713,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text5",
+          "Kind": "TextObject",
+          "Top": 5880,
+          "Left": 360,
+          "Width": 3641,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Work Type : {JT_TASKS_REP.WORK_TYPE_DESCR}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Line8",
+          "Kind": "LineObject",
+          "Top": 7095,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 7095,
+          "X2": 10680,
+          "Y2": 7095
+        },
+        {
+          "Name": "Box17",
+          "Kind": "BoxObject",
+          "Top": 7320,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text18",
+          "Kind": "TextObject",
+          "Top": 6720,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Asset details ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box20",
+          "Kind": "BoxObject",
+          "Top": 7320,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box18",
+          "Kind": "BoxObject",
+          "Top": 8160,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Box21",
+          "Kind": "BoxObject",
+          "Top": 8160,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text23",
+          "Kind": "TextObject",
+          "Top": 7440,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Object type : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text24",
+          "Kind": "TextObject",
+          "Top": 8280,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Asset Make : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text25",
+          "Kind": "TextObject",
+          "Top": 7440,
+          "Left": 6120,
+          "Width": 4560,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Room : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text26",
+          "Kind": "TextObject",
+          "Top": 8280,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Within Warranty? :",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box19",
+          "Kind": "BoxObject",
+          "Top": 9000,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text27",
+          "Kind": "TextObject",
+          "Top": 9120,
+          "Left": 360,
+          "Width": 3641,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Serial No : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Line3",
+          "Kind": "LineObject",
+          "Top": 10349,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 10349,
+          "X2": 10680,
+          "Y2": 10349
+        },
+        {
+          "Name": "Text4",
+          "Kind": "TextObject",
+          "Top": 9960,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Work task details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box14",
+          "Kind": "BoxObject",
+          "Top": 10560,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 1200,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Line5",
+          "Kind": "LineObject",
+          "Top": 11040,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 11040,
+          "X2": 10680,
+          "Y2": 11040
+        },
+        {
+          "Name": "Line6",
+          "Kind": "LineObject",
+          "Top": 10560,
+          "Left": 3360,
+          "Width": 0,
+          "Height": 1200,
+          "Type": "LineObject",
+          "X1": 3360,
+          "Y1": 10560,
+          "X2": 3360,
+          "Y2": 11760
+        },
+        {
+          "Name": "Text8",
+          "Kind": "TextObject",
+          "Top": 10560,
+          "Left": 381,
+          "Width": 1820,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Work Task No ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text10",
+          "Kind": "TextObject",
+          "Top": 10560,
+          "Left": 3600,
+          "Width": 6360,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Work Task Description",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box15",
+          "Kind": "BoxObject",
+          "Top": 11880,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 480,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text11",
+          "Kind": "TextObject",
+          "Top": 11880,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Contractor :   {JT_TASKS_REP.VENDOR_NO}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Box16",
+          "Kind": "BoxObject",
+          "Top": 12600,
+          "Left": 120,
+          "Width": 4320,
+          "Height": 480,
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine"
+        },
+        {
+          "Name": "Text16",
+          "Kind": "TextObject",
+          "Top": 12600,
+          "Left": 360,
+          "Width": 3840,
+          "Height": 420,
+          "Type": "TextObject",
+          "Text": "Related Work Order : {JT_TASKS_REP.WO_NO}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text29",
+          "Kind": "TextObject",
+          "Top": 12600,
+          "Left": 4680,
+          "Width": 6000,
+          "Height": 600,
+          "Type": "TextObject",
+          "Text": "Work orders may have multiple work tasks however purchase orders will be raised per work task\n",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text9",
+          "Kind": "TextObject",
+          "Top": 960,
+          "Left": 360,
+          "Width": 5400,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Site ID & Name : {JT_TASKS_REP.ACTUAL_OBJECT_SITE} - ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text12",
+          "Kind": "TextObject",
+          "Top": 1680,
+          "Left": 360,
+          "Width": 4589,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Telephone : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text13",
+          "Kind": "TextObject",
+          "Top": 2520,
+          "Left": 360,
+          "Width": 4469,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Email : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text19",
+          "Kind": "TextObject",
+          "Top": 4080,
+          "Left": 360,
+          "Width": 931,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Priority : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text21",
+          "Kind": "TextObject",
+          "Top": 4080,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Type": "TextObject",
+          "Text": "Criticality : {JT_TASKS_REP.CRITICALITY_DESCRIPTION}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "Text6",
+          "Kind": "TextObject",
+          "Top": 4080,
+          "Left": 1291,
+          "Width": 3869,
+          "Height": 600,
+          "Type": "TextObject",
+          "Text": "{JT_TASKS_REP.PRIORITY_DESCRIPTION}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false,
+            "Color": "Color [Black]"
+          }
+        },
+        {
+          "Name": "TASKSEQ1",
+          "Kind": "FieldObject",
+          "Top": 11160,
+          "Left": 360,
+          "Width": 1184,
+          "Height": 300,
+          "Type": "FieldObject",
+          "FieldName": "TASKSEQ1",
+          "CanGrow": false,
+          "Suppress": false,
+          "KeepTogether": true
+        },
+        {
+          "Name": "DESCRIPTION1",
+          "Kind": "FieldObject",
+          "Top": 11160,
+          "Left": 3600,
+          "Width": 6960,
+          "Height": 600,
+          "Type": "FieldObject",
+          "FieldName": "DESCRIPTION1",
+          "CanGrow": false,
+          "Suppress": false,
+          "KeepTogether": true
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 348,
+      "Objects": []
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 326,
+      "Objects": []
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 324,
+      "Objects": []
+    }
+  ],
+  "Subreports": []
+}

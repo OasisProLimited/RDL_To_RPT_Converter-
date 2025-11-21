@@ -1,0 +1,3288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CrystalReport>
+  <ReportMetadata>
+    <ReportName>Documents_HANA (With Serial and batch details)</ReportName>
+    <GeneratedDate>2025-11-20 16:14:56</GeneratedDate>
+    <ExportSequence>1</ExportSequence>
+  </ReportMetadata>
+  <SummaryInfo>
+    <Title>Boyum Sales Invoice Master (HANA - Batch/Serial)</Title>
+    <Author>Boyum IT A/S</Author>
+    <Comments>NB: Boyum IT A/S does not perform any support on modification of this layout.</Comments>
+  </SummaryInfo>
+  <Database>
+    <Table>
+      <TableName>Header</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>SOL-HANA-01:30015</Server>
+        <Database>
+        </Database>
+        <User>SYSTEM</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>Lines</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>SOL-HANA-01:30015</Server>
+        <Database>
+        </Database>
+        <User>SYSTEM</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>CompanyInfo</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>SOL-HANA-01:30015</Server>
+        <Database>
+        </Database>
+        <User>SYSTEM</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+  </Database>
+  <AllFields>
+    <Field>
+      <Name>DocEntry</Name>
+      <NativeName>{Header.DocEntry}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocNum</Name>
+      <NativeName>{Header.DocNum}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocType</Name>
+      <NativeName>{Header.DocType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocDate</Name>
+      <NativeName>{Header.DocDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocDueDate</Name>
+      <NativeName>{Header.DocDueDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardCode</Name>
+      <NativeName>{Header.CardCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardName</Name>
+      <NativeName>{Header.CardName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Address</Name>
+      <NativeName>{Header.Address}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>NumAtCard</Name>
+      <NativeName>{Header.NumAtCard}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatSum</Name>
+      <NativeName>{Header.VatSum}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatSumFC</Name>
+      <NativeName>{Header.VatSumFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DiscPrcnt</Name>
+      <NativeName>{Header.DiscPrcnt}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DiscSum</Name>
+      <NativeName>{Header.DiscSum}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DiscSumFC</Name>
+      <NativeName>{Header.DiscSumFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocCur</Name>
+      <NativeName>{Header.DocCur}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocTotal</Name>
+      <NativeName>{Header.DocTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocTotalFC</Name>
+      <NativeName>{Header.DocTotalFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Comments</Name>
+      <NativeName>{Header.Comments}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SlpCode</Name>
+      <NativeName>{Header.SlpCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TrnspCode</Name>
+      <NativeName>{Header.TrnspCode}</NativeName>
+      <DataType>Int16sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CntctCode</Name>
+      <NativeName>{Header.CntctCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FatherCard</Name>
+      <NativeName>{Header.FatherCard}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FatherType</Name>
+      <NativeName>{Header.FatherType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalExpns</Name>
+      <NativeName>{Header.TotalExpns}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalExpFC</Name>
+      <NativeName>{Header.TotalExpFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Address2</Name>
+      <NativeName>{Header.Address2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ShipToCode</Name>
+      <NativeName>{Header.ShipToCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LicTradNum</Name>
+      <NativeName>{Header.LicTradNum}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PaymentRef</Name>
+      <NativeName>{Header.PaymentRef}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Project</Name>
+      <NativeName>{Header.Project}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DpmPrcnt</Name>
+      <NativeName>{Header.DpmPrcnt}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PaidSum</Name>
+      <NativeName>{Header.PaidSum}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PaidSumFc</Name>
+      <NativeName>{Header.PaidSumFc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Header</Name>
+      <NativeName>{Header.Header}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Footer</Name>
+      <NativeName>{Header.Footer}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LangCode</Name>
+      <NativeName>{Header.LangCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayToCode</Name>
+      <NativeName>{Header.PayToCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardType</Name>
+      <NativeName>{Header.CardType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SeriesName</Name>
+      <NativeName>{Header.SeriesName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrjName</Name>
+      <NativeName>{Header.PrjName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TrnspName</Name>
+      <NativeName>{Header.TrnspName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SlpName</Name>
+      <NativeName>{Header.SlpName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Owner_FirstName</Name>
+      <NativeName>{Header.Owner_FirstName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Owner_MiddleName</Name>
+      <NativeName>{Header.Owner_MiddleName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Owner_LastName</Name>
+      <NativeName>{Header.Owner_LastName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Owner_Sex</Name>
+      <NativeName>{Header.Owner_Sex}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Owner_JobTitle</Name>
+      <NativeName>{Header.Owner_JobTitle}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Name</Name>
+      <NativeName>{Header.ContactPerson_Name}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Position</Name>
+      <NativeName>{Header.ContactPerson_Position}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Tel1</Name>
+      <NativeName>{Header.ContactPerson_Tel1}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Tel2</Name>
+      <NativeName>{Header.ContactPerson_Tel2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Cellolar</Name>
+      <NativeName>{Header.ContactPerson_Cellolar}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Fax</Name>
+      <NativeName>{Header.ContactPerson_Fax}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_EmailL</Name>
+      <NativeName>{Header.ContactPerson_EmailL}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Gender</Name>
+      <NativeName>{Header.ContactPerson_Gender}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Profession</Name>
+      <NativeName>{Header.ContactPerson_Profession}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ContactPerson_Title</Name>
+      <NativeName>{Header.ContactPerson_Title}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TermName</Name>
+      <NativeName>{Header.TermName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>YearlyRate</Name>
+      <NativeName>{Header.YearlyRate}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PymntGroup</Name>
+      <NativeName>{Header.PymntGroup}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PymntGroupTranslated</Name>
+      <NativeName>{Header.PymntGroupTranslated}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SpecialLineType</Name>
+      <NativeName>{Lines.SpecialLineType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SpecialLineText</Name>
+      <NativeName>{Lines.SpecialLineText}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Crap1</Name>
+      <NativeName>{Lines.Crap1}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Crap2</Name>
+      <NativeName>{Lines.Crap2}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SpecialLineTotal</Name>
+      <NativeName>{Lines.SpecialLineTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SpecialLineTotalForign</Name>
+      <NativeName>{Lines.SpecialLineTotalForign}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SerialCount</Name>
+      <NativeName>{Lines.SerialCount}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BatchCount</Name>
+      <NativeName>{Lines.BatchCount}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineNum</Name>
+      <NativeName>{Lines.LineNum}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ItemLineType</Name>
+      <NativeName>{Lines.ItemLineType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BaseRef</Name>
+      <NativeName>{Lines.BaseRef}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BaseType</Name>
+      <NativeName>{Lines.BaseType}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineStatus</Name>
+      <NativeName>{Lines.LineStatus}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ItemCode</Name>
+      <NativeName>{Lines.ItemCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Dscription</Name>
+      <NativeName>{Lines.Dscription}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Quantity</Name>
+      <NativeName>{Lines.Quantity}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ShipDate</Name>
+      <NativeName>{Lines.ShipDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>OpenQty</Name>
+      <NativeName>{Lines.OpenQty}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Price</Name>
+      <NativeName>{Lines.Price}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Currency</Name>
+      <NativeName>{Lines.Currency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DiscPrcnt</Name>
+      <NativeName>{Lines.DiscPrcnt}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineTotal</Name>
+      <NativeName>{Lines.LineTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TotalFrgn</Name>
+      <NativeName>{Lines.TotalFrgn}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SerialNum</Name>
+      <NativeName>{Lines.SerialNum}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>WhsCode</Name>
+      <NativeName>{Lines.WhsCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TreeType</Name>
+      <NativeName>{Lines.TreeType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AcctCode</Name>
+      <NativeName>{Lines.AcctCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PriceBefDi</Name>
+      <NativeName>{Lines.PriceBefDi}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SubCatNum</Name>
+      <NativeName>{Lines.SubCatNum}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>OcrCode</Name>
+      <NativeName>{Lines.OcrCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Project</Name>
+      <NativeName>{Lines.Project}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CodeBars</Name>
+      <NativeName>{Lines.CodeBars}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatPrcnt</Name>
+      <NativeName>{Lines.VatPrcnt}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatGroup</Name>
+      <NativeName>{Lines.VatGroup}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PriceAfVAT</Name>
+      <NativeName>{Lines.PriceAfVAT}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Height1</Name>
+      <NativeName>{Lines.Height1}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Width1</Name>
+      <NativeName>{Lines.Width1}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Length1</Name>
+      <NativeName>{Lines.Length1}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Volume</Name>
+      <NativeName>{Lines.Volume}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Weight1</Name>
+      <NativeName>{Lines.Weight1}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatSum</Name>
+      <NativeName>{Lines.VatSum}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VatSumFrgn</Name>
+      <NativeName>{Lines.VatSumFrgn}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>VisOrder</Name>
+      <NativeName>{Lines.VisOrder}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxCode</Name>
+      <NativeName>{Lines.TaxCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxType</Name>
+      <NativeName>{Lines.TaxType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FreeTxt</Name>
+      <NativeName>{Lines.FreeTxt}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineType</Name>
+      <NativeName>{Lines.LineType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>unitMsr</Name>
+      <NativeName>{Lines.unitMsr}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>GTotal</Name>
+      <NativeName>{Lines.GTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>GTotalFC</Name>
+      <NativeName>{Lines.GTotalFC}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SuppCatNum</Name>
+      <NativeName>{Lines.SuppCatNum}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PicturName</Name>
+      <NativeName>{Lines.PicturName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>WhsName</Name>
+      <NativeName>{Lines.WhsName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DscriptionTranslated</Name>
+      <NativeName>{Lines.DscriptionTranslated}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DscriptionOriginal</Name>
+      <NativeName>{Lines.DscriptionOriginal}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocEntryEx</Name>
+      <NativeName>{Lines.DocEntryEx}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrimarySortCode</Name>
+      <NativeName>{Lines.PrimarySortCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SecondarySortCode</Name>
+      <NativeName>{Lines.SecondarySortCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PreviousCardCode</Name>
+      <NativeName>{Lines.PreviousCardCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PreviousCardName</Name>
+      <NativeName>{Lines.PreviousCardName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PreviousPayToCode</Name>
+      <NativeName>{Lines.PreviousPayToCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PreviousPayToAddress</Name>
+      <NativeName>{Lines.PreviousPayToAddress}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PreviousContactPerson</Name>
+      <NativeName>{Lines.PreviousContactPerson}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Name</Name>
+      <NativeName>{CompanyInfo.Name}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressFull</Name>
+      <NativeName>{CompanyInfo.AddressFull}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressStreet</Name>
+      <NativeName>{CompanyInfo.AddressStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressBlock</Name>
+      <NativeName>{CompanyInfo.AddressBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCity</Name>
+      <NativeName>{CompanyInfo.AddressCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressZipCode</Name>
+      <NativeName>{CompanyInfo.AddressZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCounty</Name>
+      <NativeName>{CompanyInfo.AddressCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressState</Name>
+      <NativeName>{CompanyInfo.AddressState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCountry</Name>
+      <NativeName>{CompanyInfo.AddressCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone1</Name>
+      <NativeName>{CompanyInfo.Phone1}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone2</Name>
+      <NativeName>{CompanyInfo.Phone2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Fax</Name>
+      <NativeName>{CompanyInfo.Fax}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Email</Name>
+      <NativeName>{CompanyInfo.Email}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Manager</Name>
+      <NativeName>{CompanyInfo.Manager}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LocalCurrency</Name>
+      <NativeName>{CompanyInfo.LocalCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SystemCurrency</Name>
+      <NativeName>{CompanyInfo.SystemCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId</Name>
+      <NativeName>{CompanyInfo.FederalTaxId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId2</Name>
+      <NativeName>{CompanyInfo.FederalTaxId2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId3</Name>
+      <NativeName>{CompanyInfo.FederalTaxId3}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AdditionalId</Name>
+      <NativeName>{CompanyInfo.AdditionalId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxOffice</Name>
+      <NativeName>{CompanyInfo.TaxOffice}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormType</Name>
+      <NativeName>{CompanyInfo.PayInFormType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormGroupNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormGroupNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Website</Name>
+      <NativeName>{CompanyInfo.Website}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrintHeader</Name>
+      <NativeName>{CompanyInfo.PrintHeader}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathXml</Name>
+      <NativeName>{CompanyInfo.PathXml}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExcel</Name>
+      <NativeName>{CompanyInfo.PathExcel}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathWord</Name>
+      <NativeName>{CompanyInfo.PathWord}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathBitmap</Name>
+      <NativeName>{CompanyInfo.PathBitmap}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathAttach</Name>
+      <NativeName>{CompanyInfo.PathAttach}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExtension</Name>
+      <NativeName>{CompanyInfo.PathExtension}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCountry</Name>
+      <NativeName>{CompanyInfo.BankCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCode</Name>
+      <NativeName>{CompanyInfo.BankCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankName</Name>
+      <NativeName>{CompanyInfo.BankName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankSwift</Name>
+      <NativeName>{CompanyInfo.BankSwift}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankIban</Name>
+      <NativeName>{CompanyInfo.BankIban}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankStreet</Name>
+      <NativeName>{CompanyInfo.BankStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBlock</Name>
+      <NativeName>{CompanyInfo.BankBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCity</Name>
+      <NativeName>{CompanyInfo.BankCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCounty</Name>
+      <NativeName>{CompanyInfo.BankCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankState</Name>
+      <NativeName>{CompanyInfo.BankState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankZipCode</Name>
+      <NativeName>{CompanyInfo.BankZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankAccount</Name>
+      <NativeName>{CompanyInfo.BankAccount}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBranch</Name>
+      <NativeName>{CompanyInfo.BankBranch}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>HolidayCode</Name>
+      <NativeName>{CompanyInfo.HolidayCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>MultiLanguageSupport</Name>
+      <NativeName>{CompanyInfo.MultiLanguageSupport}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Logo</Name>
+      <NativeName>{CompanyInfo.Logo}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+  </AllFields>
+  <DataSetPreview>&lt;Dataset&gt;Error: Missing parameter values.&lt;/Dataset&gt;</DataSetPreview>
+  <Parameters>
+    <Parameter>
+      <Name>DocKey@</Name>
+      <PromptText>DocKey (DocEntry)</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>ObjectId@</Name>
+      <PromptText>ObjectId</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_TABLE]</Name>
+      <PromptText>$[BOY_TABLE]</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_TABLE_IDENTIFIER]</Name>
+      <PromptText>$[BOY_TABLE_IDENTIFIER]</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+  </Parameters>
+  <ReportFormulas>
+    <Formula>
+      <Name>PaymentTerm</Name>
+      <Text>{Header.PymntGroupTranslated}</Text>
+    </Formula>
+    <Formula>
+      <Name>SeriesName</Name>
+      <Text>{Header.SeriesName}</Text>
+    </Formula>
+    <Formula>
+      <Name>SalesEmployee</Name>
+      <Text>{Header.SlpName}</Text>
+    </Formula>
+    <Formula>
+      <Name>ContactPerson_WithAtt</Name>
+      <Text>if({Header.CntctCode}&lt;&gt;0) then
+    {@Title_Att}+': '+{Header.ContactPerson_Name}    
+else
+''</Text>
+    </Formula>
+    <Formula>
+      <Name>Owner</Name>
+      <Text>{Header.Owner_FirstName}+' '+{Header.Owner_LastName}</Text>
+    </Formula>
+    <Formula>
+      <Name>ShippingType</Name>
+      <Text>{Header.TrnspName}</Text>
+    </Formula>
+    <Formula>
+      <Name>Date</Name>
+      <Text>{Header.DocDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title</Name>
+      <Text>switch(
+{?ObjectId@} = 23,
+    switch(
+        {@X_Language} = 'DK', 'Tilbud',
+        {@X_Language} = 'NO', 'Tilbud',
+        {@X_Language} = 'DE', 'Angebot ',
+        {@X_Language} = 'ES', 'Oferta',
+        {@X_Language} = 'FI', 'Tarjous',
+        {@X_Language} = 'NL', 'Offerte',
+        {@X_Language} = 'FR', 'Citation',
+        True, 'Quotation' //Default English
+   ),
+
+{?ObjectId@} = 17,
+    switch(
+        {@X_Language} = 'DK', 'Ordre',
+        {@X_Language} = 'NO', 'Ordre',
+        {@X_Language} = 'DE', 'Auftrag ',
+        {@X_Language} = 'ES', 'Pedido',
+        {@X_Language} = 'FI', 'Tilaus',
+        {@X_Language} = 'NL', 'Order',
+        {@X_Language} = 'FR', 'Commander',
+        True, 'Order' //Default English
+   ),
+
+{?ObjectId@} = 15,
+    switch(
+        {@X_Language} = 'DK', 'Levering',
+        {@X_Language} = 'NO', 'Levering',
+        {@X_Language} = 'DE', 'Lieferung',
+        {@X_Language} = 'ES', 'Entrega',
+        {@X_Language} = 'FI', 'Lähete',
+        {@X_Language} = 'NL', 'Vrachtbrief',
+        {@X_Language} = 'FR', 'Bon de livraison',
+        True, 'Delivery note' //Default English
+   ),
+
+{?ObjectId@} = 16,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautus',
+        {@X_Language} = 'NL', 'Retour',
+        {@X_Language} = 'FR', 'Retour',
+        True, 'Return' //Default English
+   ),
+
+{?ObjectId@} = 203,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetaling',
+        {@X_Language} = 'NO', 'Forskuddsbetaling',
+        {@X_Language} = 'DE', 'Vorauszahlung',
+        {@X_Language} = 'ES', 'Pago anticipado',
+        {@X_Language} = 'FI', 'Ennakkolasku',
+        {@X_Language} = 'NL', 'Aanbetaling',
+        {@X_Language} = 'FR', 'Acompte',
+        True, 'Down Payment' //Default English
+   ),
+
+{?ObjectId@} = 13,
+    switch(
+        {@X_Language} = 'DK', 'Faktura',
+        {@X_Language} = 'NO', 'Faktura',
+        {@X_Language} = 'DE', 'Rechnung',
+        {@X_Language} = 'ES', 'Factura',
+        {@X_Language} = 'FI', 'Lasku',
+        {@X_Language} = 'NL', 'Factuur',
+        {@X_Language} = 'FR', 'Facture',
+        True, 'Invoice' //Default English
+   ),
+{?ObjectId@} = 14,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslasku',
+        {@X_Language} = 'NL', 'Credit nota',
+        {@X_Language} = 'FR', 'Note de crédit',
+        True, 'Credit note' //Default English
+   ),
+
+{?ObjectId@} = 22,
+    switch(
+        {@X_Language} = 'DK', 'Indkøbsordre',
+        {@X_Language} = 'NO', 'Innkjøpsordre',
+        {@X_Language} = 'DE', 'Einkaufsauftrag',
+        {@X_Language} = 'ES', 'Pedido',
+        {@X_Language} = 'FI', 'Ostotilaus',    
+        {@X_Language} = 'NL', 'Inkooporder',
+        {@X_Language} = 'FR', 'Bon de commande',  
+        True, 'Purchase order' //Default English
+   ),
+
+{?ObjectId@} = 20,
+    switch(
+        {@X_Language} = 'DK', 'Varetilgang',
+        {@X_Language} = 'NO', 'Varemottak',
+        {@X_Language} = 'DE', 'Warenzugang',
+        {@X_Language} = 'ES', 'Entrada Mercancías',
+        {@X_Language} = 'FI', 'Tavaranvastaanotto',
+        {@X_Language} = 'NL', 'Goederenontvangst',
+        {@X_Language} = 'FR', 'Réception marchandises',  
+        True, 'Goods Receipt PO' //Default English
+   ),
+
+{?ObjectId@} = 21,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautus',
+        {@X_Language} = 'NL', 'Retouren',
+        {@X_Language} = 'FR', 'Marchandises de retour', 
+        True, 'Goods Return' //Default English
+   ),
+
+{?ObjectId@} = 204,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetaling',
+        {@X_Language} = 'NO', 'Nedbetaling',
+        {@X_Language} = 'DE', 'Vorauszahlung',
+        {@X_Language} = 'ES', 'Pago anticipado',
+        {@X_Language} = 'FI', 'Ennakkolasku',
+        {@X_Language} = 'NL', 'Aanbetaling',
+        {@X_Language} = 'FR', 'Acompte', 
+        True, 'Down Payment' //Default English
+   ),
+{?ObjectId@} = 18,
+    switch(
+        {@X_Language} = 'DK', 'Faktura',
+        {@X_Language} = 'NO', 'Faktura',
+        {@X_Language} = 'DE', 'Rechnung',
+        {@X_Language} = 'ES', 'Factura',
+        {@X_Language} = 'FI', 'Lasku',
+        {@X_Language} = 'NL', 'Factuur',
+        {@X_Language} = 'FR', 'Facture', 
+        True, 'Invoice' //Default English
+   ),
+
+{?ObjectId@} = 19,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslasku',
+        {@X_Language} = 'NL', 'Credit nota',
+        {@X_Language} = 'FR', 'Note de crédit', 
+        True, 'Credit Note' //Default English
+   ),
+
+{?ObjectId@} = 540000006,
+    switch(
+        {@X_Language} = 'DK', 'Tilbud',
+        {@X_Language} = 'NO', 'Tilbud',
+        {@X_Language} = 'DE', 'Angebot ',
+        {@X_Language} = 'ES', 'Oferta',
+        {@X_Language} = 'FI', 'Tarjous',
+        {@X_Language} = 'NL', 'Offerte',
+        {@X_Language} = 'FR', 'Citation', 
+        True, 'Quotation' //Default English
+   ),
+
+{?ObjectId@} = 1470000113,
+    switch(
+        {@X_Language} = 'DK', 'Indkøbsrekvisition',
+        True, 'Purchase Request' //Default English
+   ),
+{?ObjectId@} = 234000031,
+    switch(
+        {@X_Language} = 'DK', 'Returneringsanmodning',
+        True, 'Return Request' //Default English
+   ),
+{?ObjectId@} = 234000032,
+    switch(
+        {@X_Language} = 'DK', 'Varereturneringsanmodning',
+        True, 'Good Return Request' //Default English
+   ),
+
+TRUE, 'NOT SUPPORTED DOCUMENT TYPE'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Language</Name>
+      <Text>switch(
+{Header.LangCode} = 1, 'HE', //Hebrew
+{Header.LangCode} = 3, 'EN', //English
+{Header.LangCode} = 5, 'PL', //Polish
+{Header.LangCode} = 8, 'GB', //Englis (UK)
+{Header.LangCode} = 9, 'DE', //German
+{Header.LangCode} = 11, 'DK', //Danish
+{Header.LangCode} = 12, 'NO', //Norwegian
+{Header.LangCode} = 13, 'IT', //Italian
+{Header.LangCode} = 14, 'HU', //Hungarian
+{Header.LangCode} = 16, 'NL', //Dutch
+{Header.LangCode} = 17, 'FI', //Finnish
+{Header.LangCode} = 18, 'GR', //Greek
+{Header.LangCode} = 19, 'PT', //Portuguese
+{Header.LangCode} = 20, 'SE', //Swedish
+{Header.LangCode} = 22, 'FR', //French
+{Header.LangCode} = 23, 'ES', //Spanish
+{Header.LangCode} = 24, 'RU', //Russian
+{Header.LangCode} = 25, 'CO', //Spanish (LA)
+{Header.LangCode} = 26, 'CZ', //Czech
+{Header.LangCode} = 27, 'SK', //Slovak
+True, 'EN' //Unknown (English)
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Number</Name>
+      <Text>toText({Header.DocNum},'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>DueDate</Name>
+      <Text>{Header.DocDueDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Currency</Name>
+      <Text>{Header.DocCur}</Text>
+    </Formula>
+    <Formula>
+      <Name>ReferenceNumber</Name>
+      <Text>{Header.NumAtCard}</Text>
+    </Formula>
+    <Formula>
+      <Name>BpCode</Name>
+      <Text>{Header.CardCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>BpName</Name>
+      <Text>{Header.CardName}</Text>
+    </Formula>
+    <Formula>
+      <Name>Address_BillTo</Name>
+      <Text>{@BpName}+chr(13)+
+{Header.Address}</Text>
+    </Formula>
+    <Formula>
+      <Name>Address_ShipTo</Name>
+      <Text>if({Header.Address2}&lt;&gt;'') then
+{Header.ShipToCode}+chr(13)+
+{Header.Address2}
+else        
+{@Address_BillTo}</Text>
+    </Formula>
+    <Formula>
+      <Name>PageXofY</Name>
+      <Text>ToText(PageNumber,'#') +' '+{@Title_Of}+' '+Totext(TotalPageCount,'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_ItemCode</Name>
+      <Text>{Lines.ItemCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Warehouse_Name</Name>
+      <Text>{Lines.WhsName}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Warehouse_Code</Name>
+      <Text>{Lines.WhsCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Description</Name>
+      <Text>if({Lines.Dscription} &lt;&gt; {Lines.DscriptionOriginal}) then
+{Lines.Dscription}
+else
+{Lines.DscriptionTranslated}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Quantity</Name>
+      <Text>{Lines.Quantity}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DiscountPercentage</Name>
+      <Text>{Lines.DiscPrcnt}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Total</Name>
+      <Text>IF({Lines.ItemLineType} = 'A') THEN
+0.0
+ELSE
+(
+    IF {Lines.TotalFrgn} &lt;&gt; 0 THEN
+    (
+        {Lines.TotalFrgn}
+    )
+    ELSE
+    (
+        {Lines.LineTotal}
+    )
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_UnitOfMeasure</Name>
+      <Text>{Lines.unitMsr}</Text>
+    </Formula>
+    <Formula>
+      <Name>PayInFormId</Name>
+      <Text>'+'+{CompanyInfo.PayInFormType}+'&lt;'+{Header.PaymentRef}+' +'+{CompanyInfo.PayInFormNumber}+'&lt;'</Text>
+    </Formula>
+    <Formula>
+      <Name>Address_BillTo_WithContactPerson</Name>
+      <Text>{@Address_BillTo}+chr(13)+
+{@ContactPerson_WithAtt}</Text>
+    </Formula>
+    <Formula>
+      <Name>Address_ShipTo_WithContactPerson</Name>
+      <Text>{@Address_ShipTo}+chr(13)+
+{@ContactPerson_WithAtt}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PaymentDetails</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Betalingsdetaljer:',
+    {@X_Language} = 'NO', 'Betalingsdetaljer:',
+    {@X_Language} = 'DE', 'Zahlungsdetails',
+    {@X_Language} = 'ES', 'Detalles de pago',
+    {@X_Language} = 'FI', 'Maksutiedot',
+    {@X_Language} = 'NL', 'Betalingsgegevens',
+    {@X_Language} = 'FR', 'Détails des paiements',
+    True, 'Payment Details:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>FederalTaxId</Name>
+      <Text>{Header.LicTradNum}</Text>
+    </Formula>
+    <Formula>
+      <Name>ContactPerson</Name>
+      <Text>if({Header.CntctCode}&lt;&gt;0) then
+{Header.ContactPerson_Name}
+else
+''</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_BpCode</Name>
+      <Text>switch(
+{Header.CardType} = 'C',
+    switch(
+        {@X_Language} = 'DK', 'Kundenr.',
+        {@X_Language} = 'NO', 'Kundenr.',
+        {@X_Language} = 'DE', 'Kundennr.',
+        {@X_Language} = 'ES', 'Número de cliente',
+        {@X_Language} = 'FI', 'Asiakasnumero',
+        {@X_Language} = 'NL', 'Klantnr.',
+        {@X_Language} = 'FR', 'Numéro de client',
+        True, 'Customer No.' //Default English
+   ),
+
+{Header.CardType} = 'S',
+    switch(
+        {@X_Language} = 'DK', 'Leverandørnr.',
+        {@X_Language} = 'NO', 'Leverandørnr.',
+        {@X_Language} = 'DE', 'Lieferantennr.',
+        {@X_Language} = 'ES', 'Número de proveedor',
+        {@X_Language} = 'FI', 'Toimittajanumero',
+        {@X_Language} = 'NL', 'Leveranciersnr.',
+        {@X_Language} = 'FR', 'Numéro du fournisseur',
+        True, 'Supplier No.' //Default English
+   ),
+
+{Header.CardType} = 'L',
+    switch(
+        {@X_Language} = 'DK', 'Kundeemnenr.',
+        {@X_Language} = 'NO', 'Prospect nr.',
+        {@X_Language} = 'DE', 'Potentielle Kundennr.',
+        {@X_Language} = 'ES', 'Núm. de cliente potencial',
+        {@X_Language} = 'FI', 'Potentiaalisen kumppanin numero',
+        {@X_Language} = 'NL', 'Prospect nr.',
+        {@X_Language} = 'FR', 'Numéro de client potentiels',
+        True, 'Lead No.' //Default English
+   )
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_BpName</Name>
+      <Text>switch(
+{Header.CardType} = 'C',
+    switch(
+        {@X_Language} = 'DK', 'Kundenavn',
+        {@X_Language} = 'NO', 'Kundenavn',
+        {@X_Language} = 'DE', 'Kundenname',
+        {@X_Language} = 'ES', 'Nombre de cliente',
+        {@X_Language} = 'FI', 'Asiakkaan nimi',
+        {@X_Language} = 'NL', 'Klantnaam',
+        {@X_Language} = 'FR', 'Nom du client',
+        True, 'Customer name' //Default English
+   ),
+
+{Header.CardType} = 'S',
+    switch(
+        {@X_Language} = 'DK', 'Leverandørnavn',
+        {@X_Language} = 'NO', 'Leverandørnavn',
+        {@X_Language} = 'DE', 'Lieferantenname',
+        {@X_Language} = 'ES', 'Nombre de proveedor',
+        {@X_Language} = 'FI', 'Toimittajan nimi',
+        {@X_Language} = 'NL', 'Leveranciersnaam',
+        {@X_Language} = 'FR', 'Nom du fournisseur',
+        True, 'Supplier name' //Default English
+   ),
+
+{Header.CardType} = 'L',
+    switch(
+        {@X_Language} = 'DK', 'Kundeemne navn',
+        {@X_Language} = 'NO', 'Prospect navn',
+        {@X_Language} = 'DE', 'Potentieller Kundenname',
+        {@X_Language} = 'ES', 'Nombre del cliente potencial',
+        {@X_Language} = 'FI', 'Potentiaalisen kumppanin nimi',
+        {@X_Language} = 'NL', 'Prospectnaam',
+        {@X_Language} = 'FR', 'Nom du client potentiel',
+        True, 'Lead name' //Default English
+   )
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Address</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Adresse',
+    {@X_Language} = 'NO', 'Adresse',
+    {@X_Language} = 'DE', 'Adresse',
+    {@X_Language} = 'ES', 'Dirección',
+    {@X_Language} = 'FI', 'Osoite',
+    {@X_Language} = 'NL', 'Adres',
+    {@X_Language} = 'FR', 'Adresse',
+    True, 'Address' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Address_BillTo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Faktura-adresse',
+    {@X_Language} = 'NO', 'Fakturaadresse',
+    {@X_Language} = 'DE', 'Rechnungsadresse',
+    {@X_Language} = 'ES', 'Dirección de factura',
+    {@X_Language} = 'FI', 'Laskutusosoite',
+    {@X_Language} = 'NL', 'Factuuradres',
+    {@X_Language} = 'FR', 'Adresse de facturation',
+    True, 'Bill-to address' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Address_ShipTo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Leveringsadresse',
+    {@X_Language} = 'NO', 'Leveringsadresse',
+    {@X_Language} = 'DE', 'Lieferadresse',
+    {@X_Language} = 'ES', 'Dirección de entrega',
+    {@X_Language} = 'FI', 'Toimitusosoite',
+    {@X_Language} = 'NL', 'Leveringsadres',
+    {@X_Language} = 'FR', 'Adresse de livraison',
+    True, 'Ship-to address' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_ContactPerson</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontaktperson',
+    {@X_Language} = 'NO', 'Kontaktperson',
+    {@X_Language} = 'DE', 'Kontaktperson',
+    {@X_Language} = 'ES', 'Persona de contacto',
+    {@X_Language} = 'FI', 'Yhteyshenkilö',
+    {@X_Language} = 'NL', 'Contactpersoon',
+    {@X_Language} = 'FR', 'Contactez',
+    True, 'Contactperson' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Currency</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Valuta',
+    {@X_Language} = 'NO', 'Valuta',
+    {@X_Language} = 'DE', 'Währung',
+    {@X_Language} = 'ES', 'Moneda',
+    {@X_Language} = 'FI', 'Valuutta',
+    {@X_Language} = 'NL', 'Valuta',
+    {@X_Language} = 'FR', 'Devises',
+    True, 'Currency' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_ReferenceNumber</Name>
+      <Text>switch(
+{Header.CardType} = 'C',
+    switch(
+        {@X_Language} = 'DK', 'Ref.nr.',
+        {@X_Language} = 'NO', 'Referanse',
+        {@X_Language} = 'DE', 'Referenz-Nr.',
+        {@X_Language} = 'ES', 'Núm. de referencia',
+        {@X_Language} = 'FI', 'Asiakasviitenro',
+        {@X_Language} = 'NL', 'Klant Refnr.',
+        {@X_Language} = 'FR', 'De référence',
+        True, 'Customer ref.' //Default English
+   ),
+
+{Header.CardType} = 'S',
+    switch(
+        {@X_Language} = 'DK', 'Ref.nr.',
+        {@X_Language} = 'NO', 'Leverandørref. nr.',
+        {@X_Language} = 'DE', 'Referenz-Nr.',
+        {@X_Language} = 'ES', 'Núm. de referencia',
+        {@X_Language} = 'FI', 'Toimittajan viitenro',
+        {@X_Language} = 'NL', 'Leverancier Refnr.',
+        {@X_Language} = 'FR', 'De référence',
+        True, 'Supplier ref.' //Default English
+   ),
+
+{Header.CardType} = 'L',
+    switch(
+        {@X_Language} = 'DK', 'Ref.nr.',
+        {@X_Language} = 'NO', 'Referanse',
+        {@X_Language} = 'DE', 'Referenz-Nr.',
+        {@X_Language} = 'ES', 'Núm. de referencia',
+        {@X_Language} = 'FI', 'Asiakasviitenro',
+        {@X_Language} = 'NL', 'Klant Refnr.',
+        {@X_Language} = 'FR', 'De référence',
+        True, 'Customer ref.' //Default English
+   )
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Date</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bogføringsdato',
+    {@X_Language} = 'NO', 'Bokføringsdato',
+    {@X_Language} = 'DE', 'Buchungsdatum',
+    {@X_Language} = 'ES', 'Fecha contable',
+    {@X_Language} = 'FI', 'Tositepvm',
+    {@X_Language} = 'NL', 'Factuurdatum',
+    {@X_Language} = 'FR', 'Date du document',
+    True, 'Doc. date' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DueDate</Name>
+      <Text>switch(
+    {@X_Is_AR_Quotation}, 
+        switch(
+            {@X_Language} = 'DK', 'Gyldig til', 
+            {@X_Language} = 'NO', 'Gyldig til',
+            {@X_Language} = 'DE', 'Gültig bis',
+            {@X_Language} = 'ES', 'Válido hasta',
+            {@X_Language} = 'FI', 'Voimassaolon loppu',
+            {@X_Language} = 'NL', 'Geldig tot',
+            {@X_Language} = 'FR', 'Valable pour',
+            True, 'Valid untill'
+    ),
+    {@X_Is_AP_Quotation}, 
+        switch(
+            {@X_Language} = 'DK', 'Gyldig til', 
+            {@X_Language} = 'NO', 'Gyldig til',
+            {@X_Language} = 'DE', 'Gültig bis',
+            {@X_Language} = 'ES', 'Válido hasta',
+            {@X_Language} = 'FI', 'Voimassaolon loppu',
+            {@X_Language} = 'NL', 'Geldig tot',
+            {@X_Language} = 'FR', 'Valable pour',
+            True, 'Valid untill'
+    ),
+    {@X_Is_AR_Order} OR {@X_Is_AR_Delivery} OR {@X_Is_AP_Order}, 
+        switch(
+            {@X_Language} = 'DK', 'Leveringsdato', 
+            {@X_Language} = 'NO', 'Leveringsdato',
+            {@X_Language} = 'DE', 'Lieferdatum',
+            {@X_Language} = 'ES', 'Fecha de entrega',
+            {@X_Language} = 'FI', 'Toimituspäivämäärä',
+            {@X_Language} = 'NL', 'Leveringsdatum',
+            {@X_Language} = 'FR', 'Date de livraison',
+            True, 'Delivery date'
+    ),
+    {@X_Is_AP_Request},
+        switch(
+            {@X_Language} = 'DK', 'Nødvendig Dato',             
+            True, 'Required date'
+    ),
+    {@X_Is_AP_GoodsReturnRequest} OR {@X_Is_AR_ReturnRequest},
+        switch(
+            {@X_Language} = 'DK', 'Returdato',             
+            True, 'Return Date'
+    ),
+    True, 
+        switch(
+            {@X_Language} = 'DK', 'Forfaldsdato', 
+            {@X_Language} = 'NO', 'Forfallsdato',
+            {@X_Language} = 'DE', 'Fälligkeitsdatum',
+            {@X_Language} = 'ES', 'Fecha de vencimiento',
+            {@X_Language} = 'FI', 'Eräpäivä',
+            {@X_Language} = 'NL', 'Uiterste betaaldatum',
+            {@X_Language} = 'FR', 'Date d`échéance',
+            True, 'Due date'
+    )
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_FederalTaxId</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'EU-Moms nummer',
+    {@X_Language} = 'NO', 'Org.nr',
+    {@X_Language} = 'DE', 'EU Ust-ID',
+    {@X_Language} = 'ES', 'EU NIF',
+    {@X_Language} = 'FI', 'ALV-numero',
+    {@X_Language} = 'NL', 'BTW-nr',
+    {@X_Language} = 'FR', 'Numéro de TVA',
+    True, 'Federal Tax Id' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Number</Name>
+      <Text>switch(
+{?ObjectId@} = 23,
+    switch(
+        {@X_Language} = 'DK', 'Tilbudsnr.',
+        {@X_Language} = 'NO', 'Tilbudsnr.',
+        {@X_Language} = 'DE', 'Angebotsnr.',
+        {@X_Language} = 'ES', 'Número de oferta',
+        {@X_Language} = 'FI', 'Tarjousnumero',
+        {@X_Language} = 'NL', 'Offertenr.',
+        {@X_Language} = 'FR', 'Numéro cotation',
+        True, 'Quotation No.' //Default English
+   ),
+
+{?ObjectId@} = 17,
+    switch(
+        {@X_Language} = 'DK', 'Ordrenr.',
+        {@X_Language} = 'NO', 'Ordrenr.',
+        {@X_Language} = 'DE', 'Auftragsnr.',
+        {@X_Language} = 'ES', 'Número de pedido',
+        {@X_Language} = 'FI', 'Tilausnumero',       
+        {@X_Language} = 'NL', 'Ordernr.',
+        {@X_Language} = 'FR', 'Numéro de commande',       
+        True, 'Order No.' //Default English
+   ),
+
+{?ObjectId@} = 15,
+    switch(
+        {@X_Language} = 'DK', 'Levering',
+        {@X_Language} = 'NO', 'Levering',
+        {@X_Language} = 'DE', 'Lieferung',
+        {@X_Language} = 'ES', 'Entrega',
+        {@X_Language} = 'FI', 'Toimitusnumero',       
+        {@X_Language} = 'NL', 'Leveringsnr.',
+        {@X_Language} = 'FR', 'Nombre de livraison',           
+        True, 'Delivery No.' //Default English
+   ),
+
+{?ObjectId@} = 16,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur nr.',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautusnumero',       
+        {@X_Language} = 'NL', 'Retournr.',
+        {@X_Language} = 'FR', 'Numéro de retour',     
+        True, 'Return No.' //Default English
+   ),
+
+{?ObjectId@} = 203,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetalingsnr.',
+        {@X_Language} = 'NO', 'Forskuddsbetalingsnr.',
+        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de pago anticipo',
+        {@X_Language} = 'FI', 'Ennakkolaskunumero',       
+        {@X_Language} = 'NL', 'Aanbetalingsnr.',
+        {@X_Language} = 'FR', 'Acompte',         
+        True, 'Down Payment No.' //Default English
+   ),
+
+{?ObjectId@} = 13,
+    switch(
+        {@X_Language} = 'DK', 'Fakturanr.',
+        {@X_Language} = 'NO', 'Fakturanr.',
+        {@X_Language} = 'DE', 'Rechnungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de factura',
+        {@X_Language} = 'FI', 'Laskunumero',       
+        {@X_Language} = 'NL', 'Factuurnr.',
+        {@X_Language} = 'FR', 'Numéro de facture',            
+        True, 'Invoice No.' //Default English
+   ),
+{?ObjectId@} = 14,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslaskunumero',       
+        {@X_Language} = 'NL', 'Credit nota.',
+        {@X_Language} = 'FR', 'Note de crédit',       
+        True, 'Credit Note No.' //Default English
+   ),
+
+{?ObjectId@} = 22,
+    switch(
+        {@X_Language} = 'DK', 'Indkøbsordre',
+        {@X_Language} = 'NO', 'Innkjøpsordre',
+        {@X_Language} = 'DE', 'Einkaufsauftrag',
+        {@X_Language} = 'ES', 'Pedido',
+        {@X_Language} = 'FI', 'Ostotilausnumero',       
+        {@X_Language} = 'NL', 'Inkoopordernr.',
+        {@X_Language} = 'FR', 'Bon de commande',         
+        True, 'Purchase Order No.' //Default English
+   ),
+
+{?ObjectId@} = 20,
+    switch(
+        {@X_Language} = 'DK', 'Varetilgang',
+        {@X_Language} = 'NO', 'Varemottak',
+        {@X_Language} = 'DE', 'Warenzugang',
+        {@X_Language} = 'ES', 'Entrada Mercancías',
+        {@X_Language} = 'FI', 'Tavaranvastaanottonumero',       
+        {@X_Language} = 'NL', 'Goederenontvangst.',
+        {@X_Language} = 'FR', 'Réception marchandises',         
+        True, 'Goods Receipt PO no.' //Default English
+   ),
+
+{?ObjectId@} = 21,
+    switch(
+        {@X_Language} = 'DK', 'Returnering',
+        {@X_Language} = 'NO', 'Retur',
+        {@X_Language} = 'DE', 'Retoure',
+        {@X_Language} = 'ES', 'Devolución',
+        {@X_Language} = 'FI', 'Palautusnumero',       
+        {@X_Language} = 'NL', 'Retournering.',
+        {@X_Language} = 'FR', 'Retour',      
+        True, 'Goods Return no.' //Default English
+   ),
+
+{?ObjectId@} = 204,
+    switch(
+        {@X_Language} = 'DK', 'Forudbetalingsnr.',
+        {@X_Language} = 'NO', 'Forskuddsbetaling',
+        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de pago anticipo',
+        {@X_Language} = 'FI', 'Ennakkolaskunumero',       
+        {@X_Language} = 'NL', 'Aanbetalingsnr.',
+        {@X_Language} = 'FR', 'Acompte',          
+        True, 'Down Payment no.' //Default English
+   ),
+{?ObjectId@} = 18,
+    switch(
+        {@X_Language} = 'DK', 'Fakturanr.',
+        {@X_Language} = 'NO', 'Fakturanr.',
+        {@X_Language} = 'DE', 'Rechnungs-Nr.',
+        {@X_Language} = 'ES', 'Núm. de factura',
+        {@X_Language} = 'FI', 'Laskunumero',       
+        {@X_Language} = 'NL', 'Factuurnr.',
+        {@X_Language} = 'FR', 'Número de factura',           
+        True, 'Invoice No.' //Default English
+   ),
+
+{?ObjectId@} = 19,
+    switch(
+        {@X_Language} = 'DK', 'Kreditnota',
+        {@X_Language} = 'NO', 'Kreditnota',
+        {@X_Language} = 'DE', 'Gutschrift',
+        {@X_Language} = 'ES', 'Nota de abono',
+        {@X_Language} = 'FI', 'Hyvityslaskunumero',       
+        {@X_Language} = 'NL', 'Credit nota.',
+        {@X_Language} = 'FR', 'Note de crédit',        
+        True, 'Credit Note no.' //Default English
+   ),
+
+{?ObjectId@} = 540000006,
+    switch(
+        {@X_Language} = 'DK', 'Tilbudsnr.',
+        {@X_Language} = 'NO', 'Tilbudsnr.',
+        {@X_Language} = 'DE', 'Angebotsnr.',
+        {@X_Language} = 'ES', 'Número de oferta',
+        {@X_Language} = 'FI', 'Tarjousnumero',       
+        {@X_Language} = 'NL', 'Offertenr.',
+        {@X_Language} = 'FR', 'Numéro cotation',
+        True, 'Quotation No.' //Default English
+   ),
+{?ObjectId@} = 1470000113,
+    switch(
+        {@X_Language} = 'DK', 'Rekvisition nr.',
+        True, 'Request No.' //Default English
+   ),
+{?ObjectId@} = 234000031,
+    switch(
+        {@X_Language} = 'DK', 'Anmodnings nr.',
+        True, 'Request No' //Default English
+   ),
+{?ObjectId@} = 234000032,
+    switch(
+        {@X_Language} = 'DK', 'Anmodnings nr.',
+        True, 'Request No' //Default English
+   ),
+TRUE, 'NOT SUPPORTED DOCUMENT TYPE'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Owner</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Ejer',
+    {@X_Language} = 'NO', 'Eier',
+    {@X_Language} = 'DE', 'Eigentümer',
+    {@X_Language} = 'ES', 'Titular',
+    {@X_Language} = 'FI', 'Omistaja',
+    {@X_Language} = 'NL', 'Eigenaar',
+    {@X_Language} = 'FR', 'Titulaire',
+    True, 'Owner' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PaymentTerm</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Betalingsbetingelse',
+    {@X_Language} = 'NO', 'Betalingsvilkår',
+    {@X_Language} = 'DE', 'Zahlungsbedingungen',
+    {@X_Language} = 'ES', 'Condiciones de pago',
+    {@X_Language} = 'FI', 'Maksuehdot',
+    {@X_Language} = 'NL', 'Betalingscondities',
+    {@X_Language} = 'FR', 'Conditions de paiement',
+    True, 'Payment terms' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_SalesEmployee</Name>
+      <Text>switch(
+{?ObjectId@} = 23 OR {?ObjectId@} = 17 OR {?ObjectId@} = 15 OR {?ObjectId@} = 16 OR {?ObjectId@} = 203 OR {?ObjectId@} = 13 OR {?ObjectId@} = 14 OR {?ObjectId@} = 234000031,
+    switch(
+        {@X_Language} = 'DK', 'Salgsmedarbejder',
+        {@X_Language} = 'NO', 'Selger',
+        {@X_Language} = 'DE', 'Verkaufsmitarbeiter',
+        {@X_Language} = 'ES', 'Vendedor',
+        {@X_Language} = 'FI', 'Myyjä',
+        {@X_Language} = 'NL', 'Verkoper',
+        {@X_Language} = 'FR', 'Vendeur',
+        True, 'Salesemployee' //Default English
+   ),
+
+{?ObjectId@} = 22 OR {?ObjectId@} = 20 OR {?ObjectId@} = 21 OR {?ObjectId@} = 204 OR {?ObjectId@} = 18 OR {?ObjectId@} = 19 OR {?ObjectId@} = 540000006 OR {?ObjectId@} = 234000032,
+    switch(
+        {@X_Language} = 'DK', 'Indkøber',
+        {@X_Language} = 'NO', 'Innkjøper',
+        {@X_Language} = 'DE', 'Einkäufer',
+        {@X_Language} = 'ES', 'Comprador',
+        {@X_Language} = 'FI', 'Ostaja',
+        {@X_Language} = 'NL', 'Afnemer',
+        {@X_Language} = 'FR', 'Acheteur',
+        True, 'Buyer' //Default English
+   ),
+TRUE, 'NOT SUPPORTED DOCUMENT TYPE'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_SeriesName</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Serie',
+    {@X_Language} = 'NO', 'Serie',
+    {@X_Language} = 'DE', 'Serie',
+    {@X_Language} = 'ES', 'Serie',
+    {@X_Language} = 'FI', 'Sarja',
+    {@X_Language} = 'NL', 'Serie',
+    {@X_Language} = 'FR', 'Série',
+    True, 'Series' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_ShippingType</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Forsendelsesart',
+    {@X_Language} = 'NO', 'Transporttype',
+    {@X_Language} = 'DE', 'Versandart',
+    {@X_Language} = 'ES', 'Clase expedición',
+    {@X_Language} = 'FI', 'Toimitustapa',
+    {@X_Language} = 'NL', 'Verzendwijze',
+    {@X_Language} = 'FR', 'Type d`expédition',
+    True, 'Shipping type' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>LogoPath</Name>
+      <Text>{CompanyInfo.PathBitmap}+{CompanyInfo.Logo}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Description</Name>
+      <Text>switch(
+{Header.DocType} = 'I',
+    switch(
+        {@X_Language} = 'DK', 'Artikelnavn',
+        {@X_Language} = 'NO', 'Varenavn',
+        {@X_Language} = 'DE', 'Artikelbeschreibung',
+        {@X_Language} = 'ES', 'Descripción de artículo',
+        {@X_Language} = 'FI', 'Tuotteen nimi',
+        {@X_Language} = 'NL', 'Artikelomschrijving',
+        {@X_Language} = 'FR', 'Description de l`article',
+        True, 'Item name' //Default English
+    ),
+{Header.DocType} = 'S',
+    switch(
+        {@X_Language} = 'DK', 'Beskrivelse',
+        {@X_Language} = 'NO', 'Beskrivelse',
+        {@X_Language} = 'DE', 'Beschreibung',
+        {@X_Language} = 'ES', 'Descripción',
+        {@X_Language} = 'FI', 'Kuvaus',
+        {@X_Language} = 'NL', 'Omschrijving',
+        {@X_Language} = 'FR', 'Description',
+        True, 'Description' //Default English
+    )
+)
+
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DiscountPercentage</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Rabat %',
+    {@X_Language} = 'NO', 'Rabatt %',
+    {@X_Language} = 'DE', 'Rabatt %',
+    {@X_Language} = 'ES', '% de descuento',
+    {@X_Language} = 'FI', 'Alennus %',
+    {@X_Language} = 'NL', 'Kortings %',
+    {@X_Language} = 'FR', 'Remise',
+    True, 'Discount %' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_ItemCode</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Artikel',
+    {@X_Language} = 'NO', 'Varenummer',
+    {@X_Language} = 'DE', 'Artikel ',
+    {@X_Language} = 'ES', 'Número de artículo',
+    {@X_Language} = 'FI', 'Tuotenro',
+    {@X_Language} = 'NL', 'Artikelnr.',
+    {@X_Language} = 'FR', 'Numéro de l`article',
+    True, 'Item no.' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Price</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Pris',
+    {@X_Language} = 'NO', 'Pris',
+    {@X_Language} = 'DE', 'Preis',
+    {@X_Language} = 'ES', 'Precio',
+    {@X_Language} = 'FI', 'Hinta',
+    {@X_Language} = 'NL', 'Prijs',
+    {@X_Language} = 'FR', 'Prix',
+    True, 'Price' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Total</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Total',
+    {@X_Language} = 'NO', 'Total',
+    {@X_Language} = 'DE', 'Linie Gesamt',
+    {@X_Language} = 'ES', 'Total de línea',
+    {@X_Language} = 'FI', 'Yhteensä',
+    {@X_Language} = 'NL', 'Totaal',
+    {@X_Language} = 'FR', 'Total des',
+    {@X_Language} = 'NL', 'Eenheid',
+    {@X_Language} = 'FR', 'Unité',
+    True, 'Total' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_UnitOfMeasure</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Enhed',
+    {@X_Language} = 'NO', 'Enhet',
+    {@X_Language} = 'DE', 'Einheit',
+    {@X_Language} = 'ES', 'Unidad',
+    {@X_Language} = 'FI', 'Yksikkö',
+    {@X_Language} = 'NL', 'Eenheid',
+    {@X_Language} = 'FR', 'Unité',
+    True, 'UOM' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Warehouse</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Lager',
+    {@X_Language} = 'NO', 'Lager',
+    {@X_Language} = 'DE', 'Lager',
+    {@X_Language} = 'ES', 'Almacén',
+    {@X_Language} = 'FI', 'Varasto',
+    {@X_Language} = 'NL', 'Magazijn',
+    {@X_Language} = 'FR', 'Entrepôt',
+    True, 'WH' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>PayInFormCreditorNo</Name>
+      <Text>{CompanyInfo.PayInFormNumber}</Text>
+    </Formula>
+    <Formula>
+      <Name>PayInFormAddress</Name>
+      <Text>{@Address_BillTo}</Text>
+    </Formula>
+    <Formula>
+      <Name>PayInFormDueDate</Name>
+      <Text>{@DueDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>PayInFormAmount</Name>
+      <Text>{@Total}</Text>
+    </Formula>
+    <Formula>
+      <Name>Total</Name>
+      <Text>IF(ISNULL({Header.DocTotalFC}) &lt;&gt; TRUE) AND {Header.DocTotalFC} &lt;&gt; 0 THEN 
+{Header.DocTotalFC}
+ELSE 
+{Header.DocTotal}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Price</Name>
+      <Text>{Lines.Price}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Currency</Name>
+      <Text>{Lines.Currency}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_PriceBeforeDiscount</Name>
+      <Text>{Lines.PriceBefDi}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_PriceAfterVat</Name>
+      <Text>{Lines.PriceAfVAT}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Quantity</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Mængde',
+    {@X_Language} = 'NO', 'Mengde',
+    {@X_Language} = 'DE', 'Menge',
+    {@X_Language} = 'ES', 'Cantidad',
+    {@X_Language} = 'FI', 'Määrä',
+    {@X_Language} = 'NL', 'Aantal',
+    {@X_Language} = 'FR', 'Qté',
+    True, 'Qty.' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_PriceBeforeDiscount</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Pris før rabat',
+    {@X_Language} = 'NO', 'Pris før rabatt',
+    {@X_Language} = 'DE', 'Preis vor Rabatt',
+    {@X_Language} = 'ES', 'Precio antes del descuento',
+    {@X_Language} = 'FI', 'Hinta ennen alennusta',
+    {@X_Language} = 'NL', 'Prijs zonder korting',
+    {@X_Language} = 'FR', 'Prix ​​avant réduction',
+    True, 'Price before discount' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_PriceAfterVat</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Pris efter moms',
+    {@X_Language} = 'NO', 'Pris etter moms',
+    {@X_Language} = 'DE', 'Preis nach MwSt.',
+    {@X_Language} = 'ES', 'Precio (IVA inc.)',
+    {@X_Language} = 'FI', 'Verollinen hinta',
+    {@X_Language} = 'NL', 'Prijs exclusief BTW',
+    {@X_Language} = 'FR', 'Prix ​​hors TVA',
+    True, 'Price after VAT' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Currency</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Valuta',
+    {@X_Language} = 'NO', 'Valuta',
+    {@X_Language} = 'DE', 'Währung',
+    {@X_Language} = 'ES', 'Moneda',
+    {@X_Language} = 'FI', 'Valuutta',
+    {@X_Language} = 'NL', 'Valuta',
+    {@X_Language} = 'FR', 'Devises',
+    True, 'Currency' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>VatSum</Name>
+      <Text>IF({Header.VatSumFC}&lt;&gt;0) THEN
+{Header.VatSumFC}
+ELSE
+{Header.VatSum}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Total</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Samlet i alt '+{@Currency},
+    {@X_Language} = 'NO', 'Totalt '+{@Currency},
+    {@X_Language} = 'DE', 'Gesamtsumme '+{@Currency},
+    {@X_Language} = 'ES', 'Suma total '+{@Currency},
+    {@X_Language} = 'FI', 'Tosite yhteensä '+{@Currency},
+    {@X_Language} = 'NL', 'Totaal '+{@Currency},
+    {@X_Language} = 'FR', 'Somme totale '+{@Currency},
+    True, 'Document total '+{@Currency} //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Freight</Name>
+      <Text>IF({Header.TotalExpFC}&lt;&gt;0) THEN
+    {Header.TotalExpFC}
+ELSE
+    {Header.TotalExpns}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Freight</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Fragt',
+    {@X_Language} = 'NO', 'Frakt',
+    {@X_Language} = 'DE', 'Fracht',
+    {@X_Language} = 'ES', 'Porte',
+    {@X_Language} = 'FI', 'Rahti',
+    {@X_Language} = 'NL', 'Vracht',
+    {@X_Language} = 'FR', 'Fret',
+    True, 'Freight' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style1</Name>
+      <Text>{@CompanyInfo_Name}+
+chr(13)+chr(13)+
+{@CompanyInfo_Address_Full}+chr(13)
++chr(13)+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+chr(13)+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+chr(13)+
+{@Title_Email}+': '+{@CompanyInfo_Email}+chr(13)+
+{@Title_Web}+': '+{@CompanyInfo_Website}+chr(13)+
+chr(13)+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Name</Name>
+      <Text>{CompanyInfo.Name}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Full</Name>
+      <Text>{CompanyInfo.AddressFull}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone1</Name>
+      <Text>{CompanyInfo.Phone1}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone2</Name>
+      <Text>{CompanyInfo.Phone2}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Fax</Name>
+      <Text>{CompanyInfo.Fax}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Email</Name>
+      <Text>{CompanyInfo.Email}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Website</Name>
+      <Text>{CompanyInfo.Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_FederalTaxId</Name>
+      <Text>{CompanyInfo.FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style2</Name>
+      <Text>{@CompanyInfo_Name}+' - '+
+{@CompanyInfo_Address_Street}+' - '+
+{@CompanyInfo_Address_Country}+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+' - '+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+' - '+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+' - '+
+{@Title_Email}+': '+{@CompanyInfo_Email}+' - '+
+{@Title_Web}+': '+{@CompanyInfo_Website}+' - '+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Street</Name>
+      <Text>{CompanyInfo.AddressStreet}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Zipcode</Name>
+      <Text>{CompanyInfo.AddressZipCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_City</Name>
+      <Text>{CompanyInfo.AddressCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Country</Name>
+      <Text>{CompanyInfo.AddressCountry}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_County</Name>
+      <Text>{CompanyInfo.AddressCounty}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_State</Name>
+      <Text>{CompanyInfo.AddressState}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Block</Name>
+      <Text>{CompanyInfo.AddressBlock}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_Address</Name>
+      <Text>{Lines.PreviousPayToCode}+chr(13)+
+{Lines.PreviousPayToAddress}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_ContactPerson_WithAtt</Name>
+      <Text>{@Title_Att}+': '+{Lines.PreviousContactPerson}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_Address_WithContactPerson</Name>
+      <Text>{Lines.PreviousPayToCode}+chr(13)+
+{Lines.PreviousPayToAddress}+chr(13)+
+{@Line_DeliveryConsolidation_ContactPerson_WithAtt}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_ContactPerson</Name>
+      <Text>{Lines.PreviousContactPerson}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_BpCode</Name>
+      <Text>{Lines.PreviousCardCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DeliveryConsolidation_BpName</Name>
+      <Text>{Lines.PreviousCardName}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DeliveryConsolidation_Address</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Konsolideringsadresse',
+    {@X_Language} = 'NO', 'Konsolideringsadresse',
+    {@X_Language} = 'DE', 'Konsolidierungsadresse',
+    {@X_Language} = 'ES', 'Dirección de consolidación',
+    {@X_Language} = 'FI', 'Konsolidointiosoite',
+    {@X_Language} = 'NL', 'Consolidatieadres',
+    {@X_Language} = 'FR', 'Adresse de consolidation',
+    True, 'Delivery Consolidation address' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>SpecialLine_Text</Name>
+      <Text>{Lines.SpecialLineText}</Text>
+    </Formula>
+    <Formula>
+      <Name>SpecialLine_SubTotal</Name>
+      <Text>IF {Lines.SpecialLineTotalForign} &lt;&gt; 0 THEN
+{Lines.SpecialLineTotalForign}
+ELSE
+{Lines.SpecialLineTotal}</Text>
+    </Formula>
+    <Formula>
+      <Name>SpecialLine_Type</Name>
+      <Text>{Lines.SpecialLineType}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_VatSum</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Moms',
+    {@X_Language} = 'NO', 'Avgift',
+    {@X_Language} = 'DE', 'MwSt.',
+    {@X_Language} = 'ES', 'IVA',
+    {@X_Language} = 'FI', 'ALV',
+    {@X_Language} = 'NL', 'BTW',
+    {@X_Language} = 'FR', 'TVA',
+    True, 'Tax' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_TotalBeforeVatAndFreight</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Samlet',
+    {@X_Language} = 'NO', 'Total før rabatt',
+    {@X_Language} = 'DE', 'Summe',
+    {@X_Language} = 'ES', 'Total  ',
+    {@X_Language} = 'FI', 'Yhteensä ',
+    {@X_Language} = 'NL', 'Totaal excl. BTW  ',
+    {@X_Language} = 'FR', 'Total des ',
+    True, 'Total' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PaymentDetailsInterests</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Efter forfaldsdato beregnes renter med '+ToText({Header.YearlyRate})+' % pr påbegyndt måned.',
+    {@X_Language} = 'NO', 'Etter forfallsdato beregnes renter med '+ToText({Header.YearlyRate})+' % per påbegynte måned.',
+    {@X_Language} = 'DE', 'Nach Fälligkeitsdatum werden Verzugszinsen von  '+ToText({Header.YearlyRate})+' % pro angefangener Monat berechnet',
+    {@X_Language} = 'ES', 'En caso de demora en el pago cargamos un '+ToText({Header.YearlyRate})+' %  de interés por mes iniciado',
+    {@X_Language} = 'FI', 'Viivästyskorko '+ToText({Header.YearlyRate})+' % ',
+    {@X_Language} = 'NL', 'In geval van betaling na vervaldatum zal '+ToText({Header.YearlyRate})+' %  rente in rekening gebracht worden voor elke begonnen maand vanaf de vervaldatum',
+    {@X_Language} = 'FR', 'En cas de retard de paiement d`un intérêt '+ToText({Header.YearlyRate})+' %  seront facturés pour chaque mois entamé à partir de la date d`échéance',
+    True, 'In case of delayed payment a '+ToText({Header.YearlyRate})+' % interest will be charged for each commenced month from maturity date' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddress</Name>
+      <Text>{CompanyInfo.BankName}+chr(13)+
+{CompanyInfo.BankStreet}+chr(13)+
+{CompanyInfo.BankCountry}+'-'+{CompanyInfo.BankZipCode}+' '+{CompanyInfo.BankCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAddress</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bankadresse',
+    {@X_Language} = 'NO', 'Bankadresse',
+    {@X_Language} = 'DE', 'Bankanschrift',
+    {@X_Language} = 'ES', 'Dirección de banco',
+    {@X_Language} = 'FI', 'Pankin osoite',
+    {@X_Language} = 'NL', 'Bankadres',
+    {@X_Language} = 'FR', 'Adresse de la banque',
+    True, 'Bank-address' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccountAndBranch</Name>
+      <Text>{@Title_CompanyInfo_BankBranch}+': '+{CompanyInfo.BankBranch}+' - '+{@Title_CompanyInfo_BankAccount}+': '+{CompanyInfo.BankAccount}
+
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankSwift</Name>
+      <Text>{CompanyInfo.BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccount</Name>
+      <Text>{CompanyInfo.BankAccount}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankBranch</Name>
+      <Text>{CompanyInfo.BankBranch}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAccount</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontonr.',
+    {@X_Language} = 'NO', 'Kontonr.',
+    {@X_Language} = 'DE', 'Kontonummer',
+    {@X_Language} = 'ES', 'Número de cuenta',
+    {@X_Language} = 'Fi', 'Tilinumero',
+    {@X_Language} = 'NL', 'Rekeningnummer',
+    {@X_Language} = 'FR', 'Numéro de compte',
+    True, 'Account' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankBranch</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Regnr.',
+    {@X_Language} = 'NO', 'Filial',
+    {@X_Language} = 'DE', 'Filiale',
+    {@X_Language} = 'ES', 'Sucursal',
+    {@X_Language} = 'FI', 'Konttori',
+    {@X_Language} = 'NL', 'Branche',
+    {@X_Language} = 'FR', 'Branche',
+    True, 'Branch' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankSwift</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'SWIFT',
+    {@X_Language} = 'NO', 'SWIFT',
+    {@X_Language} = 'DE', 'SWIFT',
+    {@X_Language} = 'ES', 'SWIFT',
+    {@X_Language} = 'FI', 'SWIFT',
+    {@X_Language} = 'NL', 'SWIFT',
+    {@X_Language} = 'FR', 'SWIFT',
+    True, 'SWIFT' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankIban</Name>
+      <Text>{CompanyInfo.BankIban}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankIban</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'IBAN',
+    {@X_Language} = 'NO', 'IBAN',
+    {@X_Language} = 'DE', 'IBAN',
+    {@X_Language} = 'ES', 'IBAN',
+    {@X_Language} = 'FI', 'IBAN',
+    {@X_Language} = 'NL', 'IBAN',
+    {@X_Language} = 'FR', 'IBAN',
+    True, 'IBAN' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Total_WithCurrency</Name>
+      <Text>{@Title_Line_Total}+' '+{Header.DocCur}
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>DownPaymentPercentage</Name>
+      <Text>{Header.DpmPrcnt}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DownPaymentPercentage</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Forudbetalings %',
+    {@X_Language} = 'NO', 'Forskuddsbetaling %',
+    {@X_Language} = 'DE', 'Vorauszahlungs %',
+    {@X_Language} = 'ES', '% de pago anticipado',
+    {@X_Language} = 'FI', 'Ennakkomaksu %',
+    {@X_Language} = 'NL', 'Voorschot',
+    {@X_Language} = 'FR', 'Acompte %',
+    True, 'Down payment %' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>DiscountPercentage</Name>
+      <Text>{Header.DiscPrcnt}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DiscountPercentage</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Rabat ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'NO', 'Rabatt ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'DE', 'Rabatt ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'ES', 'Descuento ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'FI', 'Alennus ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'NL', 'Korting ('+ToText({@DiscountPercentage})+' %)',
+    {@X_Language} = 'FR', 'Remise ('+ToText({@DiscountPercentage})+' %)',
+    True, 'Discount ('+ToText({@DiscountPercentage})+' %)' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>DiscountAmount</Name>
+      <Text>IF({Header.DiscSumFC}&lt;&gt;0) THEN
+{Header.DiscSumFC}
+ELSE
+{Header.DiscSum}</Text>
+    </Formula>
+    <Formula>
+      <Name>PaymentDetails</Name>
+      <Text>{@CompanyInfo_BankAddress}+chr(13)+
+{@Title_CompanyInfo_BankBranch}+': '+{@CompanyInfo_BankBranch}+chr(13)+
+{@Title_CompanyInfo_BankAccount}+': '+{@CompanyInfo_BankAccount}+chr(13)+
+{@Title_CompanyInfo_BankIban}+': '+{@CompanyInfo_BankIban}+chr(13)+
+{@Title_CompanyInfo_BankSwift}+': '+{@CompanyInfo_BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_Invoice</Name>
+      <Text>{?ObjectId@}=13</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_Quotation</Name>
+      <Text>{?ObjectId@}=23</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_Order</Name>
+      <Text>{?ObjectId@}=17</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_Delivery</Name>
+      <Text>{?ObjectId@}=15</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_Order</Name>
+      <Text>{?ObjectId@}=22</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_Return</Name>
+      <Text>{?ObjectId@}=16</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_DownPayment</Name>
+      <Text>{?ObjectId@}=203</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_CreditNote</Name>
+      <Text>{?ObjectId@}=14</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_GoodsReceiptOp</Name>
+      <Text>{?ObjectId@}=20</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_GoodsReturn</Name>
+      <Text>{?ObjectId@}=21</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_DownPayment</Name>
+      <Text>{?ObjectId@}=204</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_Invoice</Name>
+      <Text>{?ObjectId@}=18</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_CreditNote</Name>
+      <Text>{?ObjectId@}=19</Text>
+    </Formula>
+    <Formula>
+      <Name>DocumentHeader</Name>
+      <Text>{Header.Header}</Text>
+    </Formula>
+    <Formula>
+      <Name>DocumentFooter</Name>
+      <Text>{Header.Footer}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_TotalAfterVat</Name>
+      <Text>IF {Lines.GTotalFC} &lt;&gt; 0 THEN
+{Lines.GTotalFC}
+ELSE
+{Lines.GTotal}</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_Quotation</Name>
+      <Text>{?ObjectId@}=540000006</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Page</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Side',
+    {@X_Language} = 'NO', 'Side',
+    {@X_Language} = 'DE', 'Seite',
+    {@X_Language} = 'ES', 'Página',
+    {@X_Language} = 'NL', 'Pagina',
+    {@X_Language} = 'FR', 'Page',
+    TRUE, 'Page'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Of</Name>
+      <Text>switch(
+{@X_Language} = 'DK', 'af',
+{@X_Language} = 'NO', 'av',
+{@X_Language} = 'DE', 'von',
+{@X_Language} = 'ES', 'de',
+{@X_Language} = 'NL', 'van',
+{@X_Language} = 'FR', 'de',
+TRUE, 'of'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Att</Name>
+      <Text>    switch(
+        {@X_Language} = 'DK', 'Att',
+        {@X_Language} = 'NO', 'Att',
+        {@X_Language} = 'DE', 'z.Hd',
+        {@X_Language} = 'ES', 'A/A',
+        {@X_Language} = 'NL', 'T.a.v.',
+        {@X_Language} = 'FR', 'Att',
+        True, 'Att'
+    )</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Phone</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Tlf',        
+    {@X_Language} = 'NO', 'Tlf',        
+    {@X_Language} = 'DE', 'Tel',       
+    {@X_Language} = 'ES', 'Tél',
+    {@X_Language} = 'FI', 'Puh',
+    {@X_Language} = 'NL', 'Tel',
+    {@X_Language} = 'FR', 'Tél',
+    True, 'Tel' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Fax</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Fax',
+    {@X_Language} = 'NO', 'Fax',
+    {@X_Language} = 'DE', 'Fax',
+    {@X_Language} = 'ES', 'Fax',
+    {@X_Language} = 'FI', 'Fax',
+    {@X_Language} = 'NL', 'Fax',
+    {@X_Language} = 'FR', 'Télécopieur',
+    True, 'Fax' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Email</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Email',
+    {@X_Language} = 'NO', 'E-Post',
+    {@X_Language} = 'DE', 'Email',
+    {@X_Language} = 'ES', 'Email',
+    {@X_Language} = 'FI', 'S-posti',
+    {@X_Language} = 'NL', 'Email',
+    {@X_Language} = 'FR', 'Email',
+    True, 'Email' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Web</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Web',
+    {@X_Language} = 'NO', 'Web',
+    {@X_Language} = 'DE', 'Webseite',
+    {@X_Language} = 'ES', 'Sitio Web',
+    {@X_Language} = 'FI', 'www',
+    {@X_Language} = 'NL', 'Website',
+    {@X_Language} = 'FR', 'Site web',
+    True, 'Web' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style3</Name>
+      <Text>{@CompanyInfo_Name}+'  -  '+
+{@CompanyInfo_Address_Street}+'  -  '+
+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+'  -  '+
+{@CompanyInfo_Address_Country}+'  -  '+'VAT: '+{@CompanyInfo_FederalTaxId}+chr(13)+
+'Tel: '+{@CompanyInfo_Phone1}+'    '+
+//'F: '+{@CompanyInfo_Fax}+'    '+
+'Mail: '+{@CompanyInfo_Email}+'    '+'Web: '+{@CompanyInfo_Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddressBankName</Name>
+      <Text>{CompanyInfo.BankName}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccount_Title</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontonr.',
+    {@X_Language} = 'NO', 'Kontonr.',
+    {@X_Language} = 'DE', 'Kontonr.',
+    {@X_Language} = 'ES', 'Número de c.',
+    True, 'Account' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankSwift_Title</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'SWIFT',
+    {@X_Language} = 'NO', 'SWIFT',
+    {@X_Language} = 'DE', 'SWIFT',
+    {@X_Language} = 'ES', 'SWIFT',
+    True, 'SWIFT' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankIban_Title</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'IBAN',
+    {@X_Language} = 'NO', 'IBAN',
+    {@X_Language} = 'DE', 'IBAN',
+    {@X_Language} = 'ES', 'IBAN',
+    True, 'IBAN' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddressStreet</Name>
+      <Text>{CompanyInfo.BankStreet}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddressZipCity</Name>
+      <Text>{CompanyInfo.BankCountry}+'-'+{CompanyInfo.BankZipCode}+' '+{CompanyInfo.BankCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>X_IsNot_AR_Invoice</Name>
+      <Text>{?ObjectId@}&lt;&gt;13</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_Request</Name>
+      <Text>{?ObjectId@}=1470000113</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Alternative</Name>
+      <Text>    switch(
+        {@X_Language} = 'DK', 'Alternativ',
+        True, 'Alternative'
+    )</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AR_ReturnRequest</Name>
+      <Text>{?ObjectId@}=234000031</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Is_AP_GoodsReturnRequest</Name>
+      <Text>{?ObjectId@}=234000032</Text>
+    </Formula>
+  </ReportFormulas>
+  <SqlExpressions />
+  <RecordSelectionFormula>
+  </RecordSelectionFormula>
+  <GroupSelectionFormula>
+  </GroupSelectionFormula>
+  <GroupConditionFormulas />
+  <SortFormulas />
+  <RunningTotalFormulas />
+  <SummaryFormulas>
+    <SummaryFormula>
+      <Name>Sum ({@Line_Total})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@Line_Total}</Field>
+    </SummaryFormula>
+  </SummaryFormulas>
+  <HighlightingFormats />
+  <Sections>
+    <Section>
+      <Name>ReportHeaderSection1</Name>
+      <Kind>ReportHeader</Kind>
+      <Height>0</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection4</Name>
+      <Kind>PageHeader</Kind>
+      <Height>4853</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection5</Name>
+      <Kind>PageHeader</Kind>
+      <Height>442</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection1</Name>
+      <Kind>PageHeader</Kind>
+      <Height>399</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection3</Name>
+      <Kind>PageHeader</Kind>
+      <Height>402</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection1</Name>
+      <Kind>Detail</Kind>
+      <Height>348</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection6</Name>
+      <Kind>Detail</Kind>
+      <Height>388</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection2</Name>
+      <Kind>Detail</Kind>
+      <Height>445</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection5</Name>
+      <Kind>Detail</Kind>
+      <Height>326</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection3</Name>
+      <Kind>Detail</Kind>
+      <Height>329</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection4</Name>
+      <Kind>Detail</Kind>
+      <Height>333</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection3</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>442</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection1</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>2640</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>True</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageFooterSection1</Name>
+      <Kind>PageFooter</Kind>
+      <Height>587</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+  </Sections>
+  <Objects />
+  <Groups />
+  <Sorts />
+  <ReportFormatting />
+  <Charts />
+  <CrossTabs />
+  <Alerts>
+    <Alert>
+      <AlertName>NotSupportedInEngineAPI</AlertName>
+      <Enabled>False</Enabled>
+      <Severity>N/A</Severity>
+      <Message>Crystal Reports Engine API does not expose alert information.</Message>
+      <ConditionFormula>
+      </ConditionFormula>
+      <InvolvedFields />
+    </Alert>
+  </Alerts>
+</CrystalReport>

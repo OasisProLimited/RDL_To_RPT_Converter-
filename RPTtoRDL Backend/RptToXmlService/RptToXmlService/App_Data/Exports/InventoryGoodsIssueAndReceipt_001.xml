@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CrystalReport>
+  <ReportMetadata>
+    <ReportName>InventoryGoodsIssueAndReceipt</ReportName>
+    <GeneratedDate>2025-11-20 16:15:21</GeneratedDate>
+    <ExportSequence>1</ExportSequence>
+  </ReportMetadata>
+  <SummaryInfo>
+    <Title>
+    </Title>
+    <Author>
+    </Author>
+    <Comments>
+    </Comments>
+  </SummaryInfo>
+  <Database>
+    <Table>
+      <TableName>Header</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>SBODemoUS</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>Lines</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>SBODemoUS</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+  </Database>
+  <AllFields>
+    <Field>
+      <Name>DocEntry</Name>
+      <NativeName>{Header.DocEntry}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocNum</Name>
+      <NativeName>{Header.DocNum}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocDate</Name>
+      <NativeName>{Header.DocDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DocTime</Name>
+      <NativeName>{Header.DocTime}</NativeName>
+      <DataType>Int16sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PriceListNum</Name>
+      <NativeName>{Header.PriceListNum}</NativeName>
+      <DataType>Int16sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Comments</Name>
+      <NativeName>{Header.Comments}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ObjType</Name>
+      <NativeName>{Header.ObjType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PriceList</Name>
+      <NativeName>{Header.PriceList}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ItemCode</Name>
+      <NativeName>{Lines.ItemCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Dscription</Name>
+      <NativeName>{Lines.Dscription}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Quantity</Name>
+      <NativeName>{Lines.Quantity}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>unitMsr</Name>
+      <NativeName>{Lines.unitMsr}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineTotal</Name>
+      <NativeName>{Lines.LineTotal}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Currency</Name>
+      <NativeName>{Lines.Currency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PriceBefDi</Name>
+      <NativeName>{Lines.PriceBefDi}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+  </AllFields>
+  <DataSetPreview>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;CrystalReport xmlns="urn:crystal-reports:schemas:report-detail"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd"&gt;
+&lt;ReportHeader&gt;
+&lt;Section SectionNumber="0"&gt;
+&lt;/Section&gt;
+&lt;/ReportHeader&gt;
+&lt;Details Level="1"&gt;
+&lt;Section SectionNumber="0"&gt;
+&lt;Field Name="Line1" FieldName="{@Line_#}"&gt;&lt;FormattedValue&gt;1&lt;/FormattedValue&gt;&lt;Value&gt;1.00&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineItemNo1" FieldName="{@Line_ItemNo}"&gt;&lt;FormattedValue&gt;P10001&lt;/FormattedValue&gt;&lt;Value&gt;P10001&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineDescription1" FieldName="{@Line_Description}"&gt;&lt;FormattedValue&gt;PC - P4 2.4G, DDR 512M, 400G HD&lt;/FormattedValue&gt;&lt;Value&gt;PC - P4 2.4G, DDR 512M, 400G HD&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineUoM1" FieldName="{@Line_UoM}"&gt;&lt;FormattedValue&gt;&lt;/FormattedValue&gt;&lt;Value&gt;&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineQty1" FieldName="{@Line_Qty}"&gt;&lt;FormattedValue&gt;20.00&lt;/FormattedValue&gt;&lt;Value&gt;20.00&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineTotal2" FieldName="{@Line_Total}"&gt;&lt;FormattedValue&gt;26,814.74&lt;/FormattedValue&gt;&lt;Value&gt;26814.74&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="LineItemCost1" FieldName="{@Line_ItemCost}"&gt;&lt;FormattedValue&gt;1,340.74&lt;/FormattedValue&gt;&lt;Value&gt;1340.74&lt;/Value&gt;&lt;/Field&gt;
+&lt;/Section&gt;
+&lt;/Details&gt;
+&lt;ReportFooter&gt;
+&lt;Section SectionNumber="0"&gt;
+&lt;Field Name="Remarks1" FieldName="{@Remarks}"&gt;&lt;FormattedValue&gt;&lt;/FormattedValue&gt;&lt;Value&gt;&lt;/Value&gt;&lt;/Field&gt;
+&lt;Field Name="TitleRemarks1" FieldName="{@Title_Remarks}"&gt;&lt;FormattedValue&gt;Kommentarer:&lt;/FormattedValue&gt;&lt;Value&gt;Kommentarer:&lt;/Value&gt;&lt;/Field&gt;
+&lt;/Section&gt;
+&lt;/ReportFooter&gt;
+&lt;/CrystalReport&gt;
+</DataSetPreview>
+  <Parameters>
+    <Parameter>
+      <Name>DocKey@</Name>
+      <PromptText>DocEntry</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>ObjectId@</Name>
+      <PromptText>ObjectId</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[CURRENT_LANGUAGE]</Name>
+      <PromptText>EnterLanguage:</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>ReportParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+  </Parameters>
+  <ReportFormulas>
+    <Formula>
+      <Name>Title</Name>
+      <Text>switch
+(
+    {?ObjectId@} = 59, 
+        switch(
+            {@X_Language} = 'DK', 'Varetilgang',
+            {@X_Language} = 'DE', 'Wareneingang',
+            True, 'Goods Receipt' //Default English
+        ),
+
+
+    {?ObjectId@} = 60, 
+        switch(
+            {@X_Language} = 'DK', 'Vareafgang',
+            {@X_Language} = 'DE', 'Warenausgang',
+            True, 'Goods Issue' //Default English
+        ),
+    TRUE, 'UNKNOWN TYPE'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Language</Name>
+      <Text>switch(
+{?$[CURRENT_LANGUAGE]} = 1, 'HE', //Hebrew
+{?$[CURRENT_LANGUAGE]} = 3, 'EN', //English
+{?$[CURRENT_LANGUAGE]} = 5, 'PL', //Polish
+{?$[CURRENT_LANGUAGE]} = 8, 'GB', //Englis (UK)
+{?$[CURRENT_LANGUAGE]} = 9, 'DE', //German
+{?$[CURRENT_LANGUAGE]} = 11, 'DK', //Danish
+{?$[CURRENT_LANGUAGE]} = 12, 'NO', //Norwegian
+{?$[CURRENT_LANGUAGE]} = 13, 'IT', //Italian
+{?$[CURRENT_LANGUAGE]} = 14, 'HU', //Hungarian
+{?$[CURRENT_LANGUAGE]} = 16, 'NL', //Dutch
+{?$[CURRENT_LANGUAGE]} = 17, 'FI', //Finnish
+{?$[CURRENT_LANGUAGE]} = 18, 'GR', //Greek
+{?$[CURRENT_LANGUAGE]} = 19, 'PT', //Portuguese
+{?$[CURRENT_LANGUAGE]} = 20, 'SE', //Swedish
+{?$[CURRENT_LANGUAGE]} = 22, 'FR', //French
+{?$[CURRENT_LANGUAGE]} = 23, 'ES', //Spanish
+{?$[CURRENT_LANGUAGE]} = 24, 'RU', //Russian
+{?$[CURRENT_LANGUAGE]} = 25, 'CO', //Spanish (LA)
+{?$[CURRENT_LANGUAGE]} = 26, 'CZ', //Czech
+{?$[CURRENT_LANGUAGE]} = 27, 'SK', //Slovak
+True, 'EN' //Unknown (English)
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Date</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Dato:',
+    {@X_Language} = 'DE', 'Datum:',
+    True, 'Date:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Time</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kl.:',
+    {@X_Language} = 'DK', 'Zeit:',
+    True, 'Time:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PriceList</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Prisliste:',
+    {@X_Language} = 'DE', 'Preisliste:',
+    True, 'Price List:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_#</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', '#',
+    {@X_Language} = 'DE', '#',
+    True, '#' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Description</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Beskrivelse',
+    {@X_Language} = 'DE', 'Beschreibung',
+    True, 'Description' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_ItemNo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Artikelnr.',
+    {@X_Language} = 'DE', 'Artikelnr.',
+    True, 'Item No.' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Price</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Pris',
+    {@X_Language} = 'DE', 'Preis',
+    True, 'Price' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Qty</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Mængde',
+    {@X_Language} = 'DE', 'Menge',
+    True, 'Qty' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_UoM</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Enh.',
+    {@X_Language} = 'DE', 'Einheit',
+    True, 'UoM' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_#</Name>
+      <Text>whileprintingrecords;
+global numberVar Number;
+Number := Number+1</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Description</Name>
+      <Text>{Lines.Dscription}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_ItemCost</Name>
+      <Text>{Lines.PriceBefDi}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Total</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Total',
+    {@X_Language} = 'DE', 'Gesamt',
+    True, 'Total' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_ItemNo</Name>
+      <Text>{Lines.ItemCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Qty</Name>
+      <Text>{Lines.Quantity}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_UoM</Name>
+      <Text>{Lines.unitMsr}</Text>
+    </Formula>
+    <Formula>
+      <Name>PriceList</Name>
+      <Text>if{@PriceListNumber} &lt;&gt; -1 then
+    {@PriceListDescription}
+Else
+    switch(
+        {@X_Language} = 'DK', 'Sidste indkøbspris',
+        True, 'Last Purchase Price' //Default English
+    )
+</Text>
+    </Formula>
+    <Formula>
+      <Name>PriceListDescription</Name>
+      <Text>{Header.PriceList}</Text>
+    </Formula>
+    <Formula>
+      <Name>PriceListNumber</Name>
+      <Text>{Header.PriceListNum}</Text>
+    </Formula>
+    <Formula>
+      <Name>Remarks</Name>
+      <Text>{Header.Comments}</Text>
+    </Formula>
+    <Formula>
+      <Name>Date</Name>
+      <Text>{Header.DocDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Time</Name>
+      <Text>stringvar timeString := ToText({Header.DocTime}, '#');
+while(Length(timeString) &lt; 4) do timeString := '0'+timeString;
+timeString[1]+timeString[2]+':'+timeString[3]+timeString[4];
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Number</Name>
+      <Text>{Header.DocNum}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Total</Name>
+      <Text>{Lines.LineTotal}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Remarks</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kommentarer:',
+    {@X_Language} = 'DE', 'Bemerkungen:',
+    True, 'Remarks:' //Default English
+)</Text>
+    </Formula>
+  </ReportFormulas>
+  <SqlExpressions />
+  <RecordSelectionFormula>
+  </RecordSelectionFormula>
+  <GroupSelectionFormula>
+  </GroupSelectionFormula>
+  <GroupConditionFormulas />
+  <SortFormulas />
+  <RunningTotalFormulas />
+  <SummaryFormulas />
+  <HighlightingFormats />
+  <Sections>
+    <Section>
+      <Name>ReportHeaderSection1</Name>
+      <Kind>ReportHeader</Kind>
+      <Height>0</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection1</Name>
+      <Kind>PageHeader</Kind>
+      <Height>1499</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection1</Name>
+      <Kind>Detail</Kind>
+      <Height>326</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection1</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>1491</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageFooterSection1</Name>
+      <Kind>PageFooter</Kind>
+      <Height>0</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+  </Sections>
+  <Objects />
+  <Groups />
+  <Sorts />
+  <ReportFormatting />
+  <Charts />
+  <CrossTabs />
+  <Alerts>
+    <Alert>
+      <AlertName>NotSupportedInEngineAPI</AlertName>
+      <Enabled>False</Enabled>
+      <Severity>N/A</Severity>
+      <Message>Crystal Reports Engine API does not expose alert information.</Message>
+      <ConditionFormula>
+      </ConditionFormula>
+      <InvolvedFields />
+    </Alert>
+  </Alerts>
+</CrystalReport>

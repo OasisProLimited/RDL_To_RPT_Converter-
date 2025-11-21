@@ -1,0 +1,224 @@
+/* ============================================================
+   FILE UPLOADER — OASIS PRO CLOUD PREMIUM EDITION
+   Glassmorphism • 3D Hover • Glow Effects • Dark Mode Polish
+=============================================================== */
+
+/* Wrapper */
+.uploader-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  position: relative;
+  z-index: 3;
+}
+
+/* ============================================================
+   CARD — Glass, Glow, Parallax
+=============================================================== */
+
+.uploader-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 2.8rem 2.4rem;
+
+  background: var(--ifs-card);
+  backdrop-filter: blur(var(--ifs-glass-blur));
+  border-radius: 24px;
+
+  border: 1px solid var(--ifs-card-border);
+
+  box-shadow:
+    0 16px 45px rgba(0, 0, 0, 0.12),
+    0 20px 60px rgba(107, 62, 255, 0.22);
+
+  transform-style: preserve-3d;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* 3D Hover effect */
+.uploader-card:hover {
+  transform: translateY(-6px) rotateX(4deg);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.15),
+    0 28px 75px rgba(107, 62, 255, 0.28);
+}
+
+/* Light glow behind card */
+.uploader-card::after {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background: radial-gradient(circle, rgba(107,62,255,0.12), transparent 70%);
+  z-index: -1;
+  filter: blur(40px);
+}
+
+/* ============================================================
+   TITLES
+=============================================================== */
+
+.uploader-title {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--ifs-text-main);
+  letter-spacing: 0.5px;
+}
+
+.uploader-subtitle {
+  margin-top: 0.45rem;
+  font-size: 0.95rem;
+  color: var(--ifs-text-muted);
+}
+
+/* ============================================================
+   FILE INPUT — Glow + Shimmer Border
+=============================================================== */
+
+.file-input {
+  width: 100%;
+  margin-top: 1.7rem;
+  padding: 0.85rem 1rem;
+
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 14px;
+  border: 1px solid var(--ifs-card-border);
+
+  font-size: 0.96rem;
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* Glow on hover */
+.file-input:hover {
+  border-color: var(--ifs-primary);
+  box-shadow:
+    0 0 0 4px rgba(107, 62, 255, 0.24),
+    0 6px 14px rgba(107, 62, 255, 0.22);
+}
+
+/* Magic border shine */
+.file-input:focus {
+  outline: none;
+  animation: inputShine 1.6s linear infinite;
+}
+
+@keyframes inputShine {
+  0% {
+    box-shadow: 0 0 0 4px rgba(107, 62, 255, 0.15);
+  }
+  100% {
+    box-shadow: 0 0 0 4px rgba(107, 62, 255, 0.35);
+  }
+}
+
+/* Selected file label */
+.selected-file {
+  margin-top: 1rem;
+  font-size: 0.92rem;
+  color: var(--ifs-text-muted);
+}
+
+/* ============================================================
+   BUTTON — Premium Material Glow Button
+=============================================================== */
+
+.upload-btn {
+  width: 100%;
+  margin-top: 1.7rem;
+  padding: 0.95rem;
+
+  background: linear-gradient(135deg, var(--ifs-primary), var(--ifs-primary-dark));
+  color: white;
+
+  border: none;
+  border-radius: 999px;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 16px 32px rgba(107, 62, 255, 0.35),
+    inset 0 0 0 0 rgba(255,255,255,0);
+
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.upload-btn:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 24px 50px rgba(107, 62, 255, 0.55),
+    inset 0 0 12px rgba(255,255,255,0.28);
+}
+
+/* Click */
+.upload-btn:active {
+  transform: translateY(1px);
+}
+
+/* ============================================================
+   STATUS TEXT
+=============================================================== */
+
+.status-text {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  color: var(--ifs-text-main);
+}
+
+/* ============================================================
+   SUCCESS CHECKMARK (animated)
+=============================================================== */
+
+.status-text.success::before {
+  content: "✔";
+  margin-right: 6px;
+  color: var(--ifs-green);
+  font-weight: bold;
+  animation: popIn 0.35s ease-out;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ============================================================
+   CARD FADE-UP ANIMATION
+=============================================================== */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.75s ease forwards;
+}
+
+/* ============================================================
+   DARK MODE POLISH
+=============================================================== */
+
+[data-theme="ifs-dark"] .uploader-card {
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+}
+
+[data-theme="ifs-dark"] .file-input {
+  background: rgba(30,30,34,0.4);
+  color: var(--ifs-text-main);
+}
+
+[data-theme="ifs-dark"] .upload-btn {
+  box-shadow: 0 16px 32px rgba(107,62,255,0.4);
+}
+
+[data-theme="ifs-dark"] .uploader-title {
+  color: #fff;
+}

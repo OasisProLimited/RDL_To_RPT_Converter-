@@ -1,0 +1,275 @@
+/* =====================================================
+   OASIS PRO CLOUD — GLOBAL THEME (Enhanced)
+===================================================== */
+
+:root {
+  --ifs-bg: #eef1f6;
+  --ifs-card: rgba(255, 255, 255, 0.55);
+  --ifs-card-border: rgba(255, 255, 255, 0.35);
+
+  --ifs-primary: #6b3eff;
+  --ifs-primary-dark: #5933d1;
+
+  --ifs-green: #00a19a;
+
+  --ifs-text-main: #1f2026;
+  --ifs-text-muted: #6f7380;
+
+  --ifs-glass-blur: 18px;
+
+  --shadow-soft: 0 14px 28px rgba(0,0,0,0.08);
+  --shadow-strong: 0 22px 44px rgba(107,62,255,0.22);
+
+  --transition-fast: 0.15s ease;
+  --transition-mid: 0.25s ease;
+}
+
+[data-theme="ifs-dark"] {
+  --ifs-bg: #121318;
+  --ifs-card: rgba(255,255,255,0.08);
+  --ifs-card-border: rgba(255,255,255,0.15);
+
+  --ifs-text-main: #f5f6f8;
+  --ifs-text-muted: #b8bac6;
+}
+
+/* =====================================================
+   PAGE ROOT
+===================================================== */
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background: var(--ifs-bg);
+  transition: background var(--transition-mid);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* =====================================================
+   FLOATING PARTICLES
+===================================================== */
+
+.app-root::before,
+.app-root::after {
+  content: "";
+  position: fixed;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle, rgba(107,62,255,0.20), transparent 70%);
+  filter: blur(70px);
+  z-index: -2;
+  animation: floaty 12s ease-in-out infinite alternate;
+}
+
+.app-root::before {
+  top: 10%;
+  left: -5%;
+}
+
+.app-root::after {
+  bottom: 5%;
+  right: -5%;
+}
+
+@keyframes floaty {
+  0% { transform: translateY(0px); opacity: 0.6; }
+  100% { transform: translateY(-25px); opacity: 1; }
+}
+
+/* =====================================================
+   HEADER — Upgraded Glass Bar
+===================================================== */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  background: rgba(255,255,255,0.45);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--ifs-card-border);
+
+  padding: 1rem 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: var(--shadow-soft);
+}
+
+[data-theme="ifs-dark"] .app-header {
+  background: rgba(30,30,34,0.32);
+}
+
+.header-main {
+  font-size: 1.1rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifs-text-main);
+}
+
+.header-sub {
+  font-size: 0.82rem;
+  color: var(--ifs-text-muted);
+  margin-top: 3px;
+}
+
+.nav-link {
+  border: none;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(8px);
+
+  padding: 0.45rem 1.2rem;
+  border-radius: 12px;
+
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: var(--ifs-text-main);
+  font-weight: 600;
+
+  transition: all var(--transition-fast);
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+.nav-link--active {
+  background: var(--ifs-primary);
+  color: white;
+  box-shadow: 0 6px 18px rgba(107,62,255,0.40);
+}
+
+.nav-theme {
+  background: var(--ifs-green);
+  color: white;
+}
+
+/* =====================================================
+   HERO SECTION — Premium Gradient Glass
+===================================================== */
+
+.app-hero {
+  padding: 3rem 2.5rem 4rem;
+
+  background: linear-gradient(
+    115deg,
+    #7444ff,
+    #8d63ff,
+    #b98dff,
+    #7444ff
+  );
+  background-size: 300% 300%;
+  animation: heroGradient 12s ease infinite;
+
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes heroGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Hero shine sweep */
+.app-hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: -40%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255,255,255,0.35),
+    transparent
+  );
+  transform: skewX(-35deg);
+  animation: shine 7s infinite ease-in-out;
+}
+
+@keyframes shine {
+  0% { left: -40%; }
+  60% { left: 140%; }
+  100% { left: 140%; }
+}
+
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-pill {
+  background: rgba(255,255,255,0.35);
+  padding: 0.3rem 1rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.hero-text {
+  max-width: 680px;
+  margin-top: 0.8rem;
+  font-size: 1.05rem;
+  opacity: 0.92;
+}
+
+/* =====================================================
+   MAIN CONTENT — Elevated Card Layout
+===================================================== */
+
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  padding: 3rem 1.8rem;
+}
+
+.app-main > * {
+  width: 100%;
+  max-width: 1150px;
+
+  background: var(--ifs-card);
+  border: 1px solid var(--ifs-card-border);
+  border-radius: 22px;
+
+  backdrop-filter: blur(var(--ifs-glass-blur));
+  padding: 2.6rem;
+
+  box-shadow: var(--shadow-soft);
+
+  animation: fadeUp 0.9s ease forwards;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(26px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.app-footer {
+  text-align: center;
+  padding: 1.6rem;
+  font-size: 0.9rem;
+  color: var(--ifs-text-muted);
+  margin-top: 2rem;
+}

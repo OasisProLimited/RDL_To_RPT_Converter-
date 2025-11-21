@@ -1,0 +1,3741 @@
+{
+  "ReportName": "WorkTask (1)",
+  "GeneratedDate": "2025-11-20 02:21:28",
+  "ExportSequence": 3,
+  "SummaryInfo": {
+    "Title": null,
+    "Author": null,
+    "Comments": null
+  },
+  "Database": [
+    {
+      "TableName": "JT_TASKS_REP",
+      "Location": "JT_TASKS_REP",
+      "Connection": {
+        "Server": "MYD_CFG",
+        "Database": "",
+        "UserId": "IFSPRINT",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    }
+  ],
+  "Fields": [
+    {
+      "Name": "RESULT_KEY",
+      "NativeName": "{JT_TASKS_REP.RESULT_KEY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROW_NO",
+      "NativeName": "{JT_TASKS_REP.ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PARENT_ROW_NO",
+      "NativeName": "{JT_TASKS_REP.PARENT_ROW_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ROWVERSION",
+      "NativeName": "{JT_TASKS_REP.ROWVERSION}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "WO_NO_LIST",
+      "NativeName": "{JT_TASKS_REP.WO_NO_LIST}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TASK_SEQ_LIST",
+      "NativeName": "{JT_TASKS_REP.TASK_SEQ_LIST}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TASK_SEQ",
+      "NativeName": "{JT_TASKS_REP.TASK_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ORDER_NO",
+      "NativeName": "{JT_TASKS_REP.ORDER_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "WO_NO",
+      "NativeName": "{JT_TASKS_REP.WO_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SITE",
+      "NativeName": "{JT_TASKS_REP.SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COMPANY",
+      "NativeName": "{JT_TASKS_REP.COMPANY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORGANIZATION_SITE",
+      "NativeName": "{JT_TASKS_REP.ORGANIZATION_SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORGANIZATION_ID",
+      "NativeName": "{JT_TASKS_REP.ORGANIZATION_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORGANIZATION_DESC",
+      "NativeName": "{JT_TASKS_REP.ORGANIZATION_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRIORITY_ID",
+      "NativeName": "{JT_TASKS_REP.PRIORITY_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRIORITY_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.PRIORITY_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CRITICALITY",
+      "NativeName": "{JT_TASKS_REP.CRITICALITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CRITICALITY_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.CRITICALITY_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TEST_POINT_ID",
+      "NativeName": "{JT_TASKS_REP.TEST_POINT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TEST_POINT_DESC",
+      "NativeName": "{JT_TASKS_REP.TEST_POINT_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TEST_POINT_LOCATION",
+      "NativeName": "{JT_TASKS_REP.TEST_POINT_LOCATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WORK_TYPE_ID",
+      "NativeName": "{JT_TASKS_REP.WORK_TYPE_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WORK_TYPE_DESCR",
+      "NativeName": "{JT_TASKS_REP.WORK_TYPE_DESCR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LONG_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.LONG_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CREATED_BY",
+      "NativeName": "{JT_TASKS_REP.CREATED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CREATED_DATE",
+      "NativeName": "{JT_TASKS_REP.CREATED_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPARED_BY",
+      "NativeName": "{JT_TASKS_REP.PREPARED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PREPARED_BY_NAME",
+      "NativeName": "{JT_TASKS_REP.PREPARED_BY_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_BY",
+      "NativeName": "{JT_TASKS_REP.REPORTED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_BY_NAME",
+      "NativeName": "{JT_TASKS_REP.REPORTED_BY_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_DATE",
+      "NativeName": "{JT_TASKS_REP.REPORTED_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "MPB_LATEST_UPDATE",
+      "NativeName": "{JT_TASKS_REP.MPB_LATEST_UPDATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PLANNED_START",
+      "NativeName": "{JT_TASKS_REP.PLANNED_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PLANNED_FINISH",
+      "NativeName": "{JT_TASKS_REP.PLANNED_FINISH}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DURATION",
+      "NativeName": "{JT_TASKS_REP.DURATION}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_START",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_FINISH",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_FINISH}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "EARLIEST_START",
+      "NativeName": "{JT_TASKS_REP.EARLIEST_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "LATEST_START",
+      "NativeName": "{JT_TASKS_REP.LATEST_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "LATEST_FINISH",
+      "NativeName": "{JT_TASKS_REP.LATEST_FINISH}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "FIXED_START",
+      "NativeName": "{JT_TASKS_REP.FIXED_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "SLA_LATEST_START",
+      "NativeName": "{JT_TASKS_REP.SLA_LATEST_START}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "SLA_LATEST_FINISH",
+      "NativeName": "{JT_TASKS_REP.SLA_LATEST_FINISH}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "EXCLUDE_FROM_SCHEDULING",
+      "NativeName": "{JT_TASKS_REP.EXCLUDE_FROM_SCHEDULING}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "EXCLUDE_FROM_SCHEDULING_DB",
+      "NativeName": "{JT_TASKS_REP.EXCLUDE_FROM_SCHEDULING_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REMARK",
+      "NativeName": "{JT_TASKS_REP.REMARK}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INTERNAL_REMARK",
+      "NativeName": "{JT_TASKS_REP.INTERNAL_REMARK}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTION_TAKEN",
+      "NativeName": "{JT_TASKS_REP.ACTION_TAKEN}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CANCEL_CAUSE",
+      "NativeName": "{JT_TASKS_REP.CANCEL_CAUSE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_CONNECTION_LU_NAME",
+      "NativeName": "{JT_TASKS_REP.SOURCE_CONNECTION_LU_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_CONNECTION_LU_NAME_DB",
+      "NativeName": "{JT_TASKS_REP.SOURCE_CONNECTION_LU_NAME_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_CONNECTION_ROWKEY",
+      "NativeName": "{JT_TASKS_REP.SOURCE_CONNECTION_ROWKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_CONNECTION_TYPE",
+      "NativeName": "{JT_TASKS_REP.REPORTED_CONNECTION_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_CONNECTION_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.REPORTED_CONNECTION_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_OBJ_CONN_LU_NAME",
+      "NativeName": "{JT_TASKS_REP.REPORTED_OBJ_CONN_LU_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_OBJ_CONN_LU_NAME_DB",
+      "NativeName": "{JT_TASKS_REP.REPORTED_OBJ_CONN_LU_NAME_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REPORTED_OBJ_CONN_ROWKEY",
+      "NativeName": "{JT_TASKS_REP.REPORTED_OBJ_CONN_ROWKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_CONNECTION_TYPE",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_CONNECTION_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_CONNECTION_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_CONNECTION_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJ_CONN_LU_NAME",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJ_CONN_LU_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJ_CONN_LU_NAME_DB",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJ_CONN_LU_NAME_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJ_CONN_ROWKEY",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJ_CONN_ROWKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OPERATIONAL_STATUS_ID",
+      "NativeName": "{JT_TASKS_REP.OPERATIONAL_STATUS_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OPERATIONAL_STATUS_DESCR",
+      "NativeName": "{JT_TASKS_REP.OPERATIONAL_STATUS_DESCR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TEST_POINT_SEQ",
+      "NativeName": "{JT_TASKS_REP.TEST_POINT_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_CAUSE_LONG",
+      "NativeName": "{JT_TASKS_REP.ERROR_CAUSE_LONG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_TYPE",
+      "NativeName": "{JT_TASKS_REP.ERROR_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_CLASS",
+      "NativeName": "{JT_TASKS_REP.ERROR_CLASS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_DISCOVER_CODE",
+      "NativeName": "{JT_TASKS_REP.ERROR_DISCOVER_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_DISCOVER_DESCR",
+      "NativeName": "{JT_TASKS_REP.ERROR_DISCOVER_DESCR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_SYMPTOM",
+      "NativeName": "{JT_TASKS_REP.ERROR_SYMPTOM}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_SYMPTOM_DESCR",
+      "NativeName": "{JT_TASKS_REP.ERROR_SYMPTOM_DESCR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ITEM_CLASS_ID",
+      "NativeName": "{JT_TASKS_REP.ITEM_CLASS_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ERROR_CAUSE",
+      "NativeName": "{JT_TASKS_REP.ERROR_CAUSE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ITEM_CLASS_FUNCTION",
+      "NativeName": "{JT_TASKS_REP.ITEM_CLASS_FUNCTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FAILING_COMPONENT",
+      "NativeName": "{JT_TASKS_REP.FAILING_COMPONENT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERFORMED_ACTION_ID",
+      "NativeName": "{JT_TASKS_REP.PERFORMED_ACTION_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERFORMED_ACTION_DESC",
+      "NativeName": "{JT_TASKS_REP.PERFORMED_ACTION_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PERFORMED_WORK",
+      "NativeName": "{JT_TASKS_REP.PERFORMED_WORK}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUSTOMER_NO",
+      "NativeName": "{JT_TASKS_REP.CUSTOMER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VENDOR_NO",
+      "NativeName": "{JT_TASKS_REP.VENDOR_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "VENDOR_NAME",
+      "NativeName": "{JT_TASKS_REP.VENDOR_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACT_ID",
+      "NativeName": "{JT_TASKS_REP.CONTRACT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACT_NAME",
+      "NativeName": "{JT_TASKS_REP.CONTRACT_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_NO",
+      "NativeName": "{JT_TASKS_REP.LINE_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTACT",
+      "NativeName": "{JT_TASKS_REP.CONTACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTACT_PHONE_NO",
+      "NativeName": "{JT_TASKS_REP.CONTACT_PHONE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "E_MAIL",
+      "NativeName": "{JT_TASKS_REP.E_MAIL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_ORDER_TYPE",
+      "NativeName": "{JT_TASKS_REP.CUST_ORDER_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CURRENCY_CODE",
+      "NativeName": "{JT_TASKS_REP.CURRENCY_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DELIVERY_ADDRESS",
+      "NativeName": "{JT_TASKS_REP.DELIVERY_ADDRESS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_ORDER_NO",
+      "NativeName": "{JT_TASKS_REP.CUST_ORDER_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AUTHORIZE_CODE",
+      "NativeName": "{JT_TASKS_REP.AUTHORIZE_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "REFERENCE_NO",
+      "NativeName": "{JT_TASKS_REP.REFERENCE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_WARR_TYPE",
+      "NativeName": "{JT_TASKS_REP.CUST_WARR_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CUST_WARRANTY",
+      "NativeName": "{JT_TASKS_REP.CUST_WARRANTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJ_CUST_WARRANTY",
+      "NativeName": "{JT_TASKS_REP.OBJ_CUST_WARRANTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SUP_WARR_TYPE",
+      "NativeName": "{JT_TASKS_REP.SUP_WARR_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUP_WARRANTY",
+      "NativeName": "{JT_TASKS_REP.SUP_WARRANTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJ_SUP_WARRANTY",
+      "NativeName": "{JT_TASKS_REP.OBJ_SUP_WARRANTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CONTRACTOR_OWNER",
+      "NativeName": "{JT_TASKS_REP.CONTRACTOR_OWNER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "JOB_ID",
+      "NativeName": "{JT_TASKS_REP.JOB_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MAINT_TEAM_SITE",
+      "NativeName": "{JT_TASKS_REP.MAINT_TEAM_SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TEAM_ID",
+      "NativeName": "{JT_TASKS_REP.TEAM_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRE_ACCOUNTING_ID",
+      "NativeName": "{JT_TASKS_REP.PRE_ACCOUNTING_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "NOTE_ID",
+      "NativeName": "{JT_TASKS_REP.NOTE_ID}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_REF1",
+      "NativeName": "{JT_TASKS_REP.SOURCE_REF1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_REF2",
+      "NativeName": "{JT_TASKS_REP.SOURCE_REF2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_REF3",
+      "NativeName": "{JT_TASKS_REP.SOURCE_REF3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCE_REF4",
+      "NativeName": "{JT_TASKS_REP.SOURCE_REF4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MASTER_TASK_SEQ",
+      "NativeName": "{JT_TASKS_REP.MASTER_TASK_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DUPLICATE_TYPE",
+      "NativeName": "{JT_TASKS_REP.DUPLICATE_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DUPLICATE_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.DUPLICATE_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COST_CODE",
+      "NativeName": "{JT_TASKS_REP.COST_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PROJECT_ID",
+      "NativeName": "{JT_TASKS_REP.PROJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTIVITY_SEQ",
+      "NativeName": "{JT_TASKS_REP.ACTIVITY_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QUOTATION_NO",
+      "NativeName": "{JT_TASKS_REP.QUOTATION_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "QUOTATION_REV",
+      "NativeName": "{JT_TASKS_REP.QUOTATION_REV}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QUO_TASK_SEQ",
+      "NativeName": "{JT_TASKS_REP.QUO_TASK_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "INSPECTION_NOTE",
+      "NativeName": "{JT_TASKS_REP.INSPECTION_NOTE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GENERATE_NOTE",
+      "NativeName": "{JT_TASKS_REP.GENERATE_NOTE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SPENT_HOURS",
+      "NativeName": "{JT_TASKS_REP.SPENT_HOURS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "WORK_DONE",
+      "NativeName": "{JT_TASKS_REP.WORK_DONE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJSTATE",
+      "NativeName": "{JT_TASKS_REP.OBJSTATE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJEVENTS",
+      "NativeName": "{JT_TASKS_REP.OBJEVENTS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "STATE",
+      "NativeName": "{JT_TASKS_REP.STATE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJKEY",
+      "NativeName": "{JT_TASKS_REP.OBJKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJVERSION",
+      "NativeName": "{JT_TASKS_REP.OBJVERSION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJID",
+      "NativeName": "{JT_TASKS_REP.OBJID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJECT_SITE",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJECT_SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJECT_ID",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ACTUAL_OBJECT_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.ACTUAL_OBJECT_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RES_TYPE_PERSON",
+      "NativeName": "{JT_TASKS_REP.RES_TYPE_PERSON}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RES_TYPE_EQIP",
+      "NativeName": "{JT_TASKS_REP.RES_TYPE_EQIP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "JOB_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.JOB_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TASK_STEP_SEQ",
+      "NativeName": "{JT_TASKS_REP.TASK_STEP_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_CONNECTION_TYPE",
+      "NativeName": "{JT_TASKS_REP.OBJECT_CONNECTION_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_CONNECTION_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.OBJECT_CONNECTION_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_CONNECTION_LU_NAME",
+      "NativeName": "{JT_TASKS_REP.OBJECT_CONNECTION_LU_NAME}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_CONNECTION_LU_NAME_DB",
+      "NativeName": "{JT_TASKS_REP.OBJECT_CONNECTION_LU_NAME_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_CONNECTION_ROWKEY",
+      "NativeName": "{JT_TASKS_REP.OBJECT_CONNECTION_ROWKEY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_SITE",
+      "NativeName": "{JT_TASKS_REP.OBJECT_SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_ID",
+      "NativeName": "{JT_TASKS_REP.OBJECT_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OBJECT_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.OBJECT_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WORK_COMPLETED",
+      "NativeName": "{JT_TASKS_REP.WORK_COMPLETED}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TASK_RESOURCE_SEQ",
+      "NativeName": "{JT_TASKS_REP.TASK_RESOURCE_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PLANNED_HOURS",
+      "NativeName": "{JT_TASKS_REP.PLANNED_HOURS}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PLANNED_QUANTITY",
+      "NativeName": "{JT_TASKS_REP.PLANNED_QUANTITY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OFFSET",
+      "NativeName": "{JT_TASKS_REP.OFFSET}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DEMAND_TYPE",
+      "NativeName": "{JT_TASKS_REP.DEMAND_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DEMAND_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.DEMAND_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_SEQ",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_GROUP_SEQ",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_GROUP_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PLAN_LINE_NO",
+      "NativeName": "{JT_TASKS_REP.PLAN_LINE_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "MODIFIED_BY",
+      "NativeName": "{JT_TASKS_REP.MODIFIED_BY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MODIFIED_DATE",
+      "NativeName": "{JT_TASKS_REP.MODIFIED_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCING_OPTION",
+      "NativeName": "{JT_TASKS_REP.SOURCING_OPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SOURCING_OPTION_DB",
+      "NativeName": "{JT_TASKS_REP.SOURCING_OPTION_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_SUPPLY_OPTION",
+      "NativeName": "{JT_TASKS_REP.RENTAL_SUPPLY_OPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_SUPPLY_OPTION_DB",
+      "NativeName": "{JT_TASKS_REP.RENTAL_SUPPLY_OPTION_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_SITE",
+      "NativeName": "{JT_TASKS_REP.RENTAL_SITE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_PART_NO",
+      "NativeName": "{JT_TASKS_REP.RENTAL_PART_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "QUO_TASK_RES_SEQ",
+      "NativeName": "{JT_TASKS_REP.QUO_TASK_RES_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_GROUP",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_GROUP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_GROUP_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_GROUP_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_ID",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RESOURCE_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.RESOURCE_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MAINT_MATERIAL_ORDER_NO",
+      "NativeName": "{JT_TASKS_REP.MAINT_MATERIAL_ORDER_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_ITEM_NO",
+      "NativeName": "{JT_TASKS_REP.LINE_ITEM_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PART_NO",
+      "NativeName": "{JT_TASKS_REP.PART_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SPARE_CONTRACT",
+      "NativeName": "{JT_TASKS_REP.SPARE_CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "INV_PART_DESC",
+      "NativeName": "{JT_TASKS_REP.INV_PART_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DATE_REQUIRED",
+      "NativeName": "{JT_TASKS_REP.DATE_REQUIRED}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PLAN_QTY",
+      "NativeName": "{JT_TASKS_REP.PLAN_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY",
+      "NativeName": "{JT_TASKS_REP.QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_SHORT",
+      "NativeName": "{JT_TASKS_REP.QTY_SHORT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_ASSIGNED",
+      "NativeName": "{JT_TASKS_REP.QTY_ASSIGNED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_RETURNED",
+      "NativeName": "{JT_TASKS_REP.QTY_RETURNED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CATALOG_CONTRACT",
+      "NativeName": "{JT_TASKS_REP.CATALOG_CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CATALOG_NO",
+      "NativeName": "{JT_TASKS_REP.CATALOG_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_LIST_NO",
+      "NativeName": "{JT_TASKS_REP.PRICE_LIST_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LIST_PRICE",
+      "NativeName": "{JT_TASKS_REP.LIST_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "LIST_PRICE_CURR",
+      "NativeName": "{JT_TASKS_REP.LIST_PRICE_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SALE_UNIT_PRICE",
+      "NativeName": "{JT_TASKS_REP.SALE_UNIT_PRICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "SALE_UNIT_PRICE_CURR",
+      "NativeName": "{JT_TASKS_REP.SALE_UNIT_PRICE_CURR}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DISCOUNT",
+      "NativeName": "{JT_TASKS_REP.DISCOUNT}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_TO_INVOICE",
+      "NativeName": "{JT_TASKS_REP.QTY_TO_INVOICE}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "COST",
+      "NativeName": "{JT_TASKS_REP.COST}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "REQUISITION_NO",
+      "NativeName": "{JT_TASKS_REP.REQUISITION_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RELEASE_NO",
+      "NativeName": "{JT_TASKS_REP.RELEASE_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF_TYPE",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF_TYPE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF_TYPE_DB",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF_TYPE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF1",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF2",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF3",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_SOURCE_REF4",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_SOURCE_REF4}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SERIAL_NO",
+      "NativeName": "{JT_TASKS_REP.SERIAL_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CONDITION_CODE",
+      "NativeName": "{JT_TASKS_REP.CONDITION_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PART_OWNERSHIP",
+      "NativeName": "{JT_TASKS_REP.PART_OWNERSHIP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PART_OWNERSHIP_DB",
+      "NativeName": "{JT_TASKS_REP.PART_OWNERSHIP_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OWNER",
+      "NativeName": "{JT_TASKS_REP.OWNER}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_CODE",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SUPPLY_CODE_DB",
+      "NativeName": "{JT_TASKS_REP.SUPPLY_CODE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "IS_CLOSED",
+      "NativeName": "{JT_TASKS_REP.IS_CLOSED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PEGGED_QTY",
+      "NativeName": "{JT_TASKS_REP.PEGGED_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "REPAIR_PART_FLAG",
+      "NativeName": "{JT_TASKS_REP.REPAIR_PART_FLAG}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MANUAL_LINE",
+      "NativeName": "{JT_TASKS_REP.MANUAL_LINE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_MCH_CONTRACT",
+      "NativeName": "{JT_TASKS_REP.RWO_MCH_CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_MCH_CODE",
+      "NativeName": "{JT_TASKS_REP.RWO_MCH_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_CONTRACT",
+      "NativeName": "{JT_TASKS_REP.RWO_CONTRACT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_ORG_CODE",
+      "NativeName": "{JT_TASKS_REP.RWO_ORG_CODE}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_LOT_BATCH_NO",
+      "NativeName": "{JT_TASKS_REP.RWO_LOT_BATCH_NO}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_ERR_DESCR",
+      "NativeName": "{JT_TASKS_REP.RWO_ERR_DESCR}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_COPY_PREPOST",
+      "NativeName": "{JT_TASKS_REP.RWO_COPY_PREPOST}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RWO_COPY_PREPOST_DB",
+      "NativeName": "{JT_TASKS_REP.RWO_COPY_PREPOST_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_SOURCE_DB",
+      "NativeName": "{JT_TASKS_REP.PRICE_SOURCE_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_SOURCE_ID",
+      "NativeName": "{JT_TASKS_REP.PRICE_SOURCE_ID}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "GENERATED",
+      "NativeName": "{JT_TASKS_REP.GENERATED}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MARKUP",
+      "NativeName": "{JT_TASKS_REP.MARKUP}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL",
+      "NativeName": "{JT_TASKS_REP.RENTAL}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_DB",
+      "NativeName": "{JT_TASKS_REP.RENTAL_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "RENTAL_TASK_RES_SEQ",
+      "NativeName": "{JT_TASKS_REP.RENTAL_TASK_RES_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "PRICE_EFFECTIVE_DATE",
+      "NativeName": "{JT_TASKS_REP.PRICE_EFFECTIVE_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "WO_QUO_NO",
+      "NativeName": "{JT_TASKS_REP.WO_QUO_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QUO_SPARE_SEQ",
+      "NativeName": "{JT_TASKS_REP.QUO_SPARE_SEQ}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "CHANGE_REASON",
+      "NativeName": "{JT_TASKS_REP.CHANGE_REASON}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CHANGES_LINE_ITEM_NO",
+      "NativeName": "{JT_TASKS_REP.CHANGES_LINE_ITEM_NO}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "QTY_CHANGED",
+      "NativeName": "{JT_TASKS_REP.QTY_CHANGED}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DIM_QUALITY",
+      "NativeName": "{JT_TASKS_REP.DIM_QUALITY}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TYPE_DESIGNATION",
+      "NativeName": "{JT_TASKS_REP.TYPE_DESIGNATION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UNIT_MEAS",
+      "NativeName": "{JT_TASKS_REP.UNIT_MEAS}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COST_RETURN",
+      "NativeName": "{JT_TASKS_REP.COST_RETURN}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "COST_RETURN_DB",
+      "NativeName": "{JT_TASKS_REP.COST_RETURN_DB}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LINE_DESCRIPTION",
+      "NativeName": "{JT_TASKS_REP.LINE_DESCRIPTION}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ORIGINAL_QTY",
+      "NativeName": "{JT_TASKS_REP.ORIGINAL_QTY}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSORTMENT",
+      "NativeName": "{JT_TASKS_REP.ASSORTMENT}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ASSORTMENT_DESC",
+      "NativeName": "{JT_TASKS_REP.ASSORTMENT_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "WANTED_RECEIPT_DATE",
+      "NativeName": "{JT_TASKS_REP.WANTED_RECEIPT_DATE}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "PURCHASE_GROUP",
+      "NativeName": "{JT_TASKS_REP.PURCHASE_GROUP}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PURCH_GROUP_DESC",
+      "NativeName": "{JT_TASKS_REP.PURCH_GROUP_DESC}",
+      "DataType": "StringField",
+      "Length": 0
+    }
+  ],
+  "DataSetPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<CrystalReport xmlns=\"urn:crystal-reports:schemas:report-detail\"  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd\">\r\n<ReportHeader>\r\n<Section SectionNumber=\"0\">\r\n<Picture Name=\"Picture2\" GraphicType=\"OLE\">\r\n</Picture>\r\n<Text Name=\"Text1\"><TextValue>WORK TASK |</TextValue>\r\n</Text>\r\n<Text Name=\"Text2\"><TextValue>PO | </TextValue>\r\n</Text>\r\n<Field Name=\"TASKSEQ2\" FieldName=\"{JT_TASKS_REP.TASK_SEQ}\"><FormattedValue>310</FormattedValue><Value>310.00</Value></Field>\r\n<Field Name=\"ORDERNO1\" FieldName=\"{JT_TASKS_REP.ORDER_NO}\"><FormattedValue>10</FormattedValue><Value>10.00</Value></Field>\r\n</Section>\r\n</ReportHeader>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n</Section>\r\n</Details>\r\n<ReportFooter>\r\n<Section SectionNumber=\"0\">\r\n</Section>\r\n</ReportFooter>\r\n</CrystalReport>\r\n",
+  "Parameters": [
+    {
+      "Name": "IFS_RESULT_KEY",
+      "PromptText": "Enter IFS_RESULT_KEY:",
+      "ValueType": "NumberField",
+      "ParameterType": "ReportParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [
+        2000.0
+      ],
+      "CurrentRanges": []
+    }
+  ],
+  "ReportFormulas": [],
+  "SqlExpressions": [],
+  "RecordSelectionFormula": " (  {JT_TASKS_REP.RESULT_KEY} = {?IFS_RESULT_KEY}  )  ",
+  "GroupSelectionFormula": "",
+  "GroupConditionFormulas": [],
+  "SortFormulas": [],
+  "RunningTotalFormulas": [],
+  "SummaryFormulas": [],
+  "HighlightingFormats": [],
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 1731,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Picture2",
+          "ObjectType": "PictureObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 240,
+          "Left": 6240,
+          "Width": 4560,
+          "Height": 1200,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "PictureObject",
+          "Note": "GraphicLocation/GraphicType not available in ENGINE API.",
+          "Formatting": {
+            "Top": 240,
+            "Left": 6240,
+            "Width": 4560,
+            "Height": 1200,
+            "Type": "PictureObject",
+            "GraphicLocation": "NotAvailableInEngineAPI",
+            "GraphicType": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box1",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 120,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 120,
+            "Left": 120,
+            "Width": 5100,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text1",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 240,
+          "Left": 300,
+          "Width": 2700,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "WORK TASK |",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [A=255, R=0, G=204, B=153]",
+          "Formatting": {
+            "Top": 240,
+            "Left": 300,
+            "Width": 2700,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "WORK TASK |",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 20.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [A=255, R=0, G=204, B=153]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [A=255, R=0, G=204, B=153]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text2",
+          "ObjectType": "TextObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 1080,
+          "Left": 360,
+          "Width": 780,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "PO | ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [A=255, R=0, G=204, B=153]",
+          "Formatting": {
+            "Top": 1080,
+            "Left": 360,
+            "Width": 780,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "PO | ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 20.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [A=255, R=0, G=204, B=153]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [A=255, R=0, G=204, B=153]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box7",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 960,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 960,
+            "Left": 120,
+            "Width": 5100,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TASKSEQ2",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 240,
+          "Left": 2880,
+          "Width": 2400,
+          "Height": 531,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TASK_SEQ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 240,
+            "Left": 2880,
+            "Width": 2400,
+            "Height": 531,
+            "Type": "FieldObject",
+            "FieldName": "TASK_SEQ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 20.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box12",
+          "ObjectType": "BoxObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 960,
+          "Left": 120,
+          "Width": 5100,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 960,
+            "Left": 120,
+            "Width": 5100,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "ORDERNO1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportHeaderSection1",
+          "Top": 1080,
+          "Left": 1291,
+          "Width": 2280,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "ORDER_NO",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 20.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1080,
+            "Left": 1291,
+            "Width": 2280,
+            "Height": 480,
+            "Type": "FieldObject",
+            "FieldName": "ORDER_NO",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 20.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection1",
+      "Kind": "PageHeader",
+      "Height": 13272,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Text3",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 223,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 394,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Site Details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 223,
+            "Left": 360,
+            "Width": 3120,
+            "Height": 394,
+            "Type": "TextObject",
+            "Text": "Site Details",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 14.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line1",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 598,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 598,
+          "X2": 10680,
+          "Y2": 598,
+          "Formatting": {
+            "Top": 598,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box2",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 780,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 780,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box3",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1560,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 1560,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box4",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2433,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 720,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 2433,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 720,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box5",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 780,
+          "Left": 5880,
+          "Width": 4823,
+          "Height": 2373,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 780,
+            "Left": 5880,
+            "Width": 4823,
+            "Height": 2373,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text14",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 960,
+          "Left": 6120,
+          "Width": 1920,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Practice Address :",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 960,
+            "Left": 6120,
+            "Width": 1920,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Practice Address :",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line2",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 3840,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 3840,
+          "X2": 10680,
+          "Y2": 3840,
+          "Formatting": {
+            "Top": 3840,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box6",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4033,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4033,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text17",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 3433,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "SLA",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3433,
+            "Left": 360,
+            "Width": 3120,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "SLA",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 14.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box8",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4033,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4033,
+            "Left": 5880,
+            "Width": 4800,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box9",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4873,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4873,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box10",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4873,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 4873,
+            "Left": 5880,
+            "Width": 4800,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text20",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4920,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Date / Time Logged : {JT_TASKS_REP.CREATED_DATE}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4920,
+            "Left": 360,
+            "Width": 4800,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Date / Time Logged : {JT_TASKS_REP.CREATED_DATE}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text22",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 5040,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "SLA Response : {JT_TASKS_REP.SLA_LATEST_START}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 5040,
+            "Left": 6120,
+            "Width": 4440,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "SLA Response : {JT_TASKS_REP.SLA_LATEST_START}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box11",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 5713,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 5713,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text5",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 5880,
+          "Left": 360,
+          "Width": 3641,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Work Type : {JT_TASKS_REP.WORK_TYPE_DESCR}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 5880,
+            "Left": 360,
+            "Width": 3641,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Work Type : {JT_TASKS_REP.WORK_TYPE_DESCR}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line8",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 7095,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 7095,
+          "X2": 10680,
+          "Y2": 7095,
+          "Formatting": {
+            "Top": 7095,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box17",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 7320,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 7320,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text18",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 6720,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Asset details ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 6720,
+            "Left": 360,
+            "Width": 3120,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Asset details ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 14.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box20",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 7320,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 7320,
+            "Left": 5880,
+            "Width": 4800,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box18",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 8160,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 8160,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box21",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 8160,
+          "Left": 5880,
+          "Width": 4800,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 8160,
+            "Left": 5880,
+            "Width": 4800,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text23",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 7440,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Object type : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 7440,
+            "Left": 360,
+            "Width": 4800,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Object type : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text24",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 8280,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Asset Make : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 8280,
+            "Left": 360,
+            "Width": 4800,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Asset Make : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text25",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 7440,
+          "Left": 6120,
+          "Width": 4560,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Room : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 7440,
+            "Left": 6120,
+            "Width": 4560,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Room : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text26",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 8280,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Within Warranty? :",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 8280,
+            "Left": 6120,
+            "Width": 4440,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Within Warranty? :",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box19",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 9000,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 695,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 9000,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 695,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text27",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 9120,
+          "Left": 360,
+          "Width": 3641,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Serial No : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 9120,
+            "Left": 360,
+            "Width": 3641,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Serial No : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line3",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 10349,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [A=255, R=0, G=204, B=153]"
+          },
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 10349,
+          "X2": 10680,
+          "Y2": 10349,
+          "Formatting": {
+            "Top": 10349,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text4",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 9960,
+          "Left": 360,
+          "Width": 3120,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Work task details",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 14.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 9960,
+            "Left": 360,
+            "Width": 3120,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Work task details",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 14.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box14",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 10560,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 1200,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 10560,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 1200,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line5",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 11040,
+          "Left": 120,
+          "Width": 10560,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 120,
+          "Y1": 11040,
+          "X2": 10680,
+          "Y2": 11040,
+          "Formatting": {
+            "Top": 11040,
+            "Left": 120,
+            "Width": 10560,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line6",
+          "ObjectType": "LineObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 10560,
+          "Left": 3360,
+          "Width": 0,
+          "Height": 1200,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 3360,
+          "Y1": 10560,
+          "X2": 3360,
+          "Y2": 11760,
+          "Formatting": {
+            "Top": 10560,
+            "Left": 3360,
+            "Width": 0,
+            "Height": 1200,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text8",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 10560,
+          "Left": 381,
+          "Width": 1820,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Work Task No ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 10560,
+            "Left": 381,
+            "Width": 1820,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Work Task No ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text10",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 10560,
+          "Left": 3600,
+          "Width": 6360,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Work Task Description",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 10560,
+            "Left": 3600,
+            "Width": 6360,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Work Task Description",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box15",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 11880,
+          "Left": 120,
+          "Width": 5040,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 11880,
+            "Left": 120,
+            "Width": 5040,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text11",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 11880,
+          "Left": 360,
+          "Width": 4800,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Contractor :   {JT_TASKS_REP.VENDOR_NO}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 11880,
+            "Left": 360,
+            "Width": 4800,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Contractor :   {JT_TASKS_REP.VENDOR_NO}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box16",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 12600,
+          "Left": 120,
+          "Width": 4320,
+          "Height": 480,
+          "Border": {
+            "Left": "SingleLine",
+            "Right": "SingleLine",
+            "Top": "SingleLine",
+            "Bottom": "SingleLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "SingleLine",
+          "Formatting": {
+            "Top": 12600,
+            "Left": 120,
+            "Width": 4320,
+            "Height": 480,
+            "Type": "BoxObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text16",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 12600,
+          "Left": 360,
+          "Width": 3840,
+          "Height": 420,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Related Work Order : {JT_TASKS_REP.WO_NO}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 12600,
+            "Left": 360,
+            "Width": 3840,
+            "Height": 420,
+            "Type": "TextObject",
+            "Text": "Related Work Order : {JT_TASKS_REP.WO_NO}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text29",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 12600,
+          "Left": 4680,
+          "Width": 6000,
+          "Height": 600,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Work orders may have multiple work tasks however purchase orders will be raised per work task\n",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 12600,
+            "Left": 4680,
+            "Width": 6000,
+            "Height": 600,
+            "Type": "TextObject",
+            "Text": "Work orders may have multiple work tasks however purchase orders will be raised per work task\n",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text9",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 960,
+          "Left": 360,
+          "Width": 5400,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Site ID & Name : {JT_TASKS_REP.ACTUAL_OBJECT_SITE} - ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 960,
+            "Left": 360,
+            "Width": 5400,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Site ID & Name : {JT_TASKS_REP.ACTUAL_OBJECT_SITE} - ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text12",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1680,
+          "Left": 360,
+          "Width": 4589,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Telephone : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1680,
+            "Left": 360,
+            "Width": 4589,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Telephone : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text13",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 2520,
+          "Left": 360,
+          "Width": 4469,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Email : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2520,
+            "Left": 360,
+            "Width": 4469,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Email : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text19",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4080,
+          "Left": 360,
+          "Width": 931,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Priority : ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4080,
+            "Left": 360,
+            "Width": 931,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Priority : ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text21",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4080,
+          "Left": 6120,
+          "Width": 4440,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "Criticality : {JT_TASKS_REP.CRITICALITY_DESCRIPTION}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4080,
+            "Left": 6120,
+            "Width": 4440,
+            "Height": 480,
+            "Type": "TextObject",
+            "Text": "Criticality : {JT_TASKS_REP.CRITICALITY_DESCRIPTION}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text6",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 4080,
+          "Left": 1291,
+          "Width": 3869,
+          "Height": 600,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "{JT_TASKS_REP.PRIORITY_DESCRIPTION}",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4080,
+            "Left": 1291,
+            "Width": 3869,
+            "Height": 600,
+            "Type": "TextObject",
+            "Text": "{JT_TASKS_REP.PRIORITY_DESCRIPTION}",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TASKSEQ1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 11160,
+          "Left": 360,
+          "Width": 1184,
+          "Height": 300,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TASK_SEQ",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 11.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 11160,
+            "Left": 360,
+            "Width": 1184,
+            "Height": 300,
+            "Type": "FieldObject",
+            "FieldName": "TASK_SEQ",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 11.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "DESCRIPTION1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 11160,
+          "Left": 3600,
+          "Width": 6960,
+          "Height": 600,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "DESCRIPTION",
+          "Font": {
+            "FontName": "Segoe UI",
+            "Size": 10.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 11160,
+            "Left": 3600,
+            "Width": 6960,
+            "Height": 600,
+            "Type": "FieldObject",
+            "FieldName": "DESCRIPTION",
+            "Font": {
+              "FontName": "Segoe UI",
+              "Size": 10.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 348,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 326,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 324,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    }
+  ],
+  "Objects": [],
+  "Groups": [],
+  "Sorts": [],
+  "Formatting": {},
+  "Charts": [],
+  "CrossTabs": [],
+  "Alerts": [
+    {
+      "AlertName": "NotSupportedInEngineAPI",
+      "Enabled": false,
+      "Severity": "N/A",
+      "Message": "Crystal Reports Engine API does not expose alert information.",
+      "ConditionFormula": "",
+      "InvolvedFields": []
+    }
+  ]
+}

@@ -1,0 +1,1617 @@
+{
+  "ReportName": "InventoryGoodsIssueAndReceipt",
+  "GeneratedDate": "2025-11-20 16:05:17",
+  "ExportSequence": 1,
+  "SummaryInfo": {
+    "Title": null,
+    "Author": null,
+    "Comments": null
+  },
+  "Database": [
+    {
+      "TableName": "Header",
+      "Location": "Command",
+      "Connection": {
+        "Server": ".",
+        "Database": "SBODemoUS",
+        "UserId": "sa",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    },
+    {
+      "TableName": "Lines",
+      "Location": "Command",
+      "Connection": {
+        "Server": ".",
+        "Database": "SBODemoUS",
+        "UserId": "sa",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    }
+  ],
+  "Fields": [
+    {
+      "Name": "DocEntry",
+      "NativeName": "{Header.DocEntry}",
+      "DataType": "Int32sField",
+      "Length": 0
+    },
+    {
+      "Name": "DocNum",
+      "NativeName": "{Header.DocNum}",
+      "DataType": "Int32sField",
+      "Length": 0
+    },
+    {
+      "Name": "DocDate",
+      "NativeName": "{Header.DocDate}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DocTime",
+      "NativeName": "{Header.DocTime}",
+      "DataType": "Int16sField",
+      "Length": 0
+    },
+    {
+      "Name": "PriceListNum",
+      "NativeName": "{Header.PriceListNum}",
+      "DataType": "Int16sField",
+      "Length": 0
+    },
+    {
+      "Name": "Comments",
+      "NativeName": "{Header.Comments}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ObjType",
+      "NativeName": "{Header.ObjType}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PriceList",
+      "NativeName": "{Header.PriceList}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "ItemCode",
+      "NativeName": "{Lines.ItemCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Dscription",
+      "NativeName": "{Lines.Dscription}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Quantity",
+      "NativeName": "{Lines.Quantity}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "unitMsr",
+      "NativeName": "{Lines.unitMsr}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LineTotal",
+      "NativeName": "{Lines.LineTotal}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "Currency",
+      "NativeName": "{Lines.Currency}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PriceBefDi",
+      "NativeName": "{Lines.PriceBefDi}",
+      "DataType": "NumberField",
+      "Length": 0
+    }
+  ],
+  "DataSetPreview": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\r\n<CrystalReport xmlns=\"urn:crystal-reports:schemas:report-detail\"  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"urn:crystal-reports:schemas:report-detail http://www.businessobjects.com/products/xml/CR2008Schema.xsd\">\r\n<ReportHeader>\r\n<Section SectionNumber=\"0\">\r\n</Section>\r\n</ReportHeader>\r\n<Details Level=\"1\">\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"Line1\" FieldName=\"{@Line_#}\"><FormattedValue>1</FormattedValue><Value>1.00</Value></Field>\r\n<Field Name=\"LineItemNo1\" FieldName=\"{@Line_ItemNo}\"><FormattedValue>P10001</FormattedValue><Value>P10001</Value></Field>\r\n<Field Name=\"LineDescription1\" FieldName=\"{@Line_Description}\"><FormattedValue>PC - P4 2.4G, DDR 512M, 400G HD</FormattedValue><Value>PC - P4 2.4G, DDR 512M, 400G HD</Value></Field>\r\n<Field Name=\"LineUoM1\" FieldName=\"{@Line_UoM}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"LineQty1\" FieldName=\"{@Line_Qty}\"><FormattedValue>20.00</FormattedValue><Value>20.00</Value></Field>\r\n<Field Name=\"LineTotal2\" FieldName=\"{@Line_Total}\"><FormattedValue>26,814.74</FormattedValue><Value>26814.74</Value></Field>\r\n<Field Name=\"LineItemCost1\" FieldName=\"{@Line_ItemCost}\"><FormattedValue>1,340.74</FormattedValue><Value>1340.74</Value></Field>\r\n</Section>\r\n</Details>\r\n<ReportFooter>\r\n<Section SectionNumber=\"0\">\r\n<Field Name=\"Remarks1\" FieldName=\"{@Remarks}\"><FormattedValue></FormattedValue><Value></Value></Field>\r\n<Field Name=\"TitleRemarks1\" FieldName=\"{@Title_Remarks}\"><FormattedValue>Kommentarer:</FormattedValue><Value>Kommentarer:</Value></Field>\r\n</Section>\r\n</ReportFooter>\r\n</CrystalReport>\r\n",
+  "Parameters": [
+    {
+      "Name": "DocKey@",
+      "PromptText": "DocEntry",
+      "ValueType": "NumberField",
+      "ParameterType": "StoreProcedureParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [
+        1.0
+      ],
+      "CurrentRanges": []
+    },
+    {
+      "Name": "ObjectId@",
+      "PromptText": "ObjectId",
+      "ValueType": "NumberField",
+      "ParameterType": "StoreProcedureParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [
+        59.0
+      ],
+      "CurrentRanges": []
+    },
+    {
+      "Name": "$[CURRENT_LANGUAGE]",
+      "PromptText": "EnterLanguage:",
+      "ValueType": "NumberField",
+      "ParameterType": "ReportParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [
+        1.0,
+        3.0,
+        5.0,
+        8.0,
+        9.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        16.0,
+        17.0,
+        18.0,
+        19.0,
+        20.0,
+        22.0,
+        23.0,
+        24.0,
+        25.0,
+        26.0,
+        27.0
+      ],
+      "DefaultRanges": [],
+      "CurrentValues": [
+        11.0
+      ],
+      "CurrentRanges": []
+    }
+  ],
+  "ReportFormulas": [
+    {
+      "Name": "Title",
+      "Text": "switch\r\n(\r\n    {?ObjectId@} = 59, \r\n        switch(\r\n            {@X_Language} = 'DK', 'Varetilgang',\r\n            {@X_Language} = 'DE', 'Wareneingang',\r\n            True, 'Goods Receipt' //Default English\r\n        ),\r\n\r\n\r\n    {?ObjectId@} = 60, \r\n        switch(\r\n            {@X_Language} = 'DK', 'Vareafgang',\r\n            {@X_Language} = 'DE', 'Warenausgang',\r\n            True, 'Goods Issue' //Default English\r\n        ),\r\n    TRUE, 'UNKNOWN TYPE'\r\n)"
+    },
+    {
+      "Name": "X_Language",
+      "Text": "switch(\r\n{?$[CURRENT_LANGUAGE]} = 1, 'HE', //Hebrew\r\n{?$[CURRENT_LANGUAGE]} = 3, 'EN', //English\r\n{?$[CURRENT_LANGUAGE]} = 5, 'PL', //Polish\r\n{?$[CURRENT_LANGUAGE]} = 8, 'GB', //Englis (UK)\r\n{?$[CURRENT_LANGUAGE]} = 9, 'DE', //German\r\n{?$[CURRENT_LANGUAGE]} = 11, 'DK', //Danish\r\n{?$[CURRENT_LANGUAGE]} = 12, 'NO', //Norwegian\r\n{?$[CURRENT_LANGUAGE]} = 13, 'IT', //Italian\r\n{?$[CURRENT_LANGUAGE]} = 14, 'HU', //Hungarian\r\n{?$[CURRENT_LANGUAGE]} = 16, 'NL', //Dutch\r\n{?$[CURRENT_LANGUAGE]} = 17, 'FI', //Finnish\r\n{?$[CURRENT_LANGUAGE]} = 18, 'GR', //Greek\r\n{?$[CURRENT_LANGUAGE]} = 19, 'PT', //Portuguese\r\n{?$[CURRENT_LANGUAGE]} = 20, 'SE', //Swedish\r\n{?$[CURRENT_LANGUAGE]} = 22, 'FR', //French\r\n{?$[CURRENT_LANGUAGE]} = 23, 'ES', //Spanish\r\n{?$[CURRENT_LANGUAGE]} = 24, 'RU', //Russian\r\n{?$[CURRENT_LANGUAGE]} = 25, 'CO', //Spanish (LA)\r\n{?$[CURRENT_LANGUAGE]} = 26, 'CZ', //Czech\r\n{?$[CURRENT_LANGUAGE]} = 27, 'SK', //Slovak\r\nTrue, 'EN' //Unknown (English)\r\n)"
+    },
+    {
+      "Name": "Title_Date",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Dato:',\r\n    {@X_Language} = 'DE', 'Datum:',\r\n    True, 'Date:' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Time",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kl.:',\r\n    {@X_Language} = 'DK', 'Zeit:',\r\n    True, 'Time:' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_PriceList",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Prisliste:',\r\n    {@X_Language} = 'DE', 'Preisliste:',\r\n    True, 'Price List:' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_#",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', '#',\r\n    {@X_Language} = 'DE', '#',\r\n    True, '#' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_Description",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Beskrivelse',\r\n    {@X_Language} = 'DE', 'Beschreibung',\r\n    True, 'Description' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_ItemNo",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Artikelnr.',\r\n    {@X_Language} = 'DE', 'Artikelnr.',\r\n    True, 'Item No.' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_Price",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Pris',\r\n    {@X_Language} = 'DE', 'Preis',\r\n    True, 'Price' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_Qty",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Mængde',\r\n    {@X_Language} = 'DE', 'Menge',\r\n    True, 'Qty' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Line_UoM",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Enh.',\r\n    {@X_Language} = 'DE', 'Einheit',\r\n    True, 'UoM' //Default English\r\n)"
+    },
+    {
+      "Name": "Line_#",
+      "Text": "whileprintingrecords;\r\nglobal numberVar Number;\r\nNumber := Number+1"
+    },
+    {
+      "Name": "Line_Description",
+      "Text": "{Lines.Dscription}"
+    },
+    {
+      "Name": "Line_ItemCost",
+      "Text": "{Lines.PriceBefDi}"
+    },
+    {
+      "Name": "Title_Line_Total",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Total',\r\n    {@X_Language} = 'DE', 'Gesamt',\r\n    True, 'Total' //Default English\r\n)"
+    },
+    {
+      "Name": "Line_ItemNo",
+      "Text": "{Lines.ItemCode}"
+    },
+    {
+      "Name": "Line_Qty",
+      "Text": "{Lines.Quantity}"
+    },
+    {
+      "Name": "Line_UoM",
+      "Text": "{Lines.unitMsr}"
+    },
+    {
+      "Name": "PriceList",
+      "Text": "if{@PriceListNumber} <> -1 then\r\n    {@PriceListDescription}\r\nElse\r\n    switch(\r\n        {@X_Language} = 'DK', 'Sidste indkøbspris',\r\n        True, 'Last Purchase Price' //Default English\r\n    )\r\n"
+    },
+    {
+      "Name": "PriceListDescription",
+      "Text": "{Header.PriceList}"
+    },
+    {
+      "Name": "PriceListNumber",
+      "Text": "{Header.PriceListNum}"
+    },
+    {
+      "Name": "Remarks",
+      "Text": "{Header.Comments}"
+    },
+    {
+      "Name": "Date",
+      "Text": "{Header.DocDate}"
+    },
+    {
+      "Name": "Time",
+      "Text": "stringvar timeString := ToText({Header.DocTime}, '#');\r\nwhile(Length(timeString) < 4) do timeString := '0'+timeString;\r\ntimeString[1]+timeString[2]+':'+timeString[3]+timeString[4];\r\n"
+    },
+    {
+      "Name": "Number",
+      "Text": "{Header.DocNum}"
+    },
+    {
+      "Name": "Line_Total",
+      "Text": "{Lines.LineTotal}"
+    },
+    {
+      "Name": "Title_Remarks",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kommentarer:',\r\n    {@X_Language} = 'DE', 'Bemerkungen:',\r\n    True, 'Remarks:' //Default English\r\n)"
+    }
+  ],
+  "SqlExpressions": [],
+  "RecordSelectionFormula": "",
+  "GroupSelectionFormula": "",
+  "GroupConditionFormulas": [],
+  "SortFormulas": [],
+  "RunningTotalFormulas": [],
+  "SummaryFormulas": [],
+  "HighlightingFormats": [],
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 0,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "PageHeaderSection1",
+      "Kind": "PageHeader",
+      "Height": 1499,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Text1",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 300,
+          "Left": 633,
+          "Width": 5509,
+          "Height": 463,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": "{@Title} - {@Number}",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 16.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 300,
+            "Left": 633,
+            "Width": 5509,
+            "Height": 463,
+            "Type": "TextObject",
+            "Text": "{@Title} - {@Number}",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 16.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "CanGrow": false,
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleDate1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 236,
+          "Left": 9264,
+          "Width": 768,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Date",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 236,
+            "Left": 9264,
+            "Width": 768,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Date",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleTime1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 520,
+          "Left": 9264,
+          "Width": 768,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Time",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 520,
+            "Left": 9264,
+            "Width": 768,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Time",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Date1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 236,
+          "Left": 10048,
+          "Width": 1172,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Date",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 236,
+            "Left": 10048,
+            "Width": 1172,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Date",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Time1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 520,
+          "Left": 10048,
+          "Width": 1172,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Time",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 520,
+            "Left": 10048,
+            "Width": 1172,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Time",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLine1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 633,
+          "Width": 248,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_#",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 633,
+            "Width": 248,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_#",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLineItemNo1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 1081,
+          "Width": 1344,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_ItemNo",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 1081,
+            "Width": 1344,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_ItemNo",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLineDescription1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 2494,
+          "Width": 3648,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_Description",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 2494,
+            "Width": 3648,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_Description",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLineUoM1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 6180,
+          "Width": 730,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_UoM",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 6180,
+            "Width": 730,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_UoM",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLineQty1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 6986,
+          "Width": 1024,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_Qty",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 6986,
+            "Width": 1024,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_Qty",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLinePrice1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 8010,
+          "Width": 1254,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_Price",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 8010,
+            "Width": 1254,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_Price",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleLineTotal1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1137,
+          "Left": 9264,
+          "Width": 1548,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_Total",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1137,
+            "Left": 9264,
+            "Width": 1548,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_Total",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitlePriceList1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 236,
+          "Left": 6180,
+          "Width": 1344,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_PriceList",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 236,
+            "Left": 6180,
+            "Width": 1344,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_PriceList",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "PriceList1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 520,
+          "Left": 6180,
+          "Width": 2554,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "PriceList",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 520,
+            "Left": 6180,
+            "Width": 2554,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "PriceList",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box1",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection1",
+          "Top": 1067,
+          "Left": 465,
+          "Width": 10507,
+          "Height": 366,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "NoLine",
+          "Formatting": {
+            "Top": 1067,
+            "Left": 465,
+            "Width": 10507,
+            "Height": 366,
+            "Type": "BoxObject",
+            "LineStyle": "NoLine",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 326,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Line1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 633,
+          "Width": 297,
+          "Height": 204,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_#",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 633,
+            "Width": 297,
+            "Height": 204,
+            "Type": "FieldObject",
+            "FieldName": "Line_#",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineItemNo1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 1081,
+          "Width": 1344,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_ItemNo",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 1081,
+            "Width": 1344,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Line_ItemNo",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDescription1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 2494,
+          "Width": 3648,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_Description",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 2494,
+            "Width": 3648,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Line_Description",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineUoM1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 6180,
+          "Width": 730,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_UoM",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 6180,
+            "Width": 730,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Line_UoM",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineQty1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 7102,
+          "Width": 908,
+          "Height": 204,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_Qty",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 7102,
+            "Width": 908,
+            "Height": 204,
+            "Type": "FieldObject",
+            "FieldName": "Line_Qty",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineTotal2",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 9264,
+          "Width": 1548,
+          "Height": 204,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_Total",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 9264,
+            "Width": 1548,
+            "Height": 204,
+            "Type": "FieldObject",
+            "FieldName": "Line_Total",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineItemCost1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 36,
+          "Left": 8010,
+          "Width": 1254,
+          "Height": 204,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_ItemCost",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 36,
+            "Left": 8010,
+            "Width": 1254,
+            "Height": 204,
+            "Type": "FieldObject",
+            "FieldName": "Line_ItemCost",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 1491,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Remarks1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 285,
+          "Left": 2494,
+          "Width": 7249,
+          "Height": 945,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Remarks",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 285,
+            "Left": 2494,
+            "Width": 7249,
+            "Height": 945,
+            "Type": "FieldObject",
+            "FieldName": "Remarks",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": true,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitleRemarks1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 285,
+          "Left": 633,
+          "Width": 1861,
+          "Height": 221,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Remarks",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 285,
+            "Left": 633,
+            "Width": 1861,
+            "Height": 221,
+            "Type": "FieldObject",
+            "FieldName": "Title_Remarks",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 0,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    }
+  ],
+  "Objects": [],
+  "Groups": [],
+  "Sorts": [],
+  "Formatting": {},
+  "Charts": [],
+  "CrossTabs": [],
+  "Alerts": [
+    {
+      "AlertName": "NotSupportedInEngineAPI",
+      "Enabled": false,
+      "Severity": "N/A",
+      "Message": "Crystal Reports Engine API does not expose alert information.",
+      "ConditionFormula": "",
+      "InvolvedFields": []
+    }
+  ]
+}

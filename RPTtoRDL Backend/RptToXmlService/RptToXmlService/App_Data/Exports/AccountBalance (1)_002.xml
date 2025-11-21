@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CrystalReport>
+  <ReportMetadata>
+    <ReportName>AccountBalance (1)</ReportName>
+    <GeneratedDate>2025-11-21 15:01:39</GeneratedDate>
+    <ExportSequence>2</ExportSequence>
+  </ReportMetadata>
+  <SummaryInfo>
+    <Title>Account Balance Master</Title>
+    <Author>Boyum IT A/S</Author>
+    <Comments>NB: Boyum IT A/S does not perform any support on modification of this layout.</Comments>
+  </SummaryInfo>
+  <Database>
+    <Table>
+      <TableName>Lines</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>PHJ</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>BusinessPartner</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>PHJ</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>CompanyInfo</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>PHJ</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+    <Table>
+      <TableName>Primo</TableName>
+      <Location>Command</Location>
+      <Connection>
+        <Server>.</Server>
+        <Database>PHJ</Database>
+        <User>sa</User>
+        <Provider>CRQE</Provider>
+      </Connection>
+    </Table>
+  </Database>
+  <AllFields>
+    <Field>
+      <Name>ShortName</Name>
+      <NativeName>{Lines.ShortName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TransId</Name>
+      <NativeName>{Lines.TransId}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TransType</Name>
+      <NativeName>{Lines.TransType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BaseRef</Name>
+      <NativeName>{Lines.BaseRef}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Ref1</Name>
+      <NativeName>{Lines.Ref1}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Ref2</Name>
+      <NativeName>{Lines.Ref2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>RefDate</Name>
+      <NativeName>{Lines.RefDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>DueDate</Name>
+      <NativeName>{Lines.DueDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxDate</Name>
+      <NativeName>{Lines.TaxDate}</NativeName>
+      <DataType>DateTimeField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Debit</Name>
+      <NativeName>{Lines.Debit}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Credit</Name>
+      <NativeName>{Lines.Credit}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FcDebit</Name>
+      <NativeName>{Lines.FcDebit}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FcCredit</Name>
+      <NativeName>{Lines.FcCredit}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LineMemo</Name>
+      <NativeName>{Lines.LineMemo}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FCCurrency</Name>
+      <NativeName>{Lines.FCCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardCode</Name>
+      <NativeName>{BusinessPartner.CardCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardName</Name>
+      <NativeName>{BusinessPartner.CardName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Address</Name>
+      <NativeName>{BusinessPartner.Address}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>ZipCode</Name>
+      <NativeName>{BusinessPartner.ZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>City</Name>
+      <NativeName>{BusinessPartner.City}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Country</Name>
+      <NativeName>{BusinessPartner.Country}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LangCode</Name>
+      <NativeName>{BusinessPartner.LangCode}</NativeName>
+      <DataType>Int32sField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Currency</Name>
+      <NativeName>{BusinessPartner.Currency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>CardType</Name>
+      <NativeName>{BusinessPartner.CardType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Name</Name>
+      <NativeName>{CompanyInfo.Name}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressFull</Name>
+      <NativeName>{CompanyInfo.AddressFull}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressStreet</Name>
+      <NativeName>{CompanyInfo.AddressStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressBlock</Name>
+      <NativeName>{CompanyInfo.AddressBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCity</Name>
+      <NativeName>{CompanyInfo.AddressCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressZipCode</Name>
+      <NativeName>{CompanyInfo.AddressZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCounty</Name>
+      <NativeName>{CompanyInfo.AddressCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressState</Name>
+      <NativeName>{CompanyInfo.AddressState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AddressCountry</Name>
+      <NativeName>{CompanyInfo.AddressCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone1</Name>
+      <NativeName>{CompanyInfo.Phone1}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Phone2</Name>
+      <NativeName>{CompanyInfo.Phone2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Fax</Name>
+      <NativeName>{CompanyInfo.Fax}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Email</Name>
+      <NativeName>{CompanyInfo.Email}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Manager</Name>
+      <NativeName>{CompanyInfo.Manager}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>LocalCurrency</Name>
+      <NativeName>{CompanyInfo.LocalCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>SystemCurrency</Name>
+      <NativeName>{CompanyInfo.SystemCurrency}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId</Name>
+      <NativeName>{CompanyInfo.FederalTaxId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId2</Name>
+      <NativeName>{CompanyInfo.FederalTaxId2}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>FederalTaxId3</Name>
+      <NativeName>{CompanyInfo.FederalTaxId3}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>AdditionalId</Name>
+      <NativeName>{CompanyInfo.AdditionalId}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>TaxOffice</Name>
+      <NativeName>{CompanyInfo.TaxOffice}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormType</Name>
+      <NativeName>{CompanyInfo.PayInFormType}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PayInFormGroupNumber</Name>
+      <NativeName>{CompanyInfo.PayInFormGroupNumber}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Website</Name>
+      <NativeName>{CompanyInfo.Website}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrintHeader</Name>
+      <NativeName>{CompanyInfo.PrintHeader}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathXml</Name>
+      <NativeName>{CompanyInfo.PathXml}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExcel</Name>
+      <NativeName>{CompanyInfo.PathExcel}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathWord</Name>
+      <NativeName>{CompanyInfo.PathWord}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathBitmap</Name>
+      <NativeName>{CompanyInfo.PathBitmap}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathAttach</Name>
+      <NativeName>{CompanyInfo.PathAttach}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PathExtension</Name>
+      <NativeName>{CompanyInfo.PathExtension}</NativeName>
+      <DataType>PersistentMemoField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCountry</Name>
+      <NativeName>{CompanyInfo.BankCountry}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCode</Name>
+      <NativeName>{CompanyInfo.BankCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankName</Name>
+      <NativeName>{CompanyInfo.BankName}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankSwift</Name>
+      <NativeName>{CompanyInfo.BankSwift}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankIban</Name>
+      <NativeName>{CompanyInfo.BankIban}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankStreet</Name>
+      <NativeName>{CompanyInfo.BankStreet}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBlock</Name>
+      <NativeName>{CompanyInfo.BankBlock}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCity</Name>
+      <NativeName>{CompanyInfo.BankCity}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankCounty</Name>
+      <NativeName>{CompanyInfo.BankCounty}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankState</Name>
+      <NativeName>{CompanyInfo.BankState}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankZipCode</Name>
+      <NativeName>{CompanyInfo.BankZipCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankAccount</Name>
+      <NativeName>{CompanyInfo.BankAccount}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>BankBranch</Name>
+      <NativeName>{CompanyInfo.BankBranch}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>HolidayCode</Name>
+      <NativeName>{CompanyInfo.HolidayCode}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>MultiLanguageSupport</Name>
+      <NativeName>{CompanyInfo.MultiLanguageSupport}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Logo</Name>
+      <NativeName>{CompanyInfo.Logo}</NativeName>
+      <DataType>StringField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>Primo</Name>
+      <NativeName>{Primo.Primo}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+    <Field>
+      <Name>PrimoFc</Name>
+      <NativeName>{Primo.PrimoFc}</NativeName>
+      <DataType>NumberField</DataType>
+      <Length>0</Length>
+    </Field>
+  </AllFields>
+  <DataSetPreview>&lt;Dataset&gt;Error: Missing parameter values.&lt;/Dataset&gt;</DataSetPreview>
+  <Parameters>
+    <Parameter>
+      <Name>cardCode</Name>
+      <PromptText>Business Partner Code</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_FROMDATE]</Name>
+      <PromptText>Posting From Date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_TODATE]</Name>
+      <PromptText>Posting to date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_DUE_FROMDATE]</Name>
+      <PromptText>Due From Date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_DUE_TODATE]</Name>
+      <PromptText>Due To date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_DOC_FROMDATE]</Name>
+      <PromptText>Documnet From Date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_DOC_TODATE]</Name>
+      <PromptText>Document To Date</PromptText>
+      <ValueType>DateField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_AGE_BY]</Name>
+      <PromptText>AgeBy</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>ReportParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_INCLUDE_RT]</Name>
+      <PromptText>Include Reconciled Transactions</PromptText>
+      <ValueType>StringField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+    <Parameter>
+      <Name>$[BOY_AB_BRANCH]</Name>
+      <PromptText>Branch</PromptText>
+      <ValueType>NumberField</ValueType>
+      <ParameterType>StoreProcedureParameter</ParameterType>
+      <AllowMultipleValues>False</AllowMultipleValues>
+      <EditMask>
+      </EditMask>
+      <DefaultValues>System.Collections.Generic.List`1[System.Object]</DefaultValues>
+      <DefaultRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</DefaultRanges>
+      <CurrentValues>System.Collections.Generic.List`1[System.Object]</CurrentValues>
+      <CurrentRanges>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</CurrentRanges>
+    </Parameter>
+  </Parameters>
+  <ReportFormulas>
+    <Formula>
+      <Name>0To30Days_NotDue</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= 30) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt; 0)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>31To60Days_NotDue</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= 60) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt;= 31)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>61+Days_NotDue</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= 99999) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt;= 61)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalDueAmount</Name>
+      <Text>IF (
+((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= 0)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Address</Name>
+      <Text>{@CardName} + chr(13)
++ {BusinessPartner.Address} + chr(13)
++ {BusinessPartner.Country}+ '-' +{BusinessPartner.ZipCode}  + ' ' + {BusinessPartner.City}</Text>
+    </Formula>
+    <Formula>
+      <Name>61+Days_Due</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= -61) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt;= -99999)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>31To60Days_Due</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= -31) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt;= -60)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>0To30Days_Due</Name>
+      <Text>IF (((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &lt;= 0) AND ((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt;= -30)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>PageXofY</Name>
+      <Text>ToText(PageNumber,'#') +' '+{@Title_Of}+' '+Totext(TotalPageCount,'#')</Text>
+    </Formula>
+    <Formula>
+      <Name>Title</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontoudtog',
+    {@X_Language} = 'NO', 'Kontoutskrift',
+    {@X_Language} = 'DE', 'Kontoauszug',
+    {@X_Language} = 'ES', 'Extracto de cuenta',
+    {@X_Language} = 'FI', 'Saldoraportti',
+    {@X_Language} = 'NL', 'Saldo',
+    {@X_Language} = 'FR', 'Solde du compte',
+    True, 'Account Balance' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Printed</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Udskrevet...........................................................',
+    {@X_Language} = 'NO', 'Skrevet ut...........................................................',
+    {@X_Language} = 'DE', 'Ausgedruckt...........................................................',
+    {@X_Language} = 'ES', 'Imprimido...........................................................',
+    {@X_Language} = 'FI', 'Tulostettu...........................................................',
+    {@X_Language} = 'NL', 'Gedrukt...........................................................',
+    {@X_Language} = 'FR', 'Imprimé...........................................................',
+    True, 'Printed...........................................................' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Debit</Name>
+      <Text>if({BusinessPartner.Currency} = {CompanyInfo.LocalCurrency} OR {BusinessPartner.Currency} = '##') then
+    {Lines.Debit}
+else
+    {Lines.FcDebit}
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Credit</Name>
+      <Text>if({BusinessPartner.Currency} = {CompanyInfo.LocalCurrency} OR {BusinessPartner.Currency} = '##') then
+    {Lines.Credit}
+else
+    {Lines.FcCredit}
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Sum</Name>
+      <Text>{@Line_Debit}-{@Line_Credit}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Sum</Name>
+      <Text>if({BusinessPartner.Currency} = '##') then
+switch(
+    {@X_Language} = 'DK', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'NO', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'DE', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'ES', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'FI', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'NL', 'Saldo '+{CompanyInfo.LocalCurrency},
+    {@X_Language} = 'FR', 'Saldo '+{CompanyInfo.LocalCurrency},
+    True, 'Total '+{CompanyInfo.LocalCurrency} //Default English
+)
+else
+switch(
+    {@X_Language} = 'DK', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'NO', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'DE', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'ES', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'FI', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'NL', 'Saldo '+{BusinessPartner.Currency},
+    {@X_Language} = 'FR', 'Saldo '+{BusinessPartner.Currency},
+    True, 'Total '+{BusinessPartner.Currency} //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Credit</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kredit',
+    {@X_Language} = 'NO', 'Kredit',
+    {@X_Language} = 'DE', 'Haben',
+    {@X_Language} = 'ES', 'Haber ',
+    {@X_Language} = 'FI', 'Kredit ',
+    {@X_Language} = 'NL', 'Credit ',
+    {@X_Language} = 'FR', 'Crédit ',
+    True, 'Credit' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Debit</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Debet',
+    {@X_Language} = 'NO', 'Debet',
+    {@X_Language} = 'DE', 'Soll',
+    {@X_Language} = 'ES', 'Debe',
+    {@X_Language} = 'FI', 'Debit',
+    {@X_Language} = 'NL', 'Debet',
+    {@X_Language} = 'FR', 'Débit',
+    True, 'Debit' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_DueDate</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Forfald',
+    {@X_Language} = 'NO', 'Forfallsdato',
+    {@X_Language} = 'DE', 'Fälligkeit',
+    {@X_Language} = 'ES', 'Vencimiento',
+    {@X_Language} = 'FI', 'Eräpvm',
+    {@X_Language} = 'NL', 'Vervaldatum',
+    {@X_Language} = 'FR', 'D`expiration',
+    True, 'Due date' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Text</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Tekst',
+    {@X_Language} = 'NO', 'Tekst',
+    {@X_Language} = 'DE', 'Text',
+    {@X_Language} = 'ES', 'Texto',
+    {@X_Language} = 'FI', 'Teksti',
+    {@X_Language} = 'NL', 'Tekst',
+    {@X_Language} = 'FR', 'Texte',
+    True, 'Text' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Document</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bilag',
+    {@X_Language} = 'NO', 'Bilagsnr.',
+    {@X_Language} = 'DE', 'Beleg',
+    {@X_Language} = 'ES', 'Anexo',
+    {@X_Language} = 'FI', 'Kirjauspvm',
+    {@X_Language} = 'NL', 'Bijlage',
+    {@X_Language} = 'FR', 'Annexe',
+    True, 'Doc. No.' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Line_Date</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Dato',
+    {@X_Language} = 'NO', 'Dato',
+    {@X_Language} = 'DE', 'Datum',
+    {@X_Language} = 'ES', 'Fecha',
+    {@X_Language} = 'FI', 'Päivä',
+    {@X_Language} = 'NL', 'Datum',
+    {@X_Language} = 'FR', 'Date de',
+    True, 'Date' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CustomerNo</Name>
+      <Text>Switch(
+{BusinessPartner.CardType}='C',
+switch(
+    {@X_Language} = 'DK', 'Kunde nr............................................................',
+    {@X_Language} = 'NO', 'Kunde nr............................................................',
+    {@X_Language} = 'DE', 'Kundennummer...........................................................',
+    {@X_Language} = 'ES', 'Número de cuenta...........................................................',
+    {@X_Language} = 'FI', 'Asiakasnro...........................................................',
+    {@X_Language} = 'NL', 'Klantnr............................................................',
+    {@X_Language} = 'FR', 'Numéro de client...........................................................',
+    True, 'Customer No............................................................' //Default English
+),
+{BusinessPartner.CardType}='S',
+switch(
+    {@X_Language} = 'DK', 'Leverandør nr............................................................',
+    {@X_Language} = 'NO', 'Leverandør nr............................................................',
+    {@X_Language} = 'DE', 'Verkäufer Nr...........................................................',
+    {@X_Language} = 'ES', 'Vendedor no...........................................................',
+    {@X_Language} = 'FI', 'Myyjä nro...........................................................',
+    {@X_Language} = 'NL', 'Leverancier Nr............................................................',
+    {@X_Language} = 'FR', 'No vendeur...........................................................',
+    True, 'Vendor No............................................................' //Default English
+)
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_FutureRemit</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Fremtidig forfald:',
+    {@X_Language} = 'NO', 'Fremtidig forfall:',
+    {@X_Language} = 'DE', 'Künftiger Fälligkeit:',
+    {@X_Language} = 'ES', 'Vencimiento futuro:',
+    {@X_Language} = 'FI', 'Tulevaisuudessa:',
+    {@X_Language} = 'NL', 'Toekomstige opdracht:',
+    {@X_Language} = 'FR', 'Attributions futures:',
+    True, 'Future Remit:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_0To30Days</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', '0-30 dage:',
+    {@X_Language} = 'NO', '0-30 dager:',
+    {@X_Language} = 'DE', '0-30 Tage',
+    {@X_Language} = 'ES', '0-30 días',
+    {@X_Language} = 'FI', '0-30 päivää',
+    {@X_Language} = 'NL', '0-30 dagen',
+    {@X_Language} = 'FR', '0-30 jours',
+    True, '0-30 days:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_31To60Days</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', '31-60 dage:',
+    {@X_Language} = 'NO', '31-60 dager:',
+    {@X_Language} = 'DE', '31-60 Tage',
+    {@X_Language} = 'ES', '31-60 días',
+    {@X_Language} = 'FI', '31-60 päivää',
+    {@X_Language} = 'NL', '31-60 dagen',
+    {@X_Language} = 'FR', '31-60 jours',
+    True, '31-60 days:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_61+Days</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', '61+ dage:',
+    {@X_Language} = 'NO', '61+ dager:',
+    {@X_Language} = 'DE', '61+ Tage',
+    {@X_Language} = 'ES', '60+ días',
+    {@X_Language} = 'FI', '61+ päivää',
+    {@X_Language} = 'NL', '60+ dagen',
+    {@X_Language} = 'FR', '61+ jours',
+    True, '61+ days:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_TotalAmountDue</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Samlet beløb over forfald:',
+    {@X_Language} = 'NO', 'Saldo forfalt: ',
+    {@X_Language} = 'DE', 'Gesamter Fälligkeitsbetrag',
+    {@X_Language} = 'ES', 'Total pago vencido',
+    {@X_Language} = 'FI', 'Yhteensä erääntyneet' ,
+    {@X_Language} = 'NL', 'Totaal verschuldigde bedrag',
+    {@X_Language} = 'FR', 'Montant total dû' ,
+    True, 'Total amount due:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>PaymentDetails</Name>
+      <Text>{@CompanyInfo_BankAddress}+chr(13)+
+{@Title_CompanyInfo_BankBranch}+': '+{@CompanyInfo_BankBranch}+chr(13)+
+{@Title_CompanyInfo_BankAccount}+': '+{@CompanyInfo_BankAccount}+chr(13)+
+{@Title_CompanyInfo_BankIban}+': '+{@CompanyInfo_BankIban}+chr(13)+
+{@Title_CompanyInfo_BankSwift}+': '+{@CompanyInfo_BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_PaymentDetails</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Betalings-information:',
+    {@X_Language} = 'NO', 'Betalingsinformasjon:',
+    {@X_Language} = 'DE', 'Zahlungsinformation:',
+    {@X_Language} = 'ES', 'Información de pago',
+    {@X_Language} = 'FI', 'Maksutiedot',
+    {@X_Language} = 'NL', 'Betalingsgegevens',
+    {@X_Language} = 'FR', 'Détails de paiement',
+    True, 'Payment details:' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>X_Language</Name>
+      <Text>switch(
+{BusinessPartner.LangCode} = 1, 'HE', //Hebrew
+{BusinessPartner.LangCode} = 3, 'EN', //English
+{BusinessPartner.LangCode} = 5, 'PL', //Polish
+{BusinessPartner.LangCode} = 8, 'GB', //Englis (UK)
+{BusinessPartner.LangCode} = 9, 'DE', //German
+{BusinessPartner.LangCode} = 11, 'DK', //Danish
+{BusinessPartner.LangCode} = 12, 'NO', //Norwegian
+{BusinessPartner.LangCode} = 13, 'IT', //Italian
+{BusinessPartner.LangCode} = 14, 'HU', //Hungarian
+{BusinessPartner.LangCode} = 16, 'NL', //Dutch
+{BusinessPartner.LangCode} = 17, 'FI', //Finnish
+{BusinessPartner.LangCode} = 18, 'GR', //Greek
+{BusinessPartner.LangCode} = 19, 'PT', //Portuguese
+{BusinessPartner.LangCode} = 20, 'SE', //Swedish
+{BusinessPartner.LangCode} = 22, 'FR', //French
+{BusinessPartner.LangCode} = 23, 'ES', //Spanish
+{BusinessPartner.LangCode} = 24, 'RU', //Russian
+{BusinessPartner.LangCode} = 25, 'CO', //Spanish (LA)
+{BusinessPartner.LangCode} = 26, 'CZ', //Czech
+{BusinessPartner.LangCode} = 27, 'SK', //Slovak
+True, 'EN' //Unknown (English)
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CardCode</Name>
+      <Text>{BusinessPartner.CardCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>CardName</Name>
+      <Text>{BusinessPartner.CardName}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Date</Name>
+      <Text>{Lines.RefDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Document</Name>
+      <Text>{Lines.BaseRef}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_Text</Name>
+      <Text>{Lines.LineMemo}</Text>
+    </Formula>
+    <Formula>
+      <Name>Line_DueDate</Name>
+      <Text>{Lines.DueDate}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style1</Name>
+      <Text>{@CompanyInfo_Name}+
+chr(13)+chr(13)+
+{@CompanyInfo_Address_Full}+chr(13)
++chr(13)+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+chr(13)+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+chr(13)+
+{@Title_Email}+': '+{@CompanyInfo_Email}+chr(13)+
+{@Title_Web}+': '+{@CompanyInfo_Website}+chr(13)+
+chr(13)+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Fax</Name>
+      <Text>{CompanyInfo.Fax}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Website</Name>
+      <Text>{CompanyInfo.Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone2</Name>
+      <Text>{CompanyInfo.Phone2}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Phone1</Name>
+      <Text>{CompanyInfo.Phone1}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Name</Name>
+      <Text>{CompanyInfo.Name}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_FederalTaxId</Name>
+      <Text>{CompanyInfo.FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Email</Name>
+      <Text>{CompanyInfo.Email}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankSwift</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'SWIFT',
+    {@X_Language} = 'NO', 'SWIFT',
+    {@X_Language} = 'DE', 'SWIFT',
+    {@X_Language} = 'ES', 'SWIFT',
+    {@X_Language} = 'FI', 'SWIFT ',
+    {@X_Language} = 'NL', 'SWIFT',
+    {@X_Language} = 'FR', 'SWIFT ',
+    True, 'SWIFT' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankSwift</Name>
+      <Text>{CompanyInfo.BankSwift}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankIban</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'IBAN',
+    {@X_Language} = 'NO', 'IBAN',
+    {@X_Language} = 'DE', 'IBAN ',
+    {@X_Language} = 'ES', 'IBAN ',
+    {@X_Language} = 'FI', 'IBAN ',
+    {@X_Language} = 'NL', 'IBAN ',
+    {@X_Language} = 'FR', 'IBAN ',
+    True, 'IBAN' //Default English
+)
+
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankIban</Name>
+      <Text>{CompanyInfo.BankIban}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankBranch</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Regnr.',
+    {@X_Language} = 'NO', 'Filial',
+    {@X_Language} = 'DE', 'Filiale',
+    {@X_Language} = 'ES', 'Sucursal',
+    {@X_Language} = 'FI', 'Konttori',
+    {@X_Language} = 'NL', 'Branche',
+    {@X_Language} = 'FR', 'Branche',
+    True, 'Branch' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankBranch</Name>
+      <Text>{CompanyInfo.BankBranch}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAddress</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Bankadresse',
+    {@X_Language} = 'NO', 'Bankadresse',
+    {@X_Language} = 'DE', 'Bankadresse',
+    {@X_Language} = 'ES', 'Dirección de banco',
+    {@X_Language} = 'FI', 'Pankkiosoite',
+    {@X_Language} = 'NL', 'Bankadres',
+    {@X_Language} = 'FR', 'Adresse de la banque',
+    True, 'Bank-address' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAddress</Name>
+      <Text>{CompanyInfo.BankName}+chr(13)+
+{CompanyInfo.BankStreet}+chr(13)+
+{CompanyInfo.BankCountry}+'-'+{CompanyInfo.BankZipCode}+' '+{CompanyInfo.BankCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_CompanyInfo_BankAccount</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Kontonr.',
+    {@X_Language} = 'NO', 'Kontonr:',
+    {@X_Language} = 'DE', 'Kontonummer',
+    {@X_Language} = 'ES', 'Número de cuenta',
+    {@X_Language} = 'FI', 'Tilinumero',
+    {@X_Language} = 'NL', 'Accountnr.',
+    {@X_Language} = 'FR', 'Numéro de compte',
+    True, 'Account' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccountAndBranch</Name>
+      <Text>{@Title_CompanyInfo_BankBranch}+': '+{CompanyInfo.BankBranch}+' - '+{@Title_CompanyInfo_BankAccount}+': '+{CompanyInfo.BankAccount}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_BankAccount</Name>
+      <Text>{CompanyInfo.BankAccount}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Zipcode</Name>
+      <Text>{CompanyInfo.AddressZipCode}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Street</Name>
+      <Text>{CompanyInfo.AddressStreet}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_State</Name>
+      <Text>{CompanyInfo.AddressState}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Full</Name>
+      <Text>{CompanyInfo.AddressFull}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_County</Name>
+      <Text>{CompanyInfo.AddressCounty}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Country</Name>
+      <Text>{CompanyInfo.AddressCountry}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_City</Name>
+      <Text>{CompanyInfo.AddressCity}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Address_Block</Name>
+      <Text>{CompanyInfo.AddressBlock}</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style2</Name>
+      <Text>{@CompanyInfo_Name}+' - '+
+{@CompanyInfo_Address_Street}+' - '+
+{@CompanyInfo_Address_Country}+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+' - '+
+{@Title_Phone}+': '+{@CompanyInfo_Phone1}+' - '+
+{@Title_Fax}+': '+{@CompanyInfo_Fax}+' - '+
+{@Title_Email}+': '+{@CompanyInfo_Email}+' - '+
+{@Title_Web}+': '+{@CompanyInfo_Website}+' - '+
+{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Email</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Email',
+    {@X_Language} = 'NO', 'E-Post',
+    {@X_Language} = 'DE', 'Email',
+    {@X_Language} = 'ES', 'Email',
+    {@X_Language} = 'FI', 'S-posti',
+    {@X_Language} = 'NL', 'Email',
+    {@X_Language} = 'FR', 'Email',
+    True, 'Email' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Fax</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Fax',
+    {@X_Language} = 'NO', 'Fax',
+    {@X_Language} = 'DE', 'Fax',
+    {@X_Language} = 'ES', 'Fax',
+    {@X_Language} = 'FI', 'Fax',
+    {@X_Language} = 'NL', 'Fax',
+    {@X_Language} = 'FR', 'Télécopieur',
+    True, 'Fax' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Phone</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Tlf',        
+    {@X_Language} = 'NO', 'Tlf',        
+    {@X_Language} = 'DE', 'Tel',       
+    {@X_Language} = 'ES', 'Tél',
+    {@X_Language} = 'FI', 'Puh',
+    {@X_Language} = 'NL', 'Tel',
+    {@X_Language} = 'FR', 'Tél',
+    True, 'Tel' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Page</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Side...........................................................',
+    {@X_Language} = 'NO', 'Side...........................................................',
+    {@X_Language} = 'DE', 'Seite...........................................................',
+    {@X_Language} = 'ES', 'Página...........................................................',
+    {@X_Language} = 'NL', 'Pagina...........................................................',
+    {@X_Language} = 'FR', 'Page...........................................................',
+    TRUE, 'Page...........................................................'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Of</Name>
+      <Text>switch(
+{@X_Language} = 'DK', 'af',
+{@X_Language} = 'NO', 'av',
+{@X_Language} = 'DE', 'von',
+{@X_Language} = 'ES', 'de',
+{@X_Language} = 'NL', 'van',
+{@X_Language} = 'FR', 'de',
+TRUE, 'of'
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_FederalTaxId</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'EU-Moms nummer',
+    {@X_Language} = 'NO', 'Org.nr',
+    {@X_Language} = 'DE', 'EU Ust-ID',
+    {@X_Language} = 'ES', 'EU NIF',
+    {@X_Language} = 'FI', 'ALV-numero',
+    {@X_Language} = 'NL', 'BTW-nr',
+    {@X_Language} = 'FR', 'Numéro de TVA',
+    True, 'Federal Tax Id' //Default English
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Web</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Web',
+    {@X_Language} = 'NO', 'Web',
+    {@X_Language} = 'DE', 'Webseite',
+    {@X_Language} = 'ES', 'Sitio Web',
+    {@X_Language} = 'FI', 'www',
+    {@X_Language} = 'NL', 'Website',
+    {@X_Language} = 'FR', 'Site web',
+    True, 'Web' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>CompanyInfo_Style3</Name>
+      <Text>{@CompanyInfo_Name}+'  -  '+
+{@CompanyInfo_Address_Street}+'  -  '+
+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+'  -  '+
+{@CompanyInfo_Address_Country}+'  -  '+'VAT: '+{@CompanyInfo_FederalTaxId}+chr(13)+
+'Tel: '+{@CompanyInfo_Phone1}+'    '+
+//'F: '+{@CompanyInfo_Fax}+'    '+
+'Mail: '+{@CompanyInfo_Email}+'    '+'Web: '+{@CompanyInfo_Website}</Text>
+    </Formula>
+    <Formula>
+      <Name>AgingDate</Name>
+      <Text>if({?$[BOY_AB_TODATE]} = DATE(9999,12,31)) THEN 
+CurrentDate
+ELSE
+{?$[BOY_AB_TODATE]}</Text>
+    </Formula>
+    <Formula>
+      <Name>DateToAgeBy</Name>
+      <Text>switch(
+    {?$[BOY_AB_AGE_BY]} = 'Document', {Lines.TaxDate},
+    {?$[BOY_AB_AGE_BY]} = 'Posting', {Lines.RefDate},
+    True, {Lines.DueDate}
+)
+
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Primo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Primosaldo:',
+    True, 'Primo amount:' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>RunningTotal</Name>
+      <Text>{@Primo}+{#RTotal0}</Text>
+    </Formula>
+    <Formula>
+      <Name>Primo</Name>
+      <Text>if({BusinessPartner.Currency} = {CompanyInfo.LocalCurrency} OR {BusinessPartner.Currency} = '##') then
+    {Primo.Primo}
+else
+    {Primo.PrimoFc}</Text>
+    </Formula>
+    <Formula>
+      <Name>Total</Name>
+      <Text>SUM({@Line_Sum})</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_Balance</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Balance',
+    {@X_Language} = 'NO', 'Saldo',
+    True, 'Balance' //Default English
+)</Text>
+    </Formula>
+    <Formula>
+      <Name>TotalNotAmount</Name>
+      <Text>IF (
+((DateDiff ("d", {@AgingDate}, {@DateToAgeBy})) &gt; 0)
+)THEN
+{@Line_Sum}
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Date_From</Name>
+      <Text>{?$[BOY_AB_FROMDATE]}</Text>
+    </Formula>
+    <Formula>
+      <Name>Date_To</Name>
+      <Text>{?$[BOY_AB_TODATE]}</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DateFrom</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Dato fra...........................................................',
+    {@X_Language} = 'NO', 'Dato fra...........................................................',
+    {@X_Language} = 'SE', 'Datum från...........................................................',
+    {@X_Language} = 'DE', 'Datum von...........................................................',
+    {@X_Language} = 'ES', 'Fecha contable...........................................................',
+    {@X_Language} = 'FI', 'Tositepvm...........................................................',
+    {@X_Language} = 'NL', 'Datum...........................................................',
+    {@X_Language} = 'FR', 'Date...........................................................',
+    True, 'Date from...........................................................' //Default English
+)
+</Text>
+    </Formula>
+    <Formula>
+      <Name>Title_DateTo</Name>
+      <Text>switch(
+    {@X_Language} = 'DK', 'Dato til...........................................................',
+    {@X_Language} = 'NO', 'Dato til...........................................................',
+    {@X_Language} = 'SE', 'Datum till...........................................................',
+    {@X_Language} = 'DE', 'Datum zu...........................................................',
+    {@X_Language} = 'ES', 'Fecha contable...........................................................',
+    {@X_Language} = 'FI', 'Tositepvm...........................................................',
+    {@X_Language} = 'NL', 'Datum...........................................................',
+    {@X_Language} = 'FR', 'Date...........................................................',
+    True, 'Date to...........................................................' //Default English
+)
+</Text>
+    </Formula>
+  </ReportFormulas>
+  <SqlExpressions />
+  <RecordSelectionFormula>
+  </RecordSelectionFormula>
+  <GroupSelectionFormula>
+  </GroupSelectionFormula>
+  <GroupConditionFormulas />
+  <SortFormulas>
+    <SortFormula>
+      <Field>{Lines.RefDate}</Field>
+      <Direction>AscendingOrder</Direction>
+    </SortFormula>
+  </SortFormulas>
+  <RunningTotalFormulas>
+    <RunningTotal>
+      <Name>RTotal0</Name>
+      <Operation>Sum</Operation>
+      <EvaluateCondition>
+      </EvaluateCondition>
+      <ResetCondition>
+      </ResetCondition>
+    </RunningTotal>
+  </RunningTotalFormulas>
+  <SummaryFormulas>
+    <SummaryFormula>
+      <Name>Sum ({@TotalDueAmount})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@TotalDueAmount}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@TotalNotAmount})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@TotalNotAmount}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@0To30Days_Due})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@0To30Days_Due}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@Line_Debit})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@Line_Debit}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@0To30Days_NotDue})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@0To30Days_NotDue}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@31To60Days_NotDue})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@31To60Days_NotDue}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@31To60Days_Due})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@31To60Days_Due}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@Line_Credit})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@Line_Credit}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@61+Days_Due})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@61+Days_Due}</Field>
+    </SummaryFormula>
+    <SummaryFormula>
+      <Name>Sum ({@61+Days_NotDue})</Name>
+      <SummaryType>Sum</SummaryType>
+      <Field>{@61+Days_NotDue}</Field>
+    </SummaryFormula>
+  </SummaryFormulas>
+  <HighlightingFormats />
+  <Sections>
+    <Section>
+      <Name>ReportHeaderSection1</Name>
+      <Kind>ReportHeader</Kind>
+      <Height>3851</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection1</Name>
+      <Kind>PageHeader</Kind>
+      <Height>761</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageHeaderSection3</Name>
+      <Kind>PageHeader</Kind>
+      <Height>288</Height>
+      <Suppress>True</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>DetailSection1</Name>
+      <Kind>Detail</Kind>
+      <Height>275</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>ReportFooterSection1</Name>
+      <Kind>ReportFooter</Kind>
+      <Height>2661</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+    <Section>
+      <Name>PageFooterSection1</Name>
+      <Kind>PageFooter</Kind>
+      <Height>778</Height>
+      <Suppress>False</Suppress>
+      <KeepTogether>True</KeepTogether>
+      <PrintAtBottom>False</PrintAtBottom>
+      <UnderlayFollowingSection>False</UnderlayFollowingSection>
+      <BackgroundColor>Color [White]</BackgroundColor>
+      <NewPageBefore>False</NewPageBefore>
+      <NewPageAfter>False</NewPageAfter>
+      <XPositionFormula>
+      </XPositionFormula>
+      <YPositionFormula>
+      </YPositionFormula>
+      <SuppressFormula>
+      </SuppressFormula>
+      <VisibilityFormula>
+      </VisibilityFormula>
+      <ConditionalFormatting>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.String]]</ConditionalFormatting>
+      <Objects>System.Collections.Generic.List`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]]</Objects>
+    </Section>
+  </Sections>
+  <Objects />
+  <Groups />
+  <Sorts>
+    <Sort>
+      <SortIndex>1</SortIndex>
+      <FieldName>{Lines.RefDate}</FieldName>
+      <SortDirection>AscendingOrder</SortDirection>
+    </Sort>
+  </Sorts>
+  <ReportFormatting />
+  <Charts />
+  <CrossTabs />
+  <Alerts>
+    <Alert>
+      <AlertName>NotSupportedInEngineAPI</AlertName>
+      <Enabled>False</Enabled>
+      <Severity>N/A</Severity>
+      <Message>Crystal Reports Engine API does not expose alert information.</Message>
+      <ConditionFormula>
+      </ConditionFormula>
+      <InvolvedFields />
+    </Alert>
+  </Alerts>
+</CrystalReport>

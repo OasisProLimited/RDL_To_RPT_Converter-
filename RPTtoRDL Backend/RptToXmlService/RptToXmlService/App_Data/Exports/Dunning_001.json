@@ -1,0 +1,3309 @@
+{
+  "ReportName": "Dunning",
+  "GeneratedDate": "2025-11-20 16:25:21",
+  "ExportSequence": 1,
+  "SummaryInfo": {
+    "Title": "Boyum Dunning Master",
+    "Author": "Boyum IT A/S",
+    "Comments": "NB: Boyum IT A/S does not perform any support on modification of this layout."
+  },
+  "Database": [
+    {
+      "TableName": "CompanyInfo",
+      "Location": "Command",
+      "Connection": {
+        "Server": ".",
+        "Database": "SBODemoDK",
+        "UserId": "sa",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    },
+    {
+      "TableName": "DunningData",
+      "Location": "Command",
+      "Connection": {
+        "Server": ".",
+        "Database": "SBODemoDK",
+        "UserId": "sa",
+        "Provider": "CRQE"
+      },
+      "Fields": []
+    }
+  ],
+  "Fields": [
+    {
+      "Name": "Name",
+      "NativeName": "{CompanyInfo.Name}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressFull",
+      "NativeName": "{CompanyInfo.AddressFull}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressStreet",
+      "NativeName": "{CompanyInfo.AddressStreet}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressBlock",
+      "NativeName": "{CompanyInfo.AddressBlock}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressCity",
+      "NativeName": "{CompanyInfo.AddressCity}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressZipCode",
+      "NativeName": "{CompanyInfo.AddressZipCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressCounty",
+      "NativeName": "{CompanyInfo.AddressCounty}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressState",
+      "NativeName": "{CompanyInfo.AddressState}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressCountry",
+      "NativeName": "{CompanyInfo.AddressCountry}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AddressCountryName",
+      "NativeName": "{CompanyInfo.AddressCountryName}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Phone1",
+      "NativeName": "{CompanyInfo.Phone1}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Phone2",
+      "NativeName": "{CompanyInfo.Phone2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Fax",
+      "NativeName": "{CompanyInfo.Fax}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Email",
+      "NativeName": "{CompanyInfo.Email}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Manager",
+      "NativeName": "{CompanyInfo.Manager}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LocalCurrency",
+      "NativeName": "{CompanyInfo.LocalCurrency}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "SystemCurrency",
+      "NativeName": "{CompanyInfo.SystemCurrency}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FederalTaxId",
+      "NativeName": "{CompanyInfo.FederalTaxId}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FederalTaxId2",
+      "NativeName": "{CompanyInfo.FederalTaxId2}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "FederalTaxId3",
+      "NativeName": "{CompanyInfo.FederalTaxId3}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "AdditionalId",
+      "NativeName": "{CompanyInfo.AdditionalId}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "TaxOffice",
+      "NativeName": "{CompanyInfo.TaxOffice}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PayInFormType",
+      "NativeName": "{CompanyInfo.PayInFormType}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PayInFormNumber",
+      "NativeName": "{CompanyInfo.PayInFormNumber}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PayInFormGroupNumber",
+      "NativeName": "{CompanyInfo.PayInFormGroupNumber}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Website",
+      "NativeName": "{CompanyInfo.Website}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PrintHeader",
+      "NativeName": "{CompanyInfo.PrintHeader}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "PathXml",
+      "NativeName": "{CompanyInfo.PathXml}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "PathExcel",
+      "NativeName": "{CompanyInfo.PathExcel}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "PathWord",
+      "NativeName": "{CompanyInfo.PathWord}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "PathBitmap",
+      "NativeName": "{CompanyInfo.PathBitmap}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "PathAttach",
+      "NativeName": "{CompanyInfo.PathAttach}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "PathExtension",
+      "NativeName": "{CompanyInfo.PathExtension}",
+      "DataType": "PersistentMemoField",
+      "Length": 0
+    },
+    {
+      "Name": "BankCountry",
+      "NativeName": "{CompanyInfo.BankCountry}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankCode",
+      "NativeName": "{CompanyInfo.BankCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankName",
+      "NativeName": "{CompanyInfo.BankName}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankSwift",
+      "NativeName": "{CompanyInfo.BankSwift}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankIban",
+      "NativeName": "{CompanyInfo.BankIban}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankStreet",
+      "NativeName": "{CompanyInfo.BankStreet}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankBlock",
+      "NativeName": "{CompanyInfo.BankBlock}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankCity",
+      "NativeName": "{CompanyInfo.BankCity}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankCounty",
+      "NativeName": "{CompanyInfo.BankCounty}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankState",
+      "NativeName": "{CompanyInfo.BankState}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankZipCode",
+      "NativeName": "{CompanyInfo.BankZipCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankAccount",
+      "NativeName": "{CompanyInfo.BankAccount}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BankBranch",
+      "NativeName": "{CompanyInfo.BankBranch}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "HolidayCode",
+      "NativeName": "{CompanyInfo.HolidayCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "MultiLanguageSupport",
+      "NativeName": "{CompanyInfo.MultiLanguageSupport}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "Logo",
+      "NativeName": "{CompanyInfo.Logo}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LocalCurrency",
+      "NativeName": "{DunningData.LocalCurrency}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "BpCurrency",
+      "NativeName": "{DunningData.BpCurrency}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CreateDate",
+      "NativeName": "{DunningData.CreateDate}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DunAddr",
+      "NativeName": "{DunningData.DunAddr}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CardCode",
+      "NativeName": "{DunningData.CardCode}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "DocNum",
+      "NativeName": "{DunningData.DocNum}",
+      "DataType": "Int32sField",
+      "Length": 0
+    },
+    {
+      "Name": "DueDate",
+      "NativeName": "{DunningData.DueDate}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DocType",
+      "NativeName": "{DunningData.DocType}",
+      "DataType": "Int32sField",
+      "Length": 0
+    },
+    {
+      "Name": "LetterLvl",
+      "NativeName": "{DunningData.LetterLvl}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OpenCurr",
+      "NativeName": "{DunningData.OpenCurr}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "OpenSum",
+      "NativeName": "{DunningData.OpenSum}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "OpenSumFC",
+      "NativeName": "{DunningData.OpenSumFC}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TotalFee",
+      "NativeName": "{DunningData.TotalFee}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "FeeCurr",
+      "NativeName": "{DunningData.FeeCurr}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "CardName",
+      "NativeName": "{DunningData.CardName}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "LangCode",
+      "NativeName": "{DunningData.LangCode}",
+      "DataType": "Int32sField",
+      "Length": 0
+    },
+    {
+      "Name": "User",
+      "NativeName": "{DunningData.User}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UserPhone",
+      "NativeName": "{DunningData.UserPhone}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UserMail",
+      "NativeName": "{DunningData.UserMail}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UserBranch",
+      "NativeName": "{DunningData.UserBranch}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "UserDepartment",
+      "NativeName": "{DunningData.UserDepartment}",
+      "DataType": "StringField",
+      "Length": 0
+    },
+    {
+      "Name": "IntrstAmntLc",
+      "NativeName": "{DunningData.IntrstAmntLc}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "IntrstAmntFc",
+      "NativeName": "{DunningData.IntrstAmntFc}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TotalFeeLc",
+      "NativeName": "{DunningData.TotalFeeLc}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "TotalFeeFc",
+      "NativeName": "{DunningData.TotalFeeFc}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DocDate",
+      "NativeName": "{DunningData.DocDate}",
+      "DataType": "DateTimeField",
+      "Length": 0
+    },
+    {
+      "Name": "DocTotal",
+      "NativeName": "{DunningData.DocTotal}",
+      "DataType": "NumberField",
+      "Length": 0
+    },
+    {
+      "Name": "DocTotalFC",
+      "NativeName": "{DunningData.DocTotalFC}",
+      "DataType": "NumberField",
+      "Length": 0
+    }
+  ],
+  "DataSetPreview": "<Dataset>Error: Missing parameter values.</Dataset>",
+  "Parameters": [
+    {
+      "Name": "$[BOY_DUNNING_CARDCODE]",
+      "PromptText": "Dunning CardCode",
+      "ValueType": "StringField",
+      "ParameterType": "StoreProcedureParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [],
+      "CurrentRanges": []
+    },
+    {
+      "Name": "$[BOY_DUNNING_LETTERNUM]",
+      "PromptText": "Dunning LetterNum",
+      "ValueType": "NumberField",
+      "ParameterType": "StoreProcedureParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [],
+      "CurrentRanges": []
+    },
+    {
+      "Name": "$[BOY_DUNNING_WIZARDID]",
+      "PromptText": "Dunning Wizard Id",
+      "ValueType": "NumberField",
+      "ParameterType": "StoreProcedureParameter",
+      "AllowMultipleValues": false,
+      "EditMask": "",
+      "DefaultValues": [],
+      "DefaultRanges": [],
+      "CurrentValues": [],
+      "CurrentRanges": []
+    }
+  ],
+  "ReportFormulas": [
+    {
+      "Name": "Title",
+      "Text": "switch(\r\n    {DunningData.LetterLvl} = '0', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Kontoudtog',\r\n                {@X_Language} = 'NO', 'Kontoutskrift',\r\n                {@X_Language} = 'DE', 'Kontostand',\r\n                {@X_Language} = 'NL', 'Rekeningoverzicht',\r\n                {@X_Language} = 'FR', 'Relevé de compte',\r\n                True, 'Statement of Account' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '1', \r\n        switch(\r\n                {@X_Language} = 'DK', '1. betalingspåmindelse',\r\n                {@X_Language} = 'NO', '1. betalingspåminnelse',\r\n                {@X_Language} = 'DE', 'Erste Zahlungserinnerung',\r\n                {@X_Language} = 'NL', '1e betalingsherinnering',\r\n                {@X_Language} = 'FR', 'Premier rappel de paiement',\r\n                True, '1st Late Notice' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '2', \r\n        switch(\r\n                {@X_Language} = 'DK', '2. betalingspåmindelse',\r\n                {@X_Language} = 'NO', '2. betalingspåminnelse',\r\n                {@X_Language} = 'DE', 'Zweite Zahlungserinnerung',\r\n                {@X_Language} = 'NL', '2e betalingsherinnering',\r\n                {@X_Language} = 'FR', 'Deuxième rappel de paiement',\r\n                True, '2nd Late Notice' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '3', \r\n        switch(\r\n                {@X_Language} = 'DK', '3. betalingspåmindelse',\r\n                {@X_Language} = 'NO', '3. betalingspåminnelse',\r\n                {@X_Language} = 'DE', 'Dritte Zahlungserinnerung',\r\n                {@X_Language} = 'NL', '3e betalingsherinnering',\r\n                {@X_Language} = 'FR', 'Troisième rappel de paiement',\r\n                True, '3rd Late Notice' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '4', \r\n        switch(\r\n                {@X_Language} = 'DK', '4. Inkasso',                \r\n                {@X_Language} = 'NO', '4. Inkasso',\r\n                {@X_Language} = 'DE', 'Benachrichtigung Inkasso',\r\n                {@X_Language} = 'NL', 'Berichtgeving van incasso (Account op inactief gezet)',\r\n                {@X_Language} = 'FR', 'Notification de la collecte (Compte inactif)',\r\n                True, '4th Late Notice (Account Frozen)' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '5', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 5',\r\n                {@X_Language} = 'NO', 'Purretittel 5',\r\n                {@X_Language} = 'DE', 'Mahnung 5',\r\n                True, 'Dunning Title 5' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '6', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 6',\r\n                {@X_Language} = 'NO', 'Purretittel 6',\r\n                {@X_Language} = 'DE', 'Mahnung 6',\r\n                True, 'Dunning Title 6' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '7', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 7',\r\n                {@X_Language} = 'NO', 'Purretittel 7',\r\n                {@X_Language} = 'DE', 'Mahnung 7',\r\n                True, 'Dunning Title 7' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '8', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 8',\r\n                {@X_Language} = 'NO', 'Purretittel 8',\r\n                {@X_Language} = 'DE', 'Mahnung 8',\r\n                True, 'Dunning Title 8' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '9', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 9',\r\n                {@X_Language} = 'NO', 'Purretittel 9',\r\n                {@X_Language} = 'DE', 'Mahnung 9',\r\n                True, 'Dunning Title 9' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '10',\r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker titel 10',\r\n                {@X_Language} = 'NO', 'Purretittel 10',\r\n                {@X_Language} = 'DE', 'Mahnung 10',\r\n                True, 'Dunning Title 10' //Default English\r\n        )\r\n,\r\n    True, 'Unknown dunning level'\r\n\r\n)\r\n\r\n\r\n\r\n\r\n"
+    },
+    {
+      "Name": "X_Language",
+      "Text": "switch(\r\n{DunningData.LangCode} = 1, 'HE', //Hebrew\r\n{DunningData.LangCode} = 3, 'EN', //English\r\n{DunningData.LangCode} = 5, 'PL', //Polish\r\n{DunningData.LangCode} = 8, 'GB', //Englis (UK)\r\n{DunningData.LangCode} = 9, 'DE', //German\r\n{DunningData.LangCode} = 11, 'DK', //Danish\r\n{DunningData.LangCode} = 12, 'NO', //Norwegian\r\n{DunningData.LangCode} = 13, 'IT', //Italian\r\n{DunningData.LangCode} = 14, 'HU', //Hungarian\r\n{DunningData.LangCode} = 16, 'NL', //Dutch\r\n{DunningData.LangCode} = 17, 'FI', //Finnish\r\n{DunningData.LangCode} = 18, 'GR', //Greek\r\n{DunningData.LangCode} = 19, 'PT', //Portuguese\r\n{DunningData.LangCode} = 20, 'SE', //Swedish\r\n{DunningData.LangCode} = 22, 'FR', //French\r\n{DunningData.LangCode} = 23, 'ES', //Spanish\r\n{DunningData.LangCode} = 24, 'RU', //Russian\r\n{DunningData.LangCode} = 25, 'CO', //Spanish (LA)\r\n{DunningData.LangCode} = 26, 'CZ', //Czech\r\n{DunningData.LangCode} = 27, 'SK', //Slovak\r\nTrue, 'EN' //Unknown (English)\r\n)\r\n"
+    },
+    {
+      "Name": "PageXofY",
+      "Text": "ToText(PageNumber,'#') +' '+{@Title_Of}+' '+Totext(TotalPageCount,'#')"
+    },
+    {
+      "Name": "Title_BpCode",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kundenr............................................................',\r\n    {@X_Language} = 'NO', 'Kundenr............................................................',\r\n    {@X_Language} = 'DE', 'Kundennr............................................................',\r\n    {@X_Language} = 'ES', 'Número de cliente...........................................................',\r\n    {@X_Language} = 'FI', 'Asiakasnumero...........................................................',\r\n    {@X_Language} = 'NL', 'Klantnr............................................................',\r\n    {@X_Language} = 'FR', 'Numéro de client...........................................................',\r\n    True, 'Customer No............................................................' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_BpName",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kundenavn',\r\n    {@X_Language} = 'NO', 'Kundenavn',\r\n    {@X_Language} = 'DE', 'Kundenname',\r\n    {@X_Language} = 'ES', 'Nombre de cliente',\r\n    {@X_Language} = 'FI', 'Asiakkaan nimi',\r\n    {@X_Language} = 'NL', 'Klantnaam',\r\n    {@X_Language} = 'FR', 'Nom du client',\r\n    True, 'Customer name' //Default English\r\n)"
+    },
+    {
+      "Name": "Title_Address",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Adresse',\r\n    {@X_Language} = 'NO', 'Adresse',\r\n    {@X_Language} = 'DE', 'Adresse',\r\n    {@X_Language} = 'ES', 'Dirección',\r\n    {@X_Language} = 'FI', 'Osoite',\r\n    {@X_Language} = 'NL', 'Adres',\r\n    {@X_Language} = 'FR', 'Adresse',\r\n    True, 'Address' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_Line_DocDate",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Bogføringsdato',\r\n    {@X_Language} = 'NO', 'Bokføringsdato',\r\n    {@X_Language} = 'DE', 'Buchungsdatum',\r\n    {@X_Language} = 'ES', 'Fecha contable',\r\n    {@X_Language} = 'FI', 'Tositepvm',\r\n    {@X_Language} = 'NL', 'Factuurdatum',\r\n    {@X_Language} = 'FR', 'Date du document',\r\n    True, 'Doc. date' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Line_DueDate",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Forfaldsdato', \r\n    {@X_Language} = 'NO', 'Forfallsdato',\r\n    {@X_Language} = 'DE', 'Fälligkeitsdatum',\r\n    {@X_Language} = 'ES', 'Fecha de vencimiento',\r\n    {@X_Language} = 'FI', 'Eräpäivä',\r\n    {@X_Language} = 'NL', 'Vervaldatum',\r\n    {@X_Language} = 'FR', 'Date d`échéance',\r\n    True, 'Due date'\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "CompanyInfo_LogoPath",
+      "Text": "{CompanyInfo.PathBitmap}+{CompanyInfo.Logo}"
+    },
+    {
+      "Name": "Title_Total",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Samlet',\r\n    {@X_Language} = 'NO', 'Totalt',\r\n    {@X_Language} = 'DE', 'Gesamtsumme',\r\n    {@X_Language} = 'ES', 'Suma total',\r\n    {@X_Language} = 'FI', 'Tosite yhteensä',\r\n    {@X_Language} = 'NL', 'Totaal',\r\n    {@X_Language} = 'FR', 'Total des',\r\n    True, 'Total' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "CompanyInfo_Style1",
+      "Text": "{@CompanyInfo_Name}+\r\nchr(13)+chr(13)+\r\n{@CompanyInfo_Address_Full}+chr(13)\r\n+chr(13)+\r\n{@Title_Phone}+': '+{@CompanyInfo_Phone1}+chr(13)+\r\n{@Title_Fax}+': '+{@CompanyInfo_Fax}+chr(13)+\r\n{@Title_Email}+': '+{@CompanyInfo_Email}+chr(13)+\r\n{@Title_Web}+': '+{@CompanyInfo_Website}+chr(13)+\r\nchr(13)+\r\n{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}"
+    },
+    {
+      "Name": "CompanyInfo_Name",
+      "Text": "{CompanyInfo.Name}"
+    },
+    {
+      "Name": "CompanyInfo_Address_Full",
+      "Text": "{CompanyInfo.AddressFull}"
+    },
+    {
+      "Name": "CompanyInfo_Phone1",
+      "Text": "{CompanyInfo.Phone1}"
+    },
+    {
+      "Name": "CompanyInfo_Phone2",
+      "Text": "{CompanyInfo.Phone2}"
+    },
+    {
+      "Name": "CompanyInfo_Fax",
+      "Text": "{CompanyInfo.Fax}"
+    },
+    {
+      "Name": "CompanyInfo_Email",
+      "Text": "{CompanyInfo.Email}"
+    },
+    {
+      "Name": "CompanyInfo_Website",
+      "Text": "{CompanyInfo.Website}"
+    },
+    {
+      "Name": "CompanyInfo_FederalTaxId",
+      "Text": "{CompanyInfo.FederalTaxId}"
+    },
+    {
+      "Name": "CompanyInfo_Style2",
+      "Text": "{@CompanyInfo_Name}+' - '+\r\n{@CompanyInfo_Address_Street}+' - '+\r\n{@CompanyInfo_Address_Country}+{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+' - '+\r\n{@Title_Phone}+': '+{@CompanyInfo_Phone1}+' - '+\r\n{@Title_Fax}+': '+{@CompanyInfo_Fax}+' - '+\r\n{@Title_Email}+': '+{@CompanyInfo_Email}+' - '+\r\n{@Title_Web}+': '+{@CompanyInfo_Website}+' - '+\r\n{@Title_FederalTaxId}+': '+{@CompanyInfo_FederalTaxId}"
+    },
+    {
+      "Name": "CompanyInfo_Address_Street",
+      "Text": "{CompanyInfo.AddressStreet}"
+    },
+    {
+      "Name": "CompanyInfo_Address_Zipcode",
+      "Text": "{CompanyInfo.AddressZipCode}"
+    },
+    {
+      "Name": "CompanyInfo_Address_City",
+      "Text": "{CompanyInfo.AddressCity}"
+    },
+    {
+      "Name": "CompanyInfo_Address_Country",
+      "Text": "{CompanyInfo.AddressCountry}"
+    },
+    {
+      "Name": "CompanyInfo_Address_County",
+      "Text": "{CompanyInfo.AddressCounty}"
+    },
+    {
+      "Name": "CompanyInfo_Address_State",
+      "Text": "{CompanyInfo.AddressState}"
+    },
+    {
+      "Name": "CompanyInfo_Address_Block",
+      "Text": "{CompanyInfo.AddressBlock}"
+    },
+    {
+      "Name": "CompanyInfo_BankAddress",
+      "Text": "{CompanyInfo.BankName}+chr(13)+\r\n{CompanyInfo.BankStreet}+chr(13)+\r\n{CompanyInfo.BankCountry}+'-'+{CompanyInfo.BankZipCode}+' '+{CompanyInfo.BankCity}"
+    },
+    {
+      "Name": "Title_CompanyInfo_BankAddress",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Bankadresse',\r\n    {@X_Language} = 'NO', 'Bankadresse',\r\n    {@X_Language} = 'DE', 'Bankanschrift',\r\n    {@X_Language} = 'ES', 'Dirección de banco',\r\n    {@X_Language} = 'FI', 'Pankin osoite',\r\n    {@X_Language} = 'NL', 'Bankadres',\r\n    {@X_Language} = 'FR', 'Adresse de la banque',\r\n    True, 'Bank-address' //Default English\r\n)\r\n\r\n\r\n"
+    },
+    {
+      "Name": "CompanyInfo_BankAccountAndBranch",
+      "Text": "{@Title_CompanyInfo_BankBranch}+': '+{CompanyInfo.BankBranch}+' - '+{@Title_CompanyInfo_BankAccount}+': '+{CompanyInfo.BankAccount}\r\n\r\n\r\n\r\n"
+    },
+    {
+      "Name": "CompanyInfo_BankSwift",
+      "Text": "{CompanyInfo.BankSwift}"
+    },
+    {
+      "Name": "CompanyInfo_BankAccount",
+      "Text": "{CompanyInfo.BankAccount}"
+    },
+    {
+      "Name": "CompanyInfo_BankBranch",
+      "Text": "{CompanyInfo.BankBranch}"
+    },
+    {
+      "Name": "Title_CompanyInfo_BankAccount",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kontonr.',\r\n    {@X_Language} = 'NO', 'Kontonr.',\r\n    {@X_Language} = 'DE', 'Kontonummer',\r\n    {@X_Language} = 'ES', 'Número de cuenta',\r\n    {@X_Language} = 'FI', 'Tilinumero',\r\n    {@X_Language} = 'NL', 'Rekeningnr.',\r\n    {@X_Language} = 'FR', 'Numéro de compte',\r\n    True, 'Account' //Default English\r\n)\r\n\r\n\r\n"
+    },
+    {
+      "Name": "Title_CompanyInfo_BankBranch",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Regnr.',\r\n    {@X_Language} = 'NO', 'Filial',\r\n    {@X_Language} = 'DE', 'Filiale',\r\n    {@X_Language} = 'ES', 'Sucursal',\r\n    {@X_Language} = 'FI', 'Konttori',\r\n    {@X_Language} = 'NL', 'Branche',\r\n    {@X_Language} = 'FR', 'Branche',\r\n    True, 'Branch' //Default English\r\n)\r\n\r\n\r\n"
+    },
+    {
+      "Name": "Title_CompanyInfo_BankSwift",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'SWIFT',\r\n    {@X_Language} = 'NO', 'SWIFT',\r\n    {@X_Language} = 'DE', 'SWIFT',\r\n    {@X_Language} = 'ES', 'SWIFT',\r\n    {@X_Language} = 'FI', 'SWIFT',\r\n    {@X_Language} = 'NL', 'SWIFT',\r\n    {@X_Language} = 'FR', 'SWIFT',\r\n    True, 'SWIFT' //Default English\r\n)\r\n\r\n\r\n"
+    },
+    {
+      "Name": "CompanyInfo_BankIban",
+      "Text": "{CompanyInfo.BankIban}"
+    },
+    {
+      "Name": "Title_CompanyInfo_BankIban",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'IBAN',\r\n    {@X_Language} = 'NO', 'IBAN',\r\n    {@X_Language} = 'DE', 'IBAN',\r\n    {@X_Language} = 'ES', 'IBAN',\r\n    {@X_Language} = 'FI', 'IBAN',\r\n    {@X_Language} = 'NL', 'IBAN',\r\n    {@X_Language} = 'FR', 'IBAN',\r\n    True, 'IBAN' //Default English\r\n)\r\n\r\n\r\n"
+    },
+    {
+      "Name": "Title_Currency",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Valuta',\r\n    {@X_Language} = 'NO', 'Valuta',\r\n    {@X_Language} = 'DE', 'Währung',\r\n    {@X_Language} = 'ES', 'Moneda',\r\n    {@X_Language} = 'FI', 'Valuutta',\r\n    {@X_Language} = 'NL', 'Valuta',\r\n    {@X_Language} = 'FR', 'Devises',\r\n    True, 'Currency' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Address",
+      "Text": "{DunningData.CardName}\r\n+chr(13)+\r\n{DunningData.DunAddr}"
+    },
+    {
+      "Name": "Date",
+      "Text": "{DunningData.CreateDate}"
+    },
+    {
+      "Name": "Title_Date",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Dato...........................................................',\r\n    {@X_Language} = 'NO', 'Dato...........................................................',\r\n    {@X_Language} = 'DE', 'Datum...........................................................',\r\n    {@X_Language} = 'NL', 'Datum...........................................................',\r\n    {@X_Language} = 'FR', 'Date de...........................................................',\r\n    True, 'Date...........................................................' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "BpCode",
+      "Text": "{DunningData.CardCode}"
+    },
+    {
+      "Name": "Title_Line_Document_Number",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Bilagsnr.',\r\n    {@X_Language} = 'NO', 'Bilagsnr.',\r\n    {@X_Language} = 'DE', 'Dokumentnummer',\r\n    {@X_Language} = 'NL', 'Documentnr.',\r\n    {@X_Language} = 'FR', 'Numéro de document.',\r\n    True, 'Doc. No.' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Line_ActualBalance",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Faktisk saldo',\r\n    {@X_Language} = 'NO', 'Faktisk saldo',\r\n    {@X_Language} = 'DE', 'Aktueller Saldo',\r\n    {@X_Language} = 'NL', 'Factuur bedrag',\r\n    {@X_Language} = 'FR', 'Solde réel',\r\n    True, 'Actual Balance' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Line_AmountDue",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Beløb forfaldent',\r\n    {@X_Language} = 'NO', 'Forfalt beløp',\r\n    {@X_Language} = 'DE', 'Zu zahlender Betrag',\r\n    {@X_Language} = 'NL', 'Openstaand bedrag',\r\n    {@X_Language} = 'FR', 'Montant dû',\r\n    True, 'Amount Due' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Line_DocType",
+      "Text": "switch (\r\n    {DunningData.DocType} = -2, //OPENING BALANCE\r\n        switch(\r\n            {@X_Language} = 'DK', 'PS',\r\n            {@X_Language} = 'NO', 'OB',\r\n            True, 'OB' //Default English\r\n        ),\r\n    {DunningData.DocType} = 13, //INVOICE\r\n        switch(\r\n            {@X_Language} = 'DK', 'FA',\r\n            {@X_Language} = 'NO', 'FA', \r\n            True, 'IN' //Default English\r\n        ),\r\n    {DunningData.DocType} = 14, //CREDIT NOTE \r\n        switch(\r\n            {@X_Language} = 'DK', 'KN',\r\n            {@X_Language} = 'NO', 'KN',\r\n            True, 'CN' //Default English\r\n        ),\r\n    {DunningData.DocType} = 30, //JOURNAL ENTRY\r\n        switch(\r\n            {@X_Language} = 'DK', 'JK',\r\n            {@X_Language} = 'NO', 'JE',\r\n            True, 'JE' //Default English\r\n        ), \r\n   {DunningData.DocType} = 24, //INCOMING PAYMENT\r\n        switch(\r\n            {@X_Language} = 'DK', 'IB',\r\n            {@X_Language} = 'NO', 'IB',\r\n            True, 'RC' //Default English\r\n        ),\r\n   {DunningData.DocType} = 203, //DOWN PAYMENT\r\n        switch(\r\n            {@X_Language} = 'DK', 'FB',\r\n            {@X_Language} = 'NO', 'FB',\r\n            True, 'DT' //Default English\r\n        ),\r\n    TRUE, ''\r\n)"
+    },
+    {
+      "Name": "Line_DocNum",
+      "Text": "{DunningData.DocNum}"
+    },
+    {
+      "Name": "Line_DocNumAndType",
+      "Text": "{@Title_Line_DocType}+' '+TOTEXT({@Line_DocNum},'#')"
+    },
+    {
+      "Name": "Line_DocDate",
+      "Text": "{DunningData.DocDate}"
+    },
+    {
+      "Name": "Line_DueDate",
+      "Text": "{DunningData.DueDate}"
+    },
+    {
+      "Name": "Line_DocTotal",
+      "Text": "if({DunningData.DocTotalFC}<>0) then\r\n    {DunningData.DocTotalFC}\r\nelse\r\n    {DunningData.DocTotal}"
+    },
+    {
+      "Name": "Line_DocCurrency",
+      "Text": "{DunningData.OpenCurr}"
+    },
+    {
+      "Name": "Line_DocTotalWithCurrency",
+      "Text": "TOTEXT({@Line_DocTotal})+' '+{@Line_DocCurrency}"
+    },
+    {
+      "Name": "Line_DueTotal",
+      "Text": "if({DunningData.OpenSumFC}<>0) then\r\n    {DunningData.OpenSumFC}\r\nelse\r\n    {DunningData.OpenSum}\r\n"
+    },
+    {
+      "Name": "Line_DueTotalWithCurrency",
+      "Text": "TOTEXT({@Line_DueTotal})+' '+{@Line_DocCurrency}"
+    },
+    {
+      "Name": "Title_PaymentDetails",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Betalingsdetaljer:',\r\n    {@X_Language} = 'NO', 'Betalingsdetaljer:',\r\n    {@X_Language} = 'DE', 'Zahlungsdetails',\r\n    {@X_Language} = 'ES', 'Detalles de pago',\r\n    {@X_Language} = 'FI', 'Maksutiedot',\r\n    {@X_Language} = 'NL', 'Betalingsgegevens',\r\n    {@X_Language} = 'FR', 'Les détails de paiement',\r\n    True, 'Payment Details:' //Default English\r\n)"
+    },
+    {
+      "Name": "PaymentDetails",
+      "Text": "{@CompanyInfo_BankAddress}"
+    },
+    {
+      "Name": "Title_Fee",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Rykkergebyr',\r\n    {@X_Language} = 'NO', 'Purregebyr',\r\n    {@X_Language} = 'DE', 'Mahngebühr',\r\n    {@X_Language} = 'NL', 'Verhoging',\r\n    {@X_Language} = 'FR', 'Augmenter',\r\n    True, 'Fee' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_Intrests",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Renter',\r\n    {@X_Language} = 'NO', 'Renter',\r\n    {@X_Language} = 'DE', 'Zinsen',\r\n    {@X_Language} = 'NL', 'Rente',\r\n    {@X_Language} = 'FR', 'Intérêt',\r\n    True, 'Interests' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_DueAmount",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Forfalden saldo',\r\n    {@X_Language} = 'NO', 'Forfalt saldo',\r\n    {@X_Language} = 'DE', 'Zu zahlender Betrag',\r\n    {@X_Language} = 'NL', 'Verschuldigde bedrag',\r\n    {@X_Language} = 'FR', 'Montant dû',\r\n    True, 'Due amount' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Text_Footer",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', \r\n    'Såfremt beløbet er indbetalt indenfor de seneste dage, bedes De se bort fra denne henvendelse.'+\r\n    chr(13)+chr(13)+\r\n    'Med venlig hilsen'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n,\r\n    {@X_Language} = 'NO', \r\n    'Hvis beløpet er betalt innenfor de siste dager, bes De se bort fra denne henvendelsen.'+\r\n    chr(13)+chr(13)+\r\n    'Med vennlig hilsen'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n,\r\n    {@X_Language} = 'DE', \r\n    'Wenn Sie den fälligen Betrag bereits auf unser Konto überwiesen haben, ignorieren Sie bitte dieses Schreiben.'+    chr(13)+chr(13)+\r\n    'Mit freundlichen Grüßen'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n\r\n,\r\n    {@X_Language} = 'NL', \r\n    'Indien uw betaling deze briefwisseling heeft gekruisd, gelieve dit schrijven dan te negeren. Dit overzicht is automatisch verstuurd en daarom niet ondertekend.'+\r\n    chr(13)+chr(13)+\r\n    'Met vriendelijke groet,'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n\r\n,\r\n    {@X_Language} = 'FR', \r\n    'Si votre paiement a déjà été envoyé, s`il vous plaît ignorer cet avis.'+\r\n    chr(13)+chr(13)+\r\n    'Cordialement'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n,\r\n    True, \r\n    'If your remittance has already been sent, please disregard this notice.'+ \r\n    chr(13)+chr(13)+\r\n    'Best Regards'+\r\n    chr(13)+\r\n    {DunningData.User}+\r\n    chr(13)+\r\n    {CompanyInfo.Name}\r\n)\r\n//Default English\r\n\r\n"
+    },
+    {
+      "Name": "PaymentDetails2",
+      "Text": "{@Title_CompanyInfo_BankBranch}+': '+{@CompanyInfo_BankBranch}+ ' - ' +{@Title_CompanyInfo_BankAccount}+': '+{@CompanyInfo_BankAccount}+chr(13)+\r\n{@Title_CompanyInfo_BankIban}+': '+{@CompanyInfo_BankIban}+ ' - '+ {@Title_CompanyInfo_BankSwift}+': '+{@CompanyInfo_BankSwift}"
+    },
+    {
+      "Name": "Title_Reminder",
+      "Text": "switch(\r\n    {DunningData.LetterLvl} = '0', \r\n        switch(\r\n            {@X_Language} = 'DK', \r\n            'Nedenstående liste er dine udestående fakturaer ved os.<br><br><b>Vi beder Dem gennemgå nedenstående for eventuelle uklarheder.</b>'\r\n        ,\r\n            {@X_Language} = 'NO', \r\n            'Nedenstående liste er dine utestående fakturaer hos oss.<br><br><b>Vi ber Dem gå igjennom nedenstående for eventuelle uklarheter.</b>'\r\n        ,\r\n            {@X_Language} = 'DE', \r\n            'Unten sehen Sie eine Zusammenfassung Ihres Kontos mit allen unbezahlten Rechnungen.<br><br>Wir möchten Sie bitten, diese zu prüfen und Unstimmigkeiten mit uns zu klären. </b>'\r\n        ,\r\n            {@X_Language} = 'NL', \r\n            'Graag uw aandacht voor onderstaand rekeningoverzicht. Wij vragen u dit na te kijken en de facturen betaalbaar te stellen. Mocht u hier een vraag over hebben, vernemen we dit graag per ommegaande.<br><br>Op datum' + totext(CurrentDate) +'is het volgende overzicht van toepassing:'\r\n        ,\r\n            {@X_Language} = 'FR', \r\n            'Vous trouverez ci-dessous d`un relevé de votre compte détaillant toutes les factures impayées.<br><br>S`il vous plaît examiner la déclaration de leur exactitude et signaler toute anomalie à notre département de comptabilité.'\r\n        ,\r\n            True, \r\n            'Listed below is a statement of your account detailing all unpaid invoices.<br><br>Please review the statement for accuracy and report any discrepancies to our Accounting Department.'\r\n         //Default English\r\n        )\r\n\r\n,\r\n    {DunningData.LetterLvl} = '1', \r\n        switch(\r\n            {@X_Language} = 'DK', \r\n            'Ved gennemgang af Deres konto fremgår det, at nedenstående saldo endnu ikke er indbetalt.<br><br><b>Vi beder Dem venligst indbetale beløbet inden for 10 dage fra dato.</b>'\r\n        ,\r\n           {@X_Language} = 'NO', \r\n            'Ved gjennomgang av Deres konto fremgår det, at nedenstående saldo enda ikke er betalt.<br><br><b>Vi ber Dem vennligst betale beløpet innen 10 dager fra dato.</b>'\r\n        ,\r\n            {@X_Language} = 'DE', \r\n            'Laut unserer Aufzeichnungen ist der unten aufgezeichnete Saldo weiterhin unbezahlt.<br><br><b>Wir möchten Sie bitten, den fälligen Betrag schnellstmöglich auszugleichen.</b>'\r\n        ,\r\n            {@X_Language} = 'NL', \r\n            'Graag uw aandacht voor onderstaand rekeningoverzicht. Wij vragen u dit na te kijken en de facturen betaalbaar te stellen. Mocht u hier een vraag over hebben, vernemen we dit graag per ommegaande.<br><br>Op datum ' + totext(date({DunningData.CreateDate})) +' is het volgende overzicht van toepassing:'\r\n        ,\r\n            {@X_Language} = 'FR', \r\n            'Nos dossiers indiquent les documents suivants sont actuellement passés date d`échéance.<br><br><b>S`il vous plaît examiner la déclaration et l`envoyer votre paiement dès que possible.</b>'\r\n        ,\r\n            True, \r\n            'Our records indicate the following documents are currently past due date.<br><br><b>Please review the statement and send your remittance as soon as possible.</b>'\r\n         //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '2', \r\n        switch(\r\n            {@X_Language} = 'DK', \r\n            'Da vi trods tidligere henvendelse endnu ikke har modtaget det forfaldne beløb, <b>beder vi Dem indbetale beløbet inkl. rykkergebyr omgående, og senest inden 10 dage.</b>'\r\n        ,\r\n           {@X_Language} = 'NO', \r\n            'Da vi til tross for tidligere henvendelse enda ikke har mottatt det forfalte beløp, <b>ber vi Dem innbetale beløpet inkl. purregebyr omgående, og senest innen 10 dager.</b>'\r\n        ,\r\n            {@X_Language} = 'DE', \r\n            'Vor kurzem haben wir Ihnen eine Nachricht bezüglich Ihrer unbezahlten Rechnungen geschickt. Bisher haben wir jedoch keine Zahlung von Ihnen erhalten.<br><br><b>Wir bitten Sie, den fälligen Betrag inkl. der Mahngebühr innerhalb von 10 Tagen zu überweisen.</b>'\r\n        ,\r\n            {@X_Language} = 'NL', \r\n            'Onlangs stuurden we u een bericht over door u onbetaalde documenten. We hebben sindsdien nog geen betaling van u ontvangen.<br><br><b>Wij verzoeken u het verschuldigde bedrag binnen 10 dagen na deze kennisgeving over te schrijven, anders zullen we geen andere keus hebben dan het bedrag te verhogen met een boete voor te laat betalen.</b>'\r\n        ,\r\n            {@X_Language} = 'FR', \r\n            'Auparavant nous vous avons envoyé un avis de documents impayés. Depuis lors, nous n`avons pas reçu votre paiement.<br><br><b>S`il vous plaît envoyez votre paiement dès que possible, sinon, nous n`aurons pas d`autre choix que de facturer des frais de retard de paiement à votre compte.</b>'\r\n        ,\r\n            True, \r\n            'Previously we sent you a notice of unpaid documents. Since then we have not received your payment<br><br><b>Please send your remittance as soon as possible, otherwise we will have no option but to charge late payment fees to your account.</b>'\r\n         //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '3', \r\n        switch(\r\n            {@X_Language} = 'DK', \r\n            'Vi må desværre konstatere, at De trods vores rykkerskrivelser endnu ikke har indbetalt vores tilgodehavende.<br><br><b>Vi skal derfor anmode Dem om at indbetale vores tilgodehavende inkl. renter og rykkergebyr omgående. Såfremt beløbet ikke betales inden 10 dage fra afsendelsen af denne skrivelse, vil fordringen blive overgivet til retslig inkasso, hvorved der påløber yderligere omkostninger, som skal betales af Dem.</b>'\r\n        ,\r\n            {@X_Language} = 'NO', \r\n            'Vi må desverre konstatere, at De til tross for våre purringer enda ikke har innbetalt vårt tilgodehavende.<br><br><b>Vi skal derfor anmode Dem om å innbetale vårt tilgodehavende inkl. renter og purregebyr omgående. Såfremt beløpet ikke betales innen 10 dager fra avsendelsen av denne henvendelse, vil fordringen bli overført til rettslig inkasso, hvorved det påløper ytterligere omkostninger, som skal betales av Dem.</b>'\r\n        ,\r\n            {@X_Language} = 'DE', \r\n            'Da Sie nicht auf unsere früheren Erinnerungen reagiert haben, bitten wir Sie den fälligen Betrag inkl. aller Mahngebühren umgehend zu überweisen.<br><br><b>Sollte die Zahlung nicht innerhalb von 10 Tagen bei uns eingangen sein, sehen wir uns gezwungen den Rechtsweg einzuleiten.</b>'\r\n        ,\r\n            {@X_Language} = 'NL', \r\n            'Omdat u niet heeft gereageerd op één van onze vorige brieven, hebben we geen andere keuze dan een verhoging van het bedrag in rekening te brengen aan uw account.<br><br><b>Betaling van alle openstaande facturen en verhogingen dient plaats te vinden binnen 14 dagen na deze kennisgeving. Indien de betaling niet is ontvangen binnen de gestelde voorwaarden, hebben we geen andere keus dan juridische stappen te ondernemen.</b>'\r\n        ,\r\n            {@X_Language} = 'FR', \r\n            'Comme vous n`avez pas répondu à aucune de nos lettres précédentes, nous n`avons pas d`autre choix que de facturer des frais de retard de paiement à votre compte.<br><br><b>Le paiement pour toutes les factures impayées et des frais de retard est dû dans les 14 jours du présent avis. Si le paiement n`est pas reçu dans les conditions indiquées, nous n`aurons pas d`autre choix que de rechercher une action juridique.</b>'\r\n        ,\r\n            True, \r\n            'Since you have not responded to any of our previous letters, we have no choice but to charge late payment fees to your account.<br><br><b>Payment for all outstanding invoices and late fees is due within 14 days of this notice. If payment is not received within the terms outlined, we will have no choice but to seek legal action.</b>'\r\n         //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '4', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Vi har trods gentagne rykkere stadig ikke modtaget deres betaling.<br><br> Derfor ser vi os nødsaget til at spærre deres konto hos os og sagen vil blive overdraget til retslig inkasso.',\r\n                {@X_Language} = 'NO', 'Vi har til tross for gjentatte purringer stadig ikke mottatt deres betaling.<br><br> Derfor ser vi oss nødt til at sperre deres konto hos oss og saken vil bli overført til rettslig inkasso.',\r\n                {@X_Language} = 'DE', 'Da Sie nicht auf unsere früheren Schreiben geantwortet haben, sehen wir keinen andere Weg als den Rechtsweg einzuleiten.<br><br>Ihr Konto wurde gesperrt, bis dieses Problem behoben ist.',\r\n                {@X_Language} = 'NL', 'Omdat u niet hebt gereageerd op één van onze vorige brieven, zien wij geen andere keuze dan om juridische stappen te ondernemen.<br><br>Uw account is op inactief gezet totdat dit probleem is opgelost.',\r\n                {@X_Language} = 'FR', 'Comme vous n`avez pas répondu à aucune de nos lettres précédentes, nous ne voyons pas d`autre choix que de demander des poursuites judiciaires.<br><br>Votre compte a été gelé tant que cette question a été résolue.',\r\n                True, 'Since you have not responded to any of our previous letters, we see no other choice but to seek legal action.<br><br>Your account have been fronzen until this issue have been resolved.' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '5', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 5',\r\n                {@X_Language} = 'NO', 'Purre header 5',\r\n                {@X_Language} = 'DE', 'Mahnung header 5',\r\n                True, 'Dunning Title 5' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '6', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 6',\r\n                {@X_Language} = 'NO', 'Purre header 6',\r\n                {@X_Language} = 'DE', 'Mahnung header 6',\r\n                True, 'Dunning Title 6' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '7', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 7',\r\n                {@X_Language} = 'NO', 'Purre header 7',\r\n                {@X_Language} = 'DE', 'Mahnung header 7',\r\n                True, 'Dunning Title 7' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '8', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 8',\r\n                {@X_Language} = 'NO', 'Purre header 8',\r\n                {@X_Language} = 'DE', 'Mahnung header 8',\r\n                True, 'Dunning Title 8' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '9', \r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 9',\r\n                {@X_Language} = 'NO', 'Purre header 9',\r\n                {@X_Language} = 'DE', 'Mahnung header 9',\r\n                True, 'Dunning Title 9' //Default English\r\n        )\r\n,\r\n    {DunningData.LetterLvl} = '10',\r\n        switch(\r\n                {@X_Language} = 'DK', 'Rykker header 10',\r\n                {@X_Language} = 'NO', 'Purre header 10',\r\n                {@X_Language} = 'DE', 'Mahnung header 10',\r\n                True, 'Dunning Title 10' //Default English\r\n        )\r\n,\r\n    True, 'Unknown dunning level'\r\n\r\n)"
+    },
+    {
+      "Name": "CurrencyFC",
+      "Text": "{DunningData.BpCurrency}"
+    },
+    {
+      "Name": "CurrencyFee",
+      "Text": "{DunningData.FeeCurr}"
+    },
+    {
+      "Name": "CurrencyLC",
+      "Text": "{DunningData.LocalCurrency}"
+    },
+    {
+      "Name": "Line_InterestsFC",
+      "Text": "{DunningData.IntrstAmntFc}"
+    },
+    {
+      "Name": "Line_InterestsLC",
+      "Text": "{DunningData.IntrstAmntLc}"
+    },
+    {
+      "Name": "TotalAmountFC",
+      "Text": "{@TotalDueAmountFC}+{@TotalInterestsFC}+{@TotalFeeFC}"
+    },
+    {
+      "Name": "TotalAmountFCWithCurrency",
+      "Text": "TOTEXT({@TotalAmountFC})+' '+{@CurrencyFC}"
+    },
+    {
+      "Name": "TotalAmountLC",
+      "Text": "{@TotalDueAmountLC}+{@TotalInterestsLC}+{@TotalFeeLC}"
+    },
+    {
+      "Name": "TotalAmountLCWithCurrency",
+      "Text": "TOTEXT({@TotalAmountLC})+' '+{@CurrencyLC}"
+    },
+    {
+      "Name": "TotalDueAmountFC",
+      "Text": "IF(SUM({DunningData.DocTotalFC}) = 0) THEN\r\nSUM({DunningData.OpenSum})\r\nELSE\r\nSUM({DunningData.OpenSumFC})"
+    },
+    {
+      "Name": "TotalDueAmountFCWithCurrency",
+      "Text": "TOTEXT({@TotalDueAmountFC})+' '+{@CurrencyFC}"
+    },
+    {
+      "Name": "TotalDueAmountLC",
+      "Text": "SUM({DunningData.DocTotal})"
+    },
+    {
+      "Name": "TotalDueAmountLCWithCurrency",
+      "Text": "TOTEXT({@TotalDueAmountLC})+' '+{@CurrencyLC}"
+    },
+    {
+      "Name": "TotalFeeFC",
+      "Text": "{DunningData.TotalFeeFc}"
+    },
+    {
+      "Name": "TotalFeeFCWithCurrency",
+      "Text": "TOTEXT({@TotalFeeFC})+' '+{@CurrencyFC}"
+    },
+    {
+      "Name": "TotalFeeLC",
+      "Text": "{DunningData.TotalFeeLc}"
+    },
+    {
+      "Name": "TotalFeeLCWithCurrency",
+      "Text": "TOTEXT({@TotalFeeLC})+' '+{@CurrencyLC}"
+    },
+    {
+      "Name": "TotalInterestsFC",
+      "Text": "SUM({@Line_InterestsFC})"
+    },
+    {
+      "Name": "TotalInterestsFCWithCurrency",
+      "Text": "TOTEXT({@TotalInterestsFC})+' '+{@CurrencyFC}"
+    },
+    {
+      "Name": "TotalInterestsLC",
+      "Text": "SUM({@Line_InterestsLC})"
+    },
+    {
+      "Name": "TotalInterestsLCWithCurrency",
+      "Text": "TOTEXT({@TotalInterestsLC})+' '+{@CurrencyLC}"
+    },
+    {
+      "Name": "Title_Fax",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Fax',\r\n    {@X_Language} = 'NO', 'Fax',\r\n    {@X_Language} = 'DE', 'Fax',\r\n    {@X_Language} = 'ES', 'Fax',\r\n    {@X_Language} = 'FI', 'Fax',\r\n    {@X_Language} = 'NL', 'Fax',\r\n    {@X_Language} = 'FR', 'Télécopieur',\r\n    True, 'Fax' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_Email",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Email',\r\n    {@X_Language} = 'NO', 'E-Post',\r\n    {@X_Language} = 'DE', 'E-Mail',\r\n    {@X_Language} = 'ES', 'Email',\r\n    {@X_Language} = 'FI', 'S-posti',\r\n    {@X_Language} = 'NL', 'Email',\r\n    {@X_Language} = 'FR', 'Email',\r\n    True, 'Email' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_Phone",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Tlf',        \r\n    {@X_Language} = 'NO', 'Tlf',        \r\n    {@X_Language} = 'DE', 'Tel',       \r\n    {@X_Language} = 'ES', 'Tél',\r\n    {@X_Language} = 'FI', 'Puh',\r\n    {@X_Language} = 'NL', 'Tel',\r\n    {@X_Language} = 'FR', 'Tél',\r\n    True, 'Tel' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "Title_Page",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Side...........................................................',\r\n    {@X_Language} = 'NO', 'Side...........................................................',\r\n    {@X_Language} = 'DE', 'Seite...........................................................',\r\n    {@X_Language} = 'ES', 'Página...........................................................',\r\n    {@X_Language} = 'NL', 'Pagina...........................................................',\r\n    {@X_Language} = 'FR', 'Page...........................................................',\r\n    TRUE, 'Page...........................................................'\r\n)"
+    },
+    {
+      "Name": "Title_Of",
+      "Text": "switch(\r\n{@X_Language} = 'DK', 'af',\r\n{@X_Language} = 'NO', 'av',\r\n{@X_Language} = 'DE', 'von',\r\n{@X_Language} = 'ES', 'de',\r\n{@X_Language} = 'NL', 'van',\r\n{@X_Language} = 'FR', 'de',\r\nTRUE, 'of'\r\n)"
+    },
+    {
+      "Name": "Title_FederalTaxId",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'EU-Moms nummer',\r\n    {@X_Language} = 'NO', 'Org.nr',\r\n    {@X_Language} = 'DE', 'EU Ust-ID',\r\n    {@X_Language} = 'ES', 'EU NIF',\r\n    {@X_Language} = 'FI', 'ALV-numero',\r\n    {@X_Language} = 'NL', 'BTW-nr',\r\n    {@X_Language} = 'FR', 'Numéro de TVA',\r\n    True, 'Federal Tax Id' //Default English\r\n)\r\n\r\n"
+    },
+    {
+      "Name": "Title_Web",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Web',\r\n    {@X_Language} = 'NO', 'Web',\r\n    {@X_Language} = 'DE', 'Webseite',\r\n    {@X_Language} = 'ES', 'Sitio Web',\r\n    {@X_Language} = 'FI', 'www',\r\n    {@X_Language} = 'NL', 'Website',\r\n    {@X_Language} = 'FR', 'Site web',\r\n    True, 'Web' //Default English\r\n)\r\n"
+    },
+    {
+      "Name": "CompanyInfo_Style3",
+      "Text": "{@CompanyInfo_Name}+'  -  '+\r\n{@CompanyInfo_Address_Street}+'  -  '+\r\n{@CompanyInfo_Address_Zipcode}+' '+{@CompanyInfo_Address_City}+'  -  '+\r\n{@CompanyInfo_Address_Country}+'  -  '+'VAT: '+{@CompanyInfo_FederalTaxId}+chr(13)+\r\n'Tel: '+{@CompanyInfo_Phone1}+'    '+\r\n//'F: '+{@CompanyInfo_Fax}+'    '+\r\n'Mail: '+{@CompanyInfo_Email}+'    '+'Web: '+{@CompanyInfo_Website}"
+    },
+    {
+      "Name": "Number",
+      "Text": "toText({Header.DocNum},'#')"
+    },
+    {
+      "Name": "Title_Number",
+      "Text": "switch(\r\n{?ObjectId@} = 23,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Tilbudsnr.',\r\n        {@X_Language} = 'NO', 'Tilbudsnr.',\r\n        {@X_Language} = 'DE', 'Angebotsnr.',\r\n        {@X_Language} = 'ES', 'Número de oferta',\r\n        {@X_Language} = 'FI', 'Tarjousnumero',\r\n        {@X_Language} = 'NL', 'Offertenr.',\r\n        {@X_Language} = 'FR', 'Numéro cotation',\r\n        True, 'Quotation No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 17,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Ordrenr.',\r\n        {@X_Language} = 'NO', 'Ordrenr.',\r\n        {@X_Language} = 'DE', 'Auftragsnr.',\r\n        {@X_Language} = 'ES', 'Número de pedido',\r\n        {@X_Language} = 'FI', 'Tilausnumero',       \r\n        {@X_Language} = 'NL', 'Ordernr.',\r\n        {@X_Language} = 'FR', 'Numéro de commande',       \r\n        True, 'Order No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 15,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Levering',\r\n        {@X_Language} = 'NO', 'Levering',\r\n        {@X_Language} = 'DE', 'Lieferung',\r\n        {@X_Language} = 'ES', 'Entrega',\r\n        {@X_Language} = 'FI', 'Toimitusnumero',       \r\n        {@X_Language} = 'NL', 'Leveringsnr.',\r\n        {@X_Language} = 'FR', 'Nombre de livraison',           \r\n        True, 'Delivery No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 16,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Returnering',\r\n        {@X_Language} = 'NO', 'Retur nr.',\r\n        {@X_Language} = 'DE', 'Retoure',\r\n        {@X_Language} = 'ES', 'Devolución',\r\n        {@X_Language} = 'FI', 'Palautusnumero',       \r\n        {@X_Language} = 'NL', 'Retournr.',\r\n        {@X_Language} = 'FR', 'Numéro de retour',     \r\n        True, 'Return No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 203,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Forudbetalingsnr.',\r\n        {@X_Language} = 'NO', 'Forskuddsbetalingsnr.',\r\n        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',\r\n        {@X_Language} = 'ES', 'Núm. de pago anticipo',\r\n        {@X_Language} = 'FI', 'Ennakkolaskunumero',       \r\n        {@X_Language} = 'NL', 'Aanbetalingsnr.',\r\n        {@X_Language} = 'FR', 'Acompte',         \r\n        True, 'Down Payment No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 13,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Fakturanr.',\r\n        {@X_Language} = 'NO', 'Fakturanr.',\r\n        {@X_Language} = 'DE', 'Rechnungs-Nr.',\r\n        {@X_Language} = 'ES', 'Núm. de factura',\r\n        {@X_Language} = 'FI', 'Laskunumero',       \r\n        {@X_Language} = 'NL', 'Factuurnr.',\r\n        {@X_Language} = 'FR', 'Numéro de facture',            \r\n        True, 'Invoice No.' //Default English\r\n   ),\r\n{?ObjectId@} = 14,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Kreditnota',\r\n        {@X_Language} = 'NO', 'Kreditnota',\r\n        {@X_Language} = 'DE', 'Gutschrift',\r\n        {@X_Language} = 'ES', 'Nota de abono',\r\n        {@X_Language} = 'FI', 'Hyvityslaskunumero',       \r\n        {@X_Language} = 'NL', 'Credit nota.',\r\n        {@X_Language} = 'FR', 'Note de crédit',       \r\n        True, 'Credit Note No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 22,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Indkøbsordre',\r\n        {@X_Language} = 'NO', 'Innkjøpsordre',\r\n        {@X_Language} = 'DE', 'Einkaufsauftrag',\r\n        {@X_Language} = 'ES', 'Pedido',\r\n        {@X_Language} = 'FI', 'Ostotilausnumero',       \r\n        {@X_Language} = 'NL', 'Inkoopordernr.',\r\n        {@X_Language} = 'FR', 'Bon de commande',         \r\n        True, 'Purchase Order No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 20,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Varetilgang',\r\n        {@X_Language} = 'NO', 'Varemottak',\r\n        {@X_Language} = 'DE', 'Warenzugang',\r\n        {@X_Language} = 'ES', 'Entrada Mercancías',\r\n        {@X_Language} = 'FI', 'Tavaranvastaanottonumero',       \r\n        {@X_Language} = 'NL', 'Goederenontvangst.',\r\n        {@X_Language} = 'FR', 'Réception marchandises',         \r\n        True, 'Goods Receipt PO no.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 21,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Returnering',\r\n        {@X_Language} = 'NO', 'Retur',\r\n        {@X_Language} = 'DE', 'Retoure',\r\n        {@X_Language} = 'ES', 'Devolución',\r\n        {@X_Language} = 'FI', 'Palautusnumero',       \r\n        {@X_Language} = 'NL', 'Retournering.',\r\n        {@X_Language} = 'FR', 'Retour',      \r\n        True, 'Goods Return no.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 204,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Forudbetalingsnr.',\r\n        {@X_Language} = 'NO', 'Forskuddsbetaling',\r\n        {@X_Language} = 'DE', 'Vorauszahlungs-Nr.',\r\n        {@X_Language} = 'ES', 'Núm. de pago anticipo',\r\n        {@X_Language} = 'FI', 'Ennakkolaskunumero',       \r\n        {@X_Language} = 'NL', 'Aanbetalingsnr.',\r\n        {@X_Language} = 'FR', 'Acompte',          \r\n        True, 'Down Payment no.' //Default English\r\n   ),\r\n{?ObjectId@} = 18,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Fakturanr.',\r\n        {@X_Language} = 'NO', 'Fakturanr.',\r\n        {@X_Language} = 'DE', 'Rechnungs-Nr.',\r\n        {@X_Language} = 'ES', 'Núm. de factura',\r\n        {@X_Language} = 'FI', 'Laskunumero',       \r\n        {@X_Language} = 'NL', 'Factuurnr.',\r\n        {@X_Language} = 'FR', 'Número de factura',           \r\n        True, 'Invoice No.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 19,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Kreditnota',\r\n        {@X_Language} = 'NO', 'Kreditnota',\r\n        {@X_Language} = 'DE', 'Gutschrift',\r\n        {@X_Language} = 'ES', 'Nota de abono',\r\n        {@X_Language} = 'FI', 'Hyvityslaskunumero',       \r\n        {@X_Language} = 'NL', 'Credit nota.',\r\n        {@X_Language} = 'FR', 'Note de crédit',        \r\n        True, 'Credit Note no.' //Default English\r\n   ),\r\n\r\n{?ObjectId@} = 540000006,\r\n    switch(\r\n        {@X_Language} = 'DK', 'Tilbudsnr.',\r\n        {@X_Language} = 'NO', 'Tilbudsnr.',\r\n        {@X_Language} = 'DE', 'Angebotsnr.',\r\n        {@X_Language} = 'ES', 'Número de oferta',\r\n        {@X_Language} = 'FI', 'Tarjousnumero',       \r\n        {@X_Language} = 'NL', 'Offertenr.',\r\n        {@X_Language} = 'FR', 'Numéro cotation',\r\n        True, 'Quotation No.' //Default English\r\n   ),\r\n\r\nTRUE, 'NOT SUPPORTED DOCUMENT TYPE'\r\n)"
+    },
+    {
+      "Name": "CardCode",
+      "Text": "{BusinessPartner.CardCode}"
+    },
+    {
+      "Name": "Title_CustomerNo",
+      "Text": "switch(\r\n    {@X_Language} = 'DK', 'Kunde nr............................................................',\r\n    {@X_Language} = 'NO', 'Kunde nr............................................................',\r\n    {@X_Language} = 'DE', 'Kundennummer...........................................................',\r\n    {@X_Language} = 'ES', 'Número de cuenta...........................................................',\r\n    {@X_Language} = 'FI', 'Asiakasnro...........................................................',\r\n    {@X_Language} = 'NL', 'Klantnr............................................................',\r\n    {@X_Language} = 'FR', 'Numéro de client...........................................................',\r\n    True, 'Customer No............................................................' //Default English\r\n)"
+    }
+  ],
+  "SqlExpressions": [],
+  "RecordSelectionFormula": "",
+  "GroupSelectionFormula": "",
+  "GroupConditionFormulas": [],
+  "SortFormulas": [],
+  "RunningTotalFormulas": [],
+  "SummaryFormulas": [],
+  "HighlightingFormats": [],
+  "Sections": [
+    {
+      "Name": "ReportHeaderSection1",
+      "Kind": "ReportHeader",
+      "Height": 0,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": []
+    },
+    {
+      "Name": "PageHeaderSection4",
+      "Kind": "PageHeader",
+      "Height": 5505,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "TitleDocumentTypeDescription1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 1050,
+          "Left": 1095,
+          "Width": 4800,
+          "Height": 480,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 16.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1050,
+            "Left": 1095,
+            "Width": 4800,
+            "Height": 480,
+            "Type": "FieldObject",
+            "FieldName": "Title",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 16.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Address1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2015,
+          "Left": 1095,
+          "Width": 4305,
+          "Height": 1689,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Address",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2015,
+            "Left": 1095,
+            "Width": 4305,
+            "Height": 1689,
+            "Type": "FieldObject",
+            "FieldName": "Address",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "ReminderTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 4065,
+          "Left": 1095,
+          "Width": 6840,
+          "Height": 1417,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Reminder",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 4065,
+            "Left": 1095,
+            "Width": 6840,
+            "Height": 1417,
+            "Type": "FieldObject",
+            "FieldName": "Title_Reminder",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Picture1",
+          "ObjectType": "PictureObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 335,
+          "Left": 7516,
+          "Width": 3334,
+          "Height": 796,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "PictureObject",
+          "Note": "GraphicLocation/GraphicType not available in ENGINE API.",
+          "Formatting": {
+            "Top": 335,
+            "Left": 7516,
+            "Width": 3334,
+            "Height": 796,
+            "Type": "PictureObject",
+            "GraphicLocation": "NotAvailableInEngineAPI",
+            "GraphicType": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Date1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2610,
+          "Left": 9285,
+          "Width": 1565,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Date",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2610,
+            "Left": 9285,
+            "Width": 1565,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Date",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "DateTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2610,
+          "Left": 7320,
+          "Width": 1755,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Date",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2610,
+            "Left": 7320,
+            "Width": 1755,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_Date",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "BpCodeTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2995,
+          "Left": 7320,
+          "Width": 1755,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_BpCode",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2995,
+            "Left": 7320,
+            "Width": 1755,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_BpCode",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "BpCode1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2995,
+          "Left": 9285,
+          "Width": 1565,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "BpCode",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2995,
+            "Left": 9285,
+            "Width": 1565,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "BpCode",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "PageXofY1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 3375,
+          "Left": 9285,
+          "Width": 1565,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "PageXofY",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3375,
+            "Left": 9285,
+            "Width": 1565,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "PageXofY",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text28",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2610,
+          "Left": 9075,
+          "Width": 120,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": ":",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2610,
+            "Left": 9075,
+            "Width": 120,
+            "Height": 262,
+            "Type": "TextObject",
+            "Text": ":",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "CanGrow": false,
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TitlePage1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 3375,
+          "Left": 7320,
+          "Width": 1755,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Page",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3375,
+            "Left": 7320,
+            "Width": 1755,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_Page",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text1",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 2995,
+          "Left": 9075,
+          "Width": 120,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": ":",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 2995,
+            "Left": 9075,
+            "Width": 120,
+            "Height": 262,
+            "Type": "TextObject",
+            "Text": ":",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "CanGrow": false,
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Text2",
+          "ObjectType": "TextObject",
+          "SectionName": "PageHeaderSection4",
+          "Top": 3375,
+          "Left": 9075,
+          "Width": 120,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "TextObject",
+          "Text": ":",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 9.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 3375,
+            "Left": 9075,
+            "Width": 120,
+            "Height": 262,
+            "Type": "TextObject",
+            "Text": ":",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 9.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "Color": "Color [Black]",
+            "CanGrow": false,
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageHeaderSection5",
+      "Kind": "PageHeader",
+      "Height": 482,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "LineDocumentNumberTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 121,
+          "Left": 840,
+          "Width": 1690,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_Document_Number",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 121,
+            "Left": 840,
+            "Width": 1690,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_Document_Number",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDocDateTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 121,
+          "Left": 2640,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_DocDate",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 121,
+            "Left": 2640,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_DocDate",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDueDateTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 121,
+          "Left": 4552,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_DueDate",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 121,
+            "Left": 4552,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_DueDate",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineActualBalanceTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 121,
+          "Left": 7400,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_ActualBalance",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 121,
+            "Left": 7400,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_ActualBalance",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineAmountDueTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 121,
+          "Left": 9175,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Line_AmountDue",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 121,
+            "Left": 9175,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_Line_AmountDue",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Box2",
+          "ObjectType": "BoxObject",
+          "SectionName": "PageHeaderSection5",
+          "Top": 50,
+          "Left": 680,
+          "Width": 10339,
+          "Height": 366,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "BoxObject",
+          "LineStyle": "NoLine",
+          "Formatting": {
+            "Top": 50,
+            "Left": 680,
+            "Width": 10339,
+            "Height": 366,
+            "Type": "BoxObject",
+            "LineStyle": "NoLine",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "DetailSection1",
+      "Kind": "Detail",
+      "Height": 367,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "LineDocNumAndType1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 75,
+          "Left": 840,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_DocNumAndType",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 75,
+            "Left": 840,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Line_DocNumAndType",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDocDate1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 75,
+          "Left": 2640,
+          "Width": 1675,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_DocDate",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 75,
+            "Left": 2640,
+            "Width": 1675,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Line_DocDate",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDueDate1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 75,
+          "Left": 4552,
+          "Width": 1675,
+          "Height": 210,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_DueDate",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 75,
+            "Left": 4552,
+            "Width": 1675,
+            "Height": 210,
+            "Type": "FieldObject",
+            "FieldName": "Line_DueDate",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDocTotalWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 75,
+          "Left": 7013,
+          "Width": 2062,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_DocTotalWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 75,
+            "Left": 7013,
+            "Width": 2062,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Line_DocTotalWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "LineDueTotalWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "DetailSection1",
+          "Top": 75,
+          "Left": 8850,
+          "Width": 2000,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Line_DueTotalWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 75,
+            "Left": 8850,
+            "Width": 2000,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Line_DueTotalWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ReportFooterSection3",
+      "Kind": "ReportFooter",
+      "Height": 1333,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "IgnoreIfAlreadyPaidTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection3",
+          "Top": 180,
+          "Left": 855,
+          "Width": 8805,
+          "Height": 1063,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Text_Footer",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 180,
+            "Left": 855,
+            "Width": 8805,
+            "Height": 1063,
+            "Type": "FieldObject",
+            "FieldName": "Title_Text_Footer",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ReportFooterSection1",
+      "Kind": "ReportFooter",
+      "Height": 1881,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": true,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "Line1",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 8,
+          "Left": 855,
+          "Width": 9995,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 855,
+          "Y1": 8,
+          "X2": 10850,
+          "Y2": 8,
+          "Formatting": {
+            "Top": 8,
+            "Left": 855,
+            "Width": 9995,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line3",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 1030,
+          "Left": 7317,
+          "Width": 3533,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 7317,
+          "Y1": 1030,
+          "X2": 10850,
+          "Y2": 1030,
+          "Formatting": {
+            "Top": 1030,
+            "Left": 7317,
+            "Width": 3533,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TotalTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 1166,
+          "Left": 7320,
+          "Width": 1605,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Total",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1166,
+            "Left": 7320,
+            "Width": 1605,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_Total",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "FeeTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 705,
+          "Left": 7320,
+          "Width": 1605,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Fee",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 705,
+            "Left": 7320,
+            "Width": 1605,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_Fee",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": true,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "IntrestsTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 411,
+          "Left": 7320,
+          "Width": 1605,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_Intrests",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 411,
+            "Left": 7320,
+            "Width": 1605,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_Intrests",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": true,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "DueAmountTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 120,
+          "Left": 7320,
+          "Width": 1605,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_DueAmount",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 7320,
+            "Width": 1605,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_DueAmount",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "PaymentDetailsTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 94,
+          "Left": 855,
+          "Width": 5896,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_PaymentDetails",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 10.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 94,
+            "Left": 855,
+            "Width": 5896,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "Title_PaymentDetails",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 10.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankBranchTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 361,
+          "Left": 855,
+          "Width": 846,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_CompanyInfo_BankBranch",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 361,
+            "Left": 855,
+            "Width": 846,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_CompanyInfo_BankBranch",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankBranch1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 361,
+          "Left": 1701,
+          "Width": 1809,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CompanyInfo_BankBranch",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 361,
+            "Left": 1701,
+            "Width": 1809,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "CompanyInfo_BankBranch",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankAccountTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 572,
+          "Left": 855,
+          "Width": 846,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_CompanyInfo_BankAccount",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 572,
+            "Left": 855,
+            "Width": 846,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_CompanyInfo_BankAccount",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankAccount1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 572,
+          "Left": 1701,
+          "Width": 1809,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CompanyInfo_BankAccount",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 572,
+            "Left": 1701,
+            "Width": 1809,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "CompanyInfo_BankAccount",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankIbanTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 361,
+          "Left": 3560,
+          "Width": 846,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_CompanyInfo_BankIban",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 361,
+            "Left": 3560,
+            "Width": 846,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_CompanyInfo_BankIban",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankIban1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 361,
+          "Left": 4406,
+          "Width": 2779,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CompanyInfo_BankIban",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 361,
+            "Left": 4406,
+            "Width": 2779,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "CompanyInfo_BankIban",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankSwiftTitle1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 572,
+          "Left": 3560,
+          "Width": 846,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "Title_CompanyInfo_BankSwift",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 572,
+            "Left": 3560,
+            "Width": 846,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "Title_CompanyInfo_BankSwift",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "CompanyInfoBankSwift1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 572,
+          "Left": 4406,
+          "Width": 2779,
+          "Height": 240,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CompanyInfo_BankSwift",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 572,
+            "Left": 4406,
+            "Width": 2779,
+            "Height": 240,
+            "Type": "FieldObject",
+            "FieldName": "CompanyInfo_BankSwift",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "Line4",
+          "ObjectType": "LineObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 1489,
+          "Left": 7317,
+          "Width": 3533,
+          "Height": 0,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "SingleLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "LineObject",
+          "X1": 7317,
+          "Y1": 1489,
+          "X2": 10850,
+          "Y2": 1489,
+          "Formatting": {
+            "Top": 1489,
+            "Left": 7317,
+            "Width": 3533,
+            "Height": 0,
+            "Type": "LineObject",
+            "LineStyle": "SingleLine",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TotalDueAmountFCWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 120,
+          "Left": 8855,
+          "Width": 1995,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TotalDueAmountFCWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 120,
+            "Left": 8855,
+            "Width": 1995,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "TotalDueAmountFCWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TotalInterestsFCWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 411,
+          "Left": 8855,
+          "Width": 1995,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TotalInterestsFCWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 411,
+            "Left": 8855,
+            "Width": 1995,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "TotalInterestsFCWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": true,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TotalFeeFCWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 720,
+          "Left": 8855,
+          "Width": 1995,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TotalFeeFCWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 720,
+            "Left": 8855,
+            "Width": 1995,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "TotalFeeFCWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": true,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        },
+        {
+          "Name": "TotalAmountFCWithCurrency1",
+          "ObjectType": "FieldObject",
+          "SectionName": "ReportFooterSection1",
+          "Top": 1166,
+          "Left": 8855,
+          "Width": 1995,
+          "Height": 262,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "TotalAmountFCWithCurrency",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": true,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 1166,
+            "Left": 8855,
+            "Width": 1995,
+            "Height": 262,
+            "Type": "FieldObject",
+            "FieldName": "TotalAmountFCWithCurrency",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": true,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    },
+    {
+      "Name": "PageFooterSection1",
+      "Kind": "PageFooter",
+      "Height": 587,
+      "Suppress": false,
+      "KeepTogether": true,
+      "PrintAtBottom": false,
+      "UnderlayFollowingSection": false,
+      "BackgroundColor": "Color [White]",
+      "NewPageBefore": false,
+      "NewPageAfter": false,
+      "XPositionFormula": "",
+      "YPositionFormula": "",
+      "SuppressFormula": "",
+      "VisibilityFormula": "",
+      "ConditionalFormatting": [],
+      "Objects": [
+        {
+          "Name": "CompanyInfoStyle31",
+          "ObjectType": "FieldObject",
+          "SectionName": "PageFooterSection1",
+          "Top": 0,
+          "Left": 840,
+          "Width": 10010,
+          "Height": 473,
+          "Border": {
+            "Left": "NoLine",
+            "Right": "NoLine",
+            "Top": "NoLine",
+            "Bottom": "NoLine",
+            "Color": "Color [Black]"
+          },
+          "Type": "FieldObject",
+          "FieldName": "CompanyInfo_Style3",
+          "Font": {
+            "FontName": "Arial",
+            "Size": 8.0,
+            "Bold": false,
+            "Italic": false,
+            "Underline": false
+          },
+          "Color": "Color [Black]",
+          "Formatting": {
+            "Top": 0,
+            "Left": 840,
+            "Width": 10010,
+            "Height": 473,
+            "Type": "FieldObject",
+            "FieldName": "CompanyInfo_Style3",
+            "Font": {
+              "FontName": "Arial",
+              "Size": 8.0,
+              "Bold": false,
+              "Italic": false,
+              "Underline": false,
+              "Strikeout": false,
+              "Color": "Color [Black]"
+            },
+            "Alignment": "Default",
+            "ObjectFormat": {
+              "CanGrow": false,
+              "Suppress": false,
+              "KeepTogether": true
+            },
+            "SuppressIfDuplicated": "NotAvailableInEngineAPI",
+            "ConditionalFormatting": []
+          }
+        }
+      ]
+    }
+  ],
+  "Objects": [],
+  "Groups": [],
+  "Sorts": [],
+  "Formatting": {},
+  "Charts": [],
+  "CrossTabs": [],
+  "Alerts": [
+    {
+      "AlertName": "NotSupportedInEngineAPI",
+      "Enabled": false,
+      "Severity": "N/A",
+      "Message": "Crystal Reports Engine API does not expose alert information.",
+      "ConditionFormula": "",
+      "InvolvedFields": []
+    }
+  ]
+}
